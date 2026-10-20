@@ -1,0 +1,2708 @@
+appointment_date_dt,appointment_time,specialty,appointment_shift,age,gender,disability,target,risk_score,predicted_no_show,error_type
+2021-12-09,13:20,physiotherapy,afternoon,,M,,0,0.4703707448634988,1,FP
+2021-12-09,14:00,physiotherapy,afternoon,68.0,M,motor,0,0.17887139596094312,0,TN
+2021-12-09,14:40,physiotherapy,afternoon,,M,,0,0.4158169218419316,0,TN
+2021-12-09,15:20,physiotherapy,afternoon,,F,,0,0.4011725052427793,0,TN
+2021-12-09,16:20,physiotherapy,afternoon,,M,,0,0.4521769036757655,1,FP
+2021-12-09,17:00,physiotherapy,afternoon,,M,,1,0.555758823811152,1,TP
+2021-12-09,14:40,occupational therapy,afternoon,68.0,M,motor,0,0.30149251773216956,0,TN
+2021-12-09,16:20,occupational therapy,afternoon,,M,,0,0.40699769845183714,0,TN
+2021-12-09,17:40,occupational therapy,afternoon,,M,,0,0.43624226446195236,0,TN
+2021-12-09,13:20,psychotherapy,afternoon,,M,,0,0.4612005024492526,1,FP
+2021-12-09,14:00,psychotherapy,afternoon,12.0,M,intellectual,0,0.2012100115050884,0,TN
+2021-12-09,17:00,psychotherapy,afternoon,,M,,0,0.49018689349968586,1,FP
+2021-12-09,14:00,psychotherapy,afternoon,,F,,0,0.44326448314838124,1,FP
+2021-12-09,15:20,psychotherapy,afternoon,,M,,1,0.3825649436418215,0,FN
+2021-12-09,16:20,psychotherapy,afternoon,,M,,0,0.44556417223362127,1,FP
+2021-12-09,17:00,psychotherapy,afternoon,,M,,0,0.49018689349968586,1,FP
+2021-12-09,17:40,psychotherapy,afternoon,,M,,1,0.49531496403476205,1,TP
+2021-12-09,14:00,speech therapy,afternoon,,M,,0,0.4807828390692985,1,FP
+2021-12-09,15:20,speech therapy,afternoon,68.0,M,motor,0,0.21087896969497286,0,TN
+2021-12-09,16:20,speech therapy,afternoon,,M,,1,0.47850857902979554,1,TP
+2021-12-09,17:00,speech therapy,afternoon,,M,,0,0.5477044429538093,1,FP
+2021-12-09,17:40,speech therapy,afternoon,,M,,0,0.5165230245587075,1,FP
+2021-12-09,13:20,speech therapy,afternoon,,F,,0,0.48184040877313083,1,FP
+2021-12-09,14:00,speech therapy,afternoon,,F,,1,0.4807828390692985,1,TP
+2021-12-09,14:40,speech therapy,afternoon,,M,,0,0.42477542131384743,0,TN
+2021-12-09,17:00,speech therapy,afternoon,,M,,0,0.5477044429538093,1,FP
+2021-12-09,17:40,speech therapy,afternoon,,M,,1,0.5165230245587075,1,TP
+2021-12-09,13:20,physiotherapy,afternoon,,F,,1,0.4703707448634988,1,TP
+2021-12-09,14:00,physiotherapy,afternoon,,M,,0,0.45391118300236655,1,FP
+2021-12-09,14:40,physiotherapy,afternoon,,F,,0,0.4158169218419316,0,TN
+2021-12-09,15:20,physiotherapy,afternoon,,M,,0,0.4011725052427793,0,TN
+2021-12-09,17:00,physiotherapy,afternoon,,M,,1,0.555758823811152,1,TP
+2021-12-08,13:20,physiotherapy,afternoon,10.0,M,intellectual,1,0.3609293933561467,0,FN
+2021-12-08,14:00,physiotherapy,afternoon,,F,,0,0.5127128589483633,1,FP
+2021-12-08,14:40,physiotherapy,afternoon,,F,,1,0.48368902990402807,1,TP
+2021-12-08,15:20,physiotherapy,afternoon,,M,,0,0.4315817514042259,0,TN
+2021-12-08,16:20,physiotherapy,afternoon,,M,,0,0.483331818883857,1,FP
+2021-12-08,14:00,occupational therapy,afternoon,,F,,0,0.5179629307592131,1,FP
+2021-12-08,14:40,occupational therapy,afternoon,,F,,0,0.31182570677642235,0,TN
+2021-12-08,15:20,occupational therapy,afternoon,,M,,0,0.385518067459157,0,TN
+2021-12-08,16:20,occupational therapy,afternoon,,M,,0,0.41373480631393617,0,TN
+2021-12-08,13:20,psychotherapy,afternoon,,F,,0,0.5518195660587555,1,FP
+2021-12-08,14:00,psychotherapy,afternoon,10.0,M,intellectual,1,0.2564938679085561,0,FN
+2021-12-08,14:40,psychotherapy,afternoon,,M,,0,0.4947792385274321,1,FP
+2021-12-08,14:40,psychotherapy,afternoon,,M,,0,0.4947792385274321,1,FP
+2021-12-08,14:40,psychotherapy,afternoon,,M,,0,0.4947792385274321,1,FP
+2021-12-08,14:40,psychotherapy,afternoon,,M,,0,0.4947792385274321,1,FP
+2021-12-08,14:40,speech therapy,afternoon,,M,,0,0.39957518741770515,0,TN
+2021-12-08,14:40,speech therapy,afternoon,6.0,M,intellectual,1,0.49707941735992467,1,TP
+2021-12-08,14:40,speech therapy,afternoon,,F,,0,0.39957518741770515,0,TN
+2021-12-08,13:20,speech therapy,afternoon,,F,,0,0.5521823033514655,1,FP
+2021-12-08,14:00,speech therapy,afternoon,,F,,0,0.533587044289742,1,FP
+2021-12-08,14:40,speech therapy,afternoon,,M,,0,0.39957518741770515,0,TN
+2021-12-08,14:40,speech therapy,afternoon,,M,,0,0.39957518741770515,0,TN
+2021-12-08,14:40,speech therapy,afternoon,,M,,0,0.39957518741770515,0,TN
+2021-12-08,16:20,speech therapy,afternoon,,M,,0,0.5175032478801742,1,FP
+2021-12-08,13:20,physiotherapy,afternoon,,F,,0,0.5468103819118797,1,FP
+2021-12-08,14:00,physiotherapy,afternoon,,F,,0,0.5127128589483633,1,FP
+2021-12-08,14:40,physiotherapy,afternoon,,M,,0,0.48368902990402807,1,FP
+2021-12-08,15:20,physiotherapy,afternoon,,M,,0,0.4315817514042259,0,TN
+2021-12-08,16:20,physiotherapy,afternoon,,F,,1,0.483331818883857,1,TP
+2021-12-07,13:20,physiotherapy,afternoon,29.0,M,motor,0,0.6029233816514119,1,FP
+2021-12-07,14:00,physiotherapy,afternoon,,M,,0,0.5070591131785197,1,FP
+2021-12-07,15:20,physiotherapy,afternoon,25.0,F,motor,0,0.548998734490584,1,FP
+2021-12-07,16:20,physiotherapy,afternoon,4.0,F,intellectual,0,0.5596338321092549,1,FP
+2021-12-07,13:20,occupational therapy,afternoon,,M,,1,0.4878337257435015,1,TP
+2021-12-07,14:40,occupational therapy,afternoon,,M,,0,0.29168333917629624,0,TN
+2021-12-07,15:20,occupational therapy,afternoon,10.0,M,intellectual,0,0.4388106505355727,0,TN
+2021-12-07,16:20,occupational therapy,afternoon,25.0,F,motor,0,0.6157770253618724,1,FP
+2021-12-07,13:20,psychotherapy,afternoon,,M,,0,0.5445408161128023,1,FP
+2021-12-07,14:00,psychotherapy,afternoon,12.0,M,intellectual,0,0.4890791902015661,1,FP
+2021-12-07,14:40,psychotherapy,afternoon,10.0,M,intellectual,0,0.4958782966593984,1,FP
+2021-12-07,15:20,psychotherapy,afternoon,,M,,0,0.4580720396890674,1,FP
+2021-12-07,16:20,psychotherapy,afternoon,,M,,0,0.5229735782408726,1,FP
+2021-12-07,14:40,speech therapy,afternoon,,M,,0,0.3931019963413352,0,TN
+2021-12-07,15:20,speech therapy,afternoon,,M,,0,0.4786360957749992,1,FP
+2021-12-07,16:20,speech therapy,afternoon,10.0,M,intellectual,0,0.49523215961392275,1,FP
+2021-12-07,13:20,speech therapy,afternoon,69.0,M,motor,0,0.5944958228910184,1,FP
+2021-12-07,14:40,speech therapy,afternoon,25.0,F,motor,0,0.6046705461747248,1,FP
+2021-12-07,15:20,speech therapy,afternoon,,M,,0,0.4786360957749992,1,FP
+2021-12-07,16:20,speech therapy,afternoon,,M,,0,0.543529026417281,1,FP
+2021-12-07,13:20,physiotherapy,afternoon,4.0,M,motor,0,0.5741034786668939,1,FP
+2021-12-07,14:00,physiotherapy,afternoon,69.0,M,motor,0,0.4709274682885103,1,FP
+2021-12-07,14:40,physiotherapy,afternoon,,M,,0,0.476935580939556,1,FP
+2021-12-07,15:20,physiotherapy,afternoon,,M,,0,0.4715236926981038,1,FP
+2021-12-07,16:20,physiotherapy,afternoon,,M,,0,0.5236509585497798,1,FP
+2021-12-06,13:20,physiotherapy,afternoon,,M,,0,0.4931216416616137,1,FP
+2021-12-06,14:00,physiotherapy,afternoon,,M,,0,0.46833400574817363,1,FP
+2021-12-06,14:40,physiotherapy,afternoon,,M,,0,0.4857490629180098,1,FP
+2021-12-06,15:20,physiotherapy,afternoon,,M,,1,0.4923741228210733,1,TP
+2021-12-06,17:00,physiotherapy,afternoon,,F,,0,0.5703698171094531,1,FP
+2021-12-06,17:40,physiotherapy,afternoon,,M,,1,0.6031813247603537,1,TP
+2021-12-06,13:20,occupational therapy,afternoon,,F,,0,0.4680140661145852,1,FP
+2021-12-06,14:00,occupational therapy,afternoon,10.0,M,intellectual,0,0.3635447552354294,0,TN
+2021-12-06,14:40,occupational therapy,afternoon,8.0,M,intellectual,0,0.4780515202336978,1,FP
+2021-12-06,17:00,occupational therapy,afternoon,,M,,0,0.5037525763727536,1,FP
+2021-12-06,17:40,occupational therapy,afternoon,4.0,M,intellectual,0,0.6286770758130927,1,FP
+2021-12-06,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.5400017940149497,1,FP
+2021-12-06,13:20,psychotherapy,afternoon,,M,,0,0.4897782031515504,1,FP
+2021-12-06,13:20,psychotherapy,afternoon,,M,,0,0.4897782031515504,1,FP
+2021-12-06,13:20,psychotherapy,afternoon,,M,,0,0.4897782031515504,1,FP
+2021-12-06,14:40,psychotherapy,afternoon,,F,,1,0.48874522716988056,1,TP
+2021-12-06,15:20,psychotherapy,afternoon,,M,,0,0.47049513753449573,1,FP
+2021-12-06,17:00,psychotherapy,afternoon,,M,,1,0.5299505826002538,1,TP
+2021-12-06,17:40,psychotherapy,afternoon,4.0,M,intellectual,0,0.6450809505912224,1,FP
+2021-12-06,14:00,psychotherapy,afternoon,,M,,1,0.4634651204099186,1,TP
+2021-12-06,14:40,psychotherapy,afternoon,,F,,0,0.48874522716988056,1,FP
+2021-12-06,15:20,psychotherapy,afternoon,,F,,0,0.47049513753449573,1,FP
+2021-12-06,16:20,psychotherapy,afternoon,,M,,0,0.5046347940489105,1,FP
+2021-12-06,17:00,psychotherapy,afternoon,,M,,1,0.5299505826002538,1,TP
+2021-12-06,17:40,psychotherapy,afternoon,6.0,M,intellectual,1,0.6700007921371299,1,TP
+2021-12-06,13:20,speech therapy,afternoon,10.0,M,intellectual,0,0.4898692041527057,1,FP
+2021-12-06,14:40,speech therapy,afternoon,,M,,1,0.500897167042016,1,TP
+2021-12-06,15:20,speech therapy,afternoon,,F,,0,0.4993916377360599,1,FP
+2021-12-06,16:20,speech therapy,afternoon,,F,,0,0.5252855796029399,1,FP
+2021-12-06,17:00,speech therapy,afternoon,6.0,M,intellectual,1,0.6300477366042235,1,TP
+2021-12-06,13:20,speech therapy,afternoon,8.0,M,intellectual,0,0.5357146187733617,1,FP
+2021-12-06,13:20,speech therapy,afternoon,,M,,0,0.4980113308848756,1,FP
+2021-12-06,13:20,speech therapy,afternoon,,M,,0,0.4980113308848756,1,FP
+2021-12-06,13:20,speech therapy,afternoon,,M,,0,0.4980113308848756,1,FP
+2021-12-06,14:40,speech therapy,afternoon,,M,,0,0.500897167042016,1,FP
+2021-12-06,15:20,speech therapy,afternoon,,F,,0,0.4993916377360599,1,FP
+2021-12-06,16:20,speech therapy,afternoon,,F,,0,0.5252855796029399,1,FP
+2021-12-06,17:00,speech therapy,afternoon,48.0,M,motor,1,0.49436333713680325,1,TP
+2021-12-06,17:40,speech therapy,afternoon,,M,,0,0.5920222266153947,1,FP
+2021-12-06,13:20,physiotherapy,afternoon,,F,,1,0.4931216416616137,1,TP
+2021-12-06,14:00,physiotherapy,afternoon,,M,,0,0.46833400574817363,1,FP
+2021-12-06,14:40,physiotherapy,afternoon,,M,,1,0.4857490629180098,1,TP
+2021-12-06,15:20,physiotherapy,afternoon,,F,,0,0.4923741228210733,1,FP
+2021-12-06,16:20,physiotherapy,afternoon,,F,,0,0.5054482050589454,1,FP
+2021-12-06,17:00,physiotherapy,afternoon,,M,,0,0.5703698171094531,1,FP
+2021-12-06,17:40,physiotherapy,afternoon,,F,,0,0.6031813247603537,1,FP
+2021-12-05,13:20,occupational therapy,afternoon,6.0,M,intellectual,0,0.38303342439146093,0,TN
+2021-12-05,13:20,psychotherapy,afternoon,,M,,0,0.3225656332733129,0,TN
+2021-12-05,13:20,speech therapy,afternoon,6.0,M,intellectual,0,0.3722888417863659,0,TN
+2021-12-05,13:20,physiotherapy,afternoon,,F,,1,0.345808697307152,0,FN
+2021-12-05,14:00,occupational therapy,afternoon,25.0,M,motor,0,0.28079534502753456,0,TN
+2021-12-05,14:00,psychotherapy,afternoon,6.0,M,intellectual,0,0.25839320217971795,0,TN
+2021-12-05,14:00,occupational therapy,afternoon,9.0,M,intellectual,0,0.12190830821846801,0,TN
+2021-12-05,14:00,speech therapy,afternoon,6.0,M,intellectual,0,0.32818900429185577,0,TN
+2021-12-05,14:00,speech therapy,afternoon,,M,,0,0.3599727722560373,0,TN
+2021-12-05,14:00,physiotherapy,afternoon,,M,,1,0.34775473546955993,0,FN
+2021-12-05,14:40,psychotherapy,afternoon,9.0,M,intellectual,1,0.236175733020212,0,FN
+2021-12-05,14:40,occupational therapy,afternoon,,M,,0,0.26488138936942207,0,TN
+2021-12-05,14:40,speech therapy,afternoon,9.0,M,intellectual,0,0.18280492331472464,0,TN
+2021-12-05,14:40,speech therapy,afternoon,,M,,0,0.3500937226008386,0,TN
+2021-12-05,15:20,occupational therapy,afternoon,68.0,M,motor,0,0.24555662666774983,0,TN
+2021-12-05,15:20,psychotherapy,afternoon,,M,,0,0.2299375954764404,0,TN
+2021-12-05,15:20,occupational therapy,afternoon,10.0,M,intellectual,0,0.15470510867492832,0,TN
+2021-12-05,15:20,speech therapy,afternoon,6.0,F,intellectual,1,0.32457243483635545,0,FN
+2021-12-05,15:20,speech therapy,afternoon,9.0,M,intellectual,1,0.2077555789434932,0,FN
+2021-12-05,15:20,physiotherapy,afternoon,,F,,0,0.2563015685838974,0,TN
+2021-12-05,16:20,occupational therapy,afternoon,,F,,0,0.24860740444259638,0,TN
+2021-12-05,16:20,psychotherapy,afternoon,11.0,M,motor,1,0.18144284875486777,0,FN
+2021-12-05,16:20,occupational therapy,afternoon,9.0,M,intellectual,1,0.13821542383860574,0,FN
+2021-12-05,16:20,speech therapy,afternoon,10.0,M,intellectual,0,0.17583978166767092,0,TN
+2021-12-05,16:20,speech therapy,afternoon,68.0,M,motor,0,0.22070048547939503,0,TN
+2021-11-05,13:20,occupational therapy,afternoon,7.0,M,intellectual,1,0.46632770383275746,1,TP
+2021-11-05,13:20,psychotherapy,afternoon,5.0,M,intellectual,0,0.38879053344235337,0,TN
+2021-11-05,13:20,speech therapy,afternoon,69.0,M,motor,0,0.5124820365210734,1,FP
+2021-11-05,13:20,physiotherapy,afternoon,,F,,0,0.6097637437823463,1,FP
+2021-11-05,14:00,occupational therapy,afternoon,72.0,F,motor,1,0.28121123847551527,0,FN
+2021-11-05,14:00,psychotherapy,afternoon,12.0,M,intellectual,1,0.3909370442019876,0,FN
+2021-11-05,14:00,occupational therapy,afternoon,,F,,0,0.5437874635891008,1,FP
+2021-11-05,14:00,speech therapy,afternoon,7.0,M,intellectual,1,0.3701308456568128,0,FN
+2021-11-05,14:00,speech therapy,afternoon,5.0,M,intellectual,0,0.3201033896213522,0,TN
+2021-11-05,14:00,physiotherapy,afternoon,69.0,M,motor,0,0.4149010429503703,0,TN
+2021-11-05,14:40,occupational therapy,afternoon,,M,,0,0.504907880965161,1,FP
+2021-11-05,14:40,psychotherapy,afternoon,10.0,M,intellectual,1,0.3756171180158395,0,FN
+2021-11-05,14:40,occupational therapy,afternoon,12.0,M,intellectual,1,0.32686186323227384,0,FN
+2021-11-05,14:40,speech therapy,afternoon,11.0,M,intellectual,0,0.37057861014567217,0,TN
+2021-11-05,14:40,speech therapy,afternoon,25.0,F,motor,0,0.5261468302580609,1,FP
+2021-11-05,14:40,physiotherapy,afternoon,39.0,F,motor,0,0.4509551663999687,1,FP
+2021-11-05,15:20,occupational therapy,afternoon,10.0,M,intellectual,1,0.32997495665098403,0,FN
+2021-11-05,15:20,psychotherapy,afternoon,11.0,M,intellectual,0,0.38244556231024496,0,TN
+2021-11-05,15:20,occupational therapy,afternoon,5.0,M,intellectual,0,0.3438751608744717,0,TN
+2021-11-05,15:20,speech therapy,afternoon,,M,,0,0.6007297093559819,1,FP
+2021-11-05,15:20,speech therapy,afternoon,,M,,0,0.6007297093559819,1,FP
+2021-11-05,15:20,physiotherapy,afternoon,,M,,0,0.590504881017375,1,FP
+2021-11-05,16:20,occupational therapy,afternoon,25.0,F,motor,0,0.5186161949468188,1,FP
+2021-11-05,16:20,psychotherapy,afternoon,,M,,0,0.6110998423166961,1,FP
+2021-11-05,16:20,occupational therapy,afternoon,,M,,0,0.5423280678730334,1,FP
+2021-11-05,16:20,speech therapy,afternoon,10.0,M,intellectual,1,0.36318302096324684,0,FN
+2021-11-05,16:20,speech therapy,afternoon,12.0,M,intellectual,1,0.405827334817101,0,FN
+2021-11-05,16:20,physiotherapy,afternoon,4.0,F,intellectual,0,0.38089812696679326,0,TN
+2021-10-05,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.4812777984871657,1,FP
+2021-10-05,13:20,speech therapy,afternoon,,M,,0,0.6137543959484986,1,FP
+2021-10-05,13:20,physiotherapy,afternoon,,F,,1,0.6144666048836468,1,TP
+2021-10-05,14:00,physiotherapy,afternoon,63.0,M,motor,0,0.38540801941516184,0,TN
+2021-10-05,14:00,occupational therapy,afternoon,10.0,M,intellectual,0,0.40284160917317674,0,TN
+2021-10-05,14:00,psychotherapy,afternoon,,M,,0,0.5717436103211546,1,FP
+2021-10-05,14:00,occupational therapy,afternoon,8.0,M,intellectual,1,0.5536461396873543,1,TP
+2021-10-05,14:00,speech therapy,afternoon,,F,,1,0.5875948888657797,1,TP
+2021-10-05,14:00,speech therapy,afternoon,8.0,M,intellectual,0,0.4712689520512154,1,FP
+2021-10-05,14:00,physiotherapy,afternoon,,F,,0,0.5874917006543943,1,FP
+2021-10-05,14:00,physiotherapy,afternoon,10.0,M,intellectual,0,0.43666223268204263,0,TN
+2021-10-05,14:40,occupational therapy,afternoon,8.0,M,intellectual,0,0.4199398509896243,0,TN
+2021-10-05,14:40,psychotherapy,afternoon,8.0,M,intellectual,0,0.5763681331673491,1,FP
+2021-10-05,14:40,occupational therapy,afternoon,23.0,M,motor,0,0.498136104214875,1,FP
+2021-10-05,14:40,speech therapy,afternoon,6.0,M,intellectual,0,0.43263788361158895,0,TN
+2021-10-05,14:40,speech therapy,afternoon,,F,,0,0.4966950244412158,1,FP
+2021-10-05,14:40,physiotherapy,afternoon,48.0,M,motor,0,0.4784961904527265,1,FP
+2021-10-05,15:20,physiotherapy,afternoon,23.0,M,motor,1,0.4459238104029204,1,TP
+2021-10-05,15:20,occupational therapy,afternoon,,F,,0,0.5166806572035836,1,FP
+2021-10-05,15:20,,afternoon,,M,,0,0.5653589391692831,1,FP
+2021-10-05,15:20,psychotherapy,afternoon,6.0,M,intellectual,0,0.41868682241630495,0,TN
+2021-10-05,15:20,speech therapy,afternoon,8.0,M,intellectual,0,0.5603989721967282,1,FP
+2021-10-05,15:20,speech therapy,afternoon,8.0,M,intellectual,1,0.5349719597440483,1,TP
+2021-10-05,15:20,physiotherapy,afternoon,,M,,0,0.5826206531551116,1,FP
+2021-10-05,16:20,physiotherapy,afternoon,,M,,0,0.5862815308756817,1,FP
+2021-10-05,16:20,occupational therapy,afternoon,6.0,M,intellectual,0,0.43784454431636255,0,TN
+2021-10-05,16:20,psychotherapy,afternoon,68.0,F,motor,0,0.2757562168987547,0,TN
+2021-10-05,16:20,occupational therapy,afternoon,8.0,M,intellectual,0,0.541358970202351,1,FP
+2021-10-05,16:20,speech therapy,afternoon,5.0,M,intellectual,0,0.27194822499480875,0,TN
+2021-10-05,16:20,speech therapy,afternoon,9.0,F,intellectual,0,0.49944230409186663,1,FP
+2021-10-05,16:20,physiotherapy,afternoon,,M,,0,0.5862815308756817,1,FP
+2021-10-05,17:00,physiotherapy,afternoon,5.0,M,intellectual,0,0.33087356860872313,0,TN
+2021-10-05,17:00,occupational therapy,afternoon,9.0,F,intellectual,1,0.539070659863464,1,TP
+2021-10-05,17:00,psychotherapy,afternoon,9.0,F,intellectual,1,0.509040179348631,1,TP
+2021-10-05,17:00,speech therapy,afternoon,,M,,0,0.5958925894347004,1,FP
+2021-10-05,17:00,speech therapy,afternoon,68.0,F,motor,0,0.2512202458036831,0,TN
+2021-10-05,17:00,physiotherapy,afternoon,,M,motor,0,0.6400858715702992,1,FP
+2021-10-05,17:40,physiotherapy,afternoon,68.0,F,motor,0,0.4766763230702286,1,FP
+2021-10-05,17:40,occupational therapy,afternoon,5.0,M,intellectual,0,0.35731622518028383,0,TN
+2021-10-05,17:40,psychotherapy,afternoon,5.0,M,intellectual,0,0.36142086179801414,0,TN
+2021-10-05,17:40,speech therapy,afternoon,,M,motor,1,0.6354808932217947,1,TP
+2021-10-05,17:40,physiotherapy,afternoon,,M,,0,0.6591632107118107,1,FP
+2022-01-31,07:20,,morning,6.0,M,intellectual,0,0.28338661352273925,0,TN
+2022-01-31,07:20,psychotherapy,morning,9.0,M,intellectual,1,0.34288062469161984,0,FN
+2022-01-31,08:00,,morning,8.0,M,intellectual,0,0.28870405066513344,0,TN
+2022-01-31,08:00,,morning,,F,,1,0.4100500716587047,0,FN
+2022-01-31,08:00,,morning,,M,,0,0.4100500716587047,0,TN
+2022-01-31,08:00,,morning,7.0,M,intellectual,0,0.26015713020085435,0,TN
+2022-01-31,08:00,psychotherapy,morning,6.0,M,intellectual,0,0.3370170101793728,0,TN
+2022-01-31,08:00,,morning,8.0,M,intellectual,0,0.28870405066513344,0,TN
+2022-01-31,08:00,,morning,,F,,1,0.4100500716587047,0,FN
+2022-01-31,08:00,,morning,,M,,0,0.4100500716587047,0,TN
+2022-01-31,08:00,,morning,7.0,M,intellectual,0,0.26015713020085435,0,TN
+2022-01-31,08:40,,morning,8.0,M,intellectual,0,0.37890511569571295,0,TN
+2022-01-31,08:40,,morning,,M,,1,0.48466158221383676,1,TP
+2022-01-31,08:40,,morning,,M,,0,0.48466158221383676,1,FP
+2022-01-31,08:40,,morning,7.0,M,intellectual,0,0.30737363206229884,0,TN
+2022-01-31,08:40,psychotherapy,morning,,M,,1,0.5126634438324627,1,TP
+2022-01-31,08:40,,morning,8.0,M,intellectual,0,0.37890511569571295,0,TN
+2022-01-31,08:40,,morning,,M,,1,0.48466158221383676,1,TP
+2022-01-31,08:40,,morning,,M,,0,0.48466158221383676,1,FP
+2022-01-31,08:40,,morning,7.0,M,intellectual,0,0.30737363206229884,0,TN
+2022-01-31,09:20,,morning,,M,,0,0.45583537144793956,1,FP
+2022-01-31,09:20,,morning,,M,,0,0.45583537144793956,1,FP
+2022-01-31,09:20,,morning,,F,,0,0.45583537144793956,1,FP
+2022-01-31,10:20,,morning,,M,,0,0.5193056394935216,1,FP
+2022-01-31,10:20,,morning,,F,,0,0.5193056394935216,1,FP
+2022-01-31,10:20,,morning,,M,,0,0.5193056394935216,1,FP
+2022-01-31,10:20,psychotherapy,morning,,F,,0,0.5428610506582505,1,FP
+2022-01-31,10:20,psychotherapy,morning,,M,,0,0.5428610506582505,1,FP
+2022-01-31,10:20,,morning,,M,,0,0.5193056394935216,1,FP
+2022-01-31,10:20,,morning,,M,,1,0.5193056394935216,1,TP
+2021-11-30,16:20,occupational therapy,afternoon,25.0,F,motor,1,0.5716680306191266,1,TP
+2021-11-30,13:20,psychotherapy,afternoon,,M,,0,0.5964763271270345,1,FP
+2021-11-30,14:00,psychotherapy,afternoon,12.0,M,intellectual,0,0.40334440425271095,0,TN
+2021-11-30,14:40,psychotherapy,afternoon,10.0,M,intellectual,0,0.43249863031200786,0,TN
+2021-11-30,15:20,psychotherapy,afternoon,,M,,0,0.551206413561423,1,FP
+2021-11-30,16:20,psychotherapy,afternoon,,M,,0,0.5895647655030756,1,FP
+2021-11-30,14:00,psychotherapy,afternoon,,M,,0,0.6190831282347152,1,FP
+2021-11-30,14:40,psychotherapy,afternoon,29.0,M,motor,0,0.5573804682838197,1,FP
+2021-11-30,15:20,psychotherapy,afternoon,,M,,0,0.551206413561423,1,FP
+2021-11-30,16:20,psychotherapy,afternoon,,M,,0,0.5895647655030756,1,FP
+2021-11-30,14:40,speech therapy,afternoon,,M,,0,0.5082900804889102,1,FP
+2021-11-30,15:20,speech therapy,afternoon,,M,,0,0.5725954568581665,1,FP
+2021-11-30,13:20,speech therapy,afternoon,69.0,M,motor,0,0.5457168513681199,1,FP
+2021-11-30,14:00,speech therapy,afternoon,29.0,M,motor,0,0.6572911519642315,1,FP
+2021-11-30,14:40,speech therapy,afternoon,25.0,F,motor,1,0.5414223395072185,1,TP
+2021-11-30,15:20,speech therapy,afternoon,,M,,0,0.5725954568581665,1,FP
+2021-11-30,16:20,speech therapy,afternoon,,M,,0,0.6156396619956384,1,FP
+2021-11-30,13:20,physiotherapy,afternoon,4.0,M,motor,0,0.5289726485827775,1,FP
+2021-11-30,14:00,physiotherapy,afternoon,69.0,M,motor,0,0.5609125825989955,1,FP
+2021-11-30,14:40,physiotherapy,afternoon,,M,,0,0.6057089682347352,1,FP
+2021-11-30,15:20,physiotherapy,afternoon,,M,,0,0.568052862366643,1,FP
+2021-11-30,16:20,physiotherapy,afternoon,,M,,0,0.5936726228184989,1,FP
+2021-10-30,13:10,physiotherapy,afternoon,15.0,M,intellectual,0,0.2288266561619451,0,TN
+2021-10-30,13:10,psychotherapy,afternoon,8.0,M,intellectual,0,0.34310804098708547,0,TN
+2021-10-30,13:10,psychotherapy,afternoon,8.0,M,intellectual,0,0.22024255766676834,0,TN
+2021-10-30,13:10,speech therapy,afternoon,8.0,M,intellectual,0,0.20879926042330668,0,TN
+2021-10-30,13:10,speech therapy,afternoon,8.0,M,intellectual,0,0.31772253363878017,0,TN
+2021-10-30,13:50,physiotherapy,afternoon,9.0,M,intellectual,0,0.5167284512981433,1,FP
+2021-10-30,13:50,psychotherapy,afternoon,5.0,M,intellectual,0,0.41662290057734513,0,TN
+2021-10-30,13:50,psychotherapy,afternoon,15.0,M,intellectual,0,0.32911578048389306,0,TN
+2021-10-30,13:50,speech therapy,afternoon,15.0,M,intellectual,0,0.27222162684526524,0,TN
+2021-10-30,14:30,physiotherapy,afternoon,,M,,0,0.5077127338492733,1,FP
+2021-10-30,14:30,psychotherapy,afternoon,3.0,F,intellectual,0,0.12108090237715792,0,TN
+2021-10-30,14:30,psychotherapy,afternoon,,M,intellectual,0,0.36084440006841323,0,TN
+2021-10-30,14:30,speech therapy,afternoon,3.0,F,intellectual,0,0.12682113177006718,0,TN
+2021-10-30,14:30,speech therapy,afternoon,,M,intellectual,0,0.35251834675489185,0,TN
+2021-10-30,15:10,psychotherapy,afternoon,28.0,M,motor,0,0.3729100294978661,0,TN
+2021-10-30,15:10,psychotherapy,afternoon,,M,intellectual,0,0.3805739319166382,0,TN
+2021-10-30,15:10,speech therapy,afternoon,,M,intellectual,0,0.35824205904176587,0,TN
+2021-10-30,15:50,psychotherapy,afternoon,,M,intellectual,0,0.32283990920300804,0,TN
+2021-10-30,15:50,speech therapy,afternoon,,M,intellectual,0,0.30652368481285175,0,TN
+2021-10-30,15:50,speech therapy,afternoon,,M,intellectual,1,0.47731513561762146,1,TP
+2021-12-03,13:20,physiotherapy,afternoon,,M,,0,0.398250285937076,0,TN
+2021-12-03,14:00,physiotherapy,afternoon,,M,,0,0.3701227284161522,0,TN
+2021-12-03,14:40,physiotherapy,afternoon,4.0,F,intellectual,0,0.42963484388909157,0,TN
+2021-12-03,15:20,physiotherapy,afternoon,7.0,M,intellectual,0,0.6762055226438703,1,FP
+2021-12-03,17:00,physiotherapy,afternoon,,F,,0,0.47790956643100785,1,FP
+2021-12-03,13:20,occupational therapy,afternoon,8.0,M,intellectual,0,0.510965569577644,1,FP
+2021-12-03,14:00,occupational therapy,afternoon,,M,,0,0.3588428512455022,0,TN
+2021-12-03,14:40,occupational therapy,afternoon,8.0,M,intellectual,0,0.48417288655605933,1,FP
+2021-12-03,15:20,occupational therapy,afternoon,15.0,M,intellectual,0,0.38403935268935946,0,TN
+2021-12-03,16:20,occupational therapy,afternoon,,M,,0,0.37395963841790947,0,TN
+2021-12-03,17:00,occupational therapy,afternoon,,F,,0,0.4523785868076775,1,FP
+2021-12-03,17:00,,afternoon,11.0,M,intellectual,1,0.44670145268258415,1,TP
+2021-12-03,17:00,,afternoon,,M,,1,0.5161085550918851,1,TP
+2021-12-03,17:00,,afternoon,,M,,0,0.5161085550918851,1,FP
+2021-12-03,14:00,psychotherapy,afternoon,5.0,M,intellectual,0,0.38279026334131994,0,TN
+2021-12-03,14:40,psychotherapy,afternoon,,M,,0,0.45933790504370003,1,FP
+2021-12-03,15:20,psychotherapy,afternoon,,M,,0,0.4337227770209337,0,TN
+2021-12-03,16:20,psychotherapy,afternoon,11.0,M,intellectual,1,0.3257540783202399,0,FN
+2021-12-03,16:20,psychotherapy,afternoon,,M,,1,0.4329408373831084,0,FN
+2021-12-03,16:20,psychotherapy,afternoon,,M,,0,0.4329408373831084,0,TN
+2021-12-03,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.6177368762633497,1,FP
+2021-12-03,14:00,psychotherapy,afternoon,7.0,M,intellectual,0,0.6672685828764756,1,FP
+2021-12-03,14:40,psychotherapy,afternoon,,M,,0,0.45933790504370003,1,FP
+2021-12-03,15:20,psychotherapy,afternoon,,F,,0,0.4337227770209337,0,TN
+2021-12-03,16:20,psychotherapy,afternoon,15.0,M,intellectual,0,0.36441788936576575,0,TN
+2021-12-03,16:20,psychotherapy,afternoon,15.0,M,intellectual,0,0.3247865262377092,0,TN
+2021-12-03,17:00,psychotherapy,afternoon,,M,,0,0.45348199709322323,1,FP
+2021-12-03,13:20,speech therapy,afternoon,6.0,M,intellectual,0,0.5475250895918733,1,FP
+2021-12-03,14:00,speech therapy,afternoon,8.0,M,intellectual,0,0.49430443083766445,1,FP
+2021-12-03,15:20,speech therapy,afternoon,7.0,M,intellectual,0,0.7587144163379763,1,FP
+2021-12-03,16:20,speech therapy,afternoon,,F,,0,0.4423977786728084,1,FP
+2021-12-03,17:00,speech therapy,afternoon,,M,,0,0.4904102362990176,1,FP
+2021-12-03,17:40,speech therapy,afternoon,,M,,0,0.5371488293152372,1,FP
+2021-12-03,13:20,speech therapy,afternoon,,M,,0,0.4819208623758869,1,FP
+2021-12-03,14:00,speech therapy,afternoon,4.0,F,intellectual,0,0.39393369432216413,0,TN
+2021-12-03,14:40,speech therapy,afternoon,5.0,M,intellectual,0,0.5211338164232908,1,FP
+2021-12-03,15:20,speech therapy,afternoon,15.0,M,intellectual,0,0.4396383036260804,0,TN
+2021-12-03,17:40,speech therapy,afternoon,,M,,0,0.5371488293152372,1,FP
+2021-12-03,13:20,physiotherapy,afternoon,,M,,0,0.398250285937076,0,TN
+2021-12-03,14:00,physiotherapy,afternoon,6.0,F,intellectual,0,0.3893659555316418,0,TN
+2021-12-03,14:40,physiotherapy,afternoon,,M,,0,0.4055723300790613,0,TN
+2021-12-03,15:20,physiotherapy,afternoon,,M,,0,0.3672244468810272,0,TN
+2021-12-03,16:20,physiotherapy,afternoon,,F,,0,0.40713671058862194,0,TN
+2021-12-03,17:00,physiotherapy,afternoon,,M,,1,0.47790956643100785,1,TP
+2021-12-03,17:40,physiotherapy,afternoon,,M,,0,0.5628574649382067,1,FP
+2021-12-03,13:20,physiotherapy,afternoon,,M,,0,0.398250285937076,0,TN
+2021-12-03,14:00,physiotherapy,afternoon,,M,,0,0.3701227284161522,0,TN
+2021-12-03,14:40,physiotherapy,afternoon,,F,intellectual,0,0.42289032248404895,0,TN
+2021-12-03,17:00,physiotherapy,afternoon,,F,,0,0.47790956643100785,1,FP
+2021-12-03,13:20,occupational therapy,afternoon,5.0,M,intellectual,0,0.47041521877608367,1,FP
+2021-12-03,14:00,occupational therapy,afternoon,,M,,0,0.3588428512455022,0,TN
+2021-12-03,15:20,occupational therapy,afternoon,15.0,M,intellectual,0,0.38403935268935946,0,TN
+2021-12-03,16:20,occupational therapy,afternoon,,M,,0,0.37395963841790947,0,TN
+2021-12-03,17:00,occupational therapy,afternoon,,F,,0,0.4523785868076775,1,FP
+2021-12-03,16:20,,afternoon,11.0,M,intellectual,0,0.38037957678055806,0,TN
+2021-12-03,16:20,,afternoon,,M,,0,0.44884468325700105,1,FP
+2021-12-03,16:20,,afternoon,,M,,0,0.44884468325700105,1,FP
+2021-12-03,14:00,psychotherapy,afternoon,5.0,M,intellectual,0,0.38279026334131994,0,TN
+2021-12-03,14:40,psychotherapy,afternoon,,M,,0,0.45933790504370003,1,FP
+2021-12-03,16:20,psychotherapy,afternoon,11.0,M,intellectual,0,0.3257540783202399,0,TN
+2021-12-03,16:20,psychotherapy,afternoon,,M,,0,0.4329408373831084,0,TN
+2021-12-03,16:20,psychotherapy,afternoon,,M,,0,0.4329408373831084,0,TN
+2021-12-03,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.6177368762633497,1,FP
+2021-12-03,14:00,psychotherapy,afternoon,7.0,M,intellectual,0,0.6672685828764756,1,FP
+2021-12-03,14:40,psychotherapy,afternoon,,M,,0,0.45933790504370003,1,FP
+2021-12-03,15:20,psychotherapy,afternoon,,F,,0,0.4337227770209337,0,TN
+2021-12-03,16:20,psychotherapy,afternoon,15.0,M,intellectual,0,0.36441788936576575,0,TN
+2021-12-03,17:00,psychotherapy,afternoon,15.0,M,intellectual,0,0.3037984194619843,0,TN
+2021-12-03,17:40,psychotherapy,afternoon,,M,,0,0.5272566435605713,1,FP
+2021-12-03,13:20,speech therapy,afternoon,6.0,M,intellectual,0,0.5475250895918733,1,FP
+2021-12-03,14:00,speech therapy,afternoon,8.0,F,intellectual,0,0.49430443083766445,1,FP
+2021-12-03,14:40,speech therapy,afternoon,,M,,0,0.46922059530411286,1,FP
+2021-12-03,15:20,speech therapy,afternoon,7.0,M,intellectual,0,0.7587144163379763,1,FP
+2021-12-03,16:20,speech therapy,afternoon,,F,,0,0.4423977786728084,1,FP
+2021-12-03,17:00,speech therapy,afternoon,,M,,0,0.4904102362990176,1,FP
+2021-12-03,17:40,speech therapy,afternoon,,M,,0,0.5371488293152372,1,FP
+2021-12-03,13:20,speech therapy,afternoon,,M,,0,0.4819208623758869,1,FP
+2021-12-03,14:00,speech therapy,afternoon,4.0,F,intellectual,1,0.39393369432216413,0,FN
+2021-12-03,14:40,speech therapy,afternoon,5.0,M,intellectual,0,0.5211338164232908,1,FP
+2021-12-03,15:20,speech therapy,afternoon,15.0,M,intellectual,0,0.4396383036260804,0,TN
+2021-12-03,15:20,speech therapy,afternoon,14.0,M,intellectual,0,0.44936268408290353,1,FP
+2021-12-03,16:20,speech therapy,afternoon,,M,,1,0.4423977786728084,1,TP
+2021-12-03,17:00,speech therapy,afternoon,,F,,1,0.4904102362990176,1,TP
+2021-12-03,17:40,speech therapy,afternoon,,M,,0,0.5371488293152372,1,FP
+2021-12-03,13:20,physiotherapy,afternoon,,M,,0,0.398250285937076,0,TN
+2021-12-03,14:00,physiotherapy,afternoon,6.0,F,intellectual,0,0.3893659555316418,0,TN
+2021-12-03,14:40,physiotherapy,afternoon,,M,,0,0.4055723300790613,0,TN
+2021-12-03,15:20,physiotherapy,afternoon,,M,,0,0.3672244468810272,0,TN
+2021-12-03,16:20,physiotherapy,afternoon,,F,,0,0.40713671058862194,0,TN
+2021-12-03,17:00,physiotherapy,afternoon,,M,,0,0.47790956643100785,1,FP
+2021-12-03,17:40,physiotherapy,afternoon,,M,,0,0.5628574649382067,1,FP
+2021-11-29,13:20,physiotherapy,afternoon,,M,,0,0.6174268143245043,1,FP
+2021-11-29,14:00,physiotherapy,afternoon,,M,,0,0.6290174350950927,1,FP
+2021-11-29,14:40,physiotherapy,afternoon,,M,,0,0.6297793995908828,1,FP
+2021-11-29,15:20,physiotherapy,afternoon,,M,,0,0.5895367328683794,1,FP
+2021-11-29,16:20,physiotherapy,afternoon,48.0,M,motor,1,0.500676069491907,1,TP
+2021-11-29,17:00,physiotherapy,afternoon,,F,,0,0.7138121067961097,1,FP
+2021-11-29,17:40,physiotherapy,afternoon,,M,,0,0.7048592103943712,1,FP
+2021-11-29,13:20,occupational therapy,afternoon,,F,,0,0.6523734910954198,1,FP
+2021-11-29,14:00,occupational therapy,afternoon,10.0,M,intellectual,0,0.27199965724466163,0,TN
+2021-11-29,14:40,occupational therapy,afternoon,8.0,M,intellectual,0,0.4794085440123057,1,FP
+2021-11-29,15:20,occupational therapy,afternoon,,M,,1,0.6183654630506671,1,TP
+2021-11-29,17:00,occupational therapy,afternoon,,M,,0,0.7119117416836453,1,FP
+2021-11-29,17:40,occupational therapy,afternoon,4.0,M,intellectual,1,0.5780434287818788,1,TP
+2021-11-29,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.45254913871486774,1,FP
+2021-11-29,13:20,psychotherapy,afternoon,,M,,0,0.6025988452279692,1,FP
+2021-11-29,13:20,psychotherapy,afternoon,,M,,0,0.6025988452279692,1,FP
+2021-11-29,13:20,psychotherapy,afternoon,,M,,0,0.6025988452279692,1,FP
+2021-11-29,14:40,psychotherapy,afternoon,,F,,0,0.6359217971108259,1,FP
+2021-11-29,15:20,psychotherapy,afternoon,,M,,0,0.5647963900530717,1,FP
+2021-11-29,17:00,psychotherapy,afternoon,,M,,0,0.6839671267908318,1,FP
+2021-11-29,17:40,psychotherapy,afternoon,4.0,M,intellectual,1,0.598576372506487,1,TP
+2021-11-29,14:00,psychotherapy,afternoon,,M,,1,0.6250782409842093,1,TP
+2021-11-29,14:40,psychotherapy,afternoon,,F,,0,0.6359217971108259,1,FP
+2021-11-29,15:20,psychotherapy,afternoon,,F,,0,0.5647963900530717,1,FP
+2021-11-29,16:20,psychotherapy,afternoon,,M,,0,0.5980502585387346,1,FP
+2021-11-29,17:00,psychotherapy,afternoon,,M,,0,0.6839671267908318,1,FP
+2021-11-29,17:40,psychotherapy,afternoon,6.0,M,intellectual,0,0.5294400363918655,1,FP
+2021-11-29,13:20,speech therapy,afternoon,10.0,M,intellectual,0,0.3506218245088243,0,TN
+2021-11-29,14:00,speech therapy,afternoon,,F,,0,0.641477742762686,1,FP
+2021-11-29,14:40,speech therapy,afternoon,,M,,1,0.6260833369226112,1,TP
+2021-11-29,15:20,speech therapy,afternoon,,F,,0,0.6020544437811958,1,FP
+2021-11-29,16:20,speech therapy,afternoon,,F,,1,0.6266085756508343,1,TP
+2021-11-29,17:00,speech therapy,afternoon,6.0,M,intellectual,0,0.4018737386346738,0,TN
+2021-11-29,13:20,speech therapy,afternoon,8.0,M,intellectual,0,0.4299388298679163,0,TN
+2021-11-29,13:20,speech therapy,afternoon,,M,,0,0.6220364718532624,1,FP
+2021-11-29,13:20,speech therapy,afternoon,,M,,0,0.6220364718532624,1,FP
+2021-11-29,13:20,speech therapy,afternoon,,M,,0,0.6220364718532624,1,FP
+2021-11-29,14:40,speech therapy,afternoon,,M,,0,0.6260833369226112,1,FP
+2021-11-29,15:20,speech therapy,afternoon,,F,,0,0.6020544437811958,1,FP
+2021-11-29,16:20,speech therapy,afternoon,,F,,0,0.6266085756508343,1,FP
+2021-11-29,17:00,speech therapy,afternoon,48.0,M,motor,1,0.508384699446605,1,TP
+2021-11-29,17:40,speech therapy,afternoon,,M,,0,0.6951141541717664,1,FP
+2021-11-29,13:20,physiotherapy,afternoon,,F,,0,0.6174268143245043,1,FP
+2021-11-29,14:00,physiotherapy,afternoon,,M,,0,0.6290174350950927,1,FP
+2021-11-29,14:40,physiotherapy,afternoon,,M,,0,0.6297793995908828,1,FP
+2021-11-29,15:20,physiotherapy,afternoon,,F,,1,0.5895367328683794,1,TP
+2021-11-29,16:20,physiotherapy,afternoon,,F,,0,0.6021305019593785,1,FP
+2021-11-29,17:00,physiotherapy,afternoon,,M,,0,0.7138121067961097,1,FP
+2021-11-29,17:40,physiotherapy,afternoon,,F,,1,0.7048592103943712,1,TP
+2021-11-29,13:20,physiotherapy,afternoon,29.0,M,motor,0,0.5455554416317766,1,FP
+2021-11-29,14:00,physiotherapy,afternoon,,M,,0,0.6290174350950927,1,FP
+2021-11-29,14:40,physiotherapy,afternoon,72.0,F,motor,0,0.5107164374472217,1,FP
+2021-11-29,15:20,physiotherapy,afternoon,25.0,F,motor,1,0.5269541433044134,1,TP
+2021-11-29,13:20,occupational therapy,afternoon,,M,,0,0.6523734910954198,1,FP
+2021-11-29,14:00,occupational therapy,afternoon,72.0,F,motor,0,0.47260140076418794,1,FP
+2021-11-29,14:40,occupational therapy,afternoon,,M,,0,0.6266422685511367,1,FP
+2021-11-29,15:20,occupational therapy,afternoon,10.0,M,intellectual,0,0.32723463781316314,0,TN
+2021-11-29,07:20,,morning,6.0,M,intellectual,0,0.3730413434851232,0,TN
+2021-11-29,07:20,,morning,9.0,M,intellectual,0,0.3047262235771657,0,TN
+2021-11-29,07:20,,morning,,M,,0,0.5148471242155437,1,FP
+2021-11-29,08:00,,morning,,M,,0,0.5682543997147078,1,FP
+2021-11-29,08:00,,morning,8.0,M,intellectual,0,0.34286998247472344,0,TN
+2021-11-29,08:00,,morning,,F,,0,0.5682543997147078,1,FP
+2021-11-29,08:00,,morning,,M,,0,0.5682543997147078,1,FP
+2021-11-29,08:00,,morning,7.0,M,intellectual,0,0.3983455135928521,0,TN
+2021-11-29,08:00,,morning,6.0,M,intellectual,0,0.37090481054441804,0,TN
+2021-11-29,08:00,,morning,8.0,M,intellectual,0,0.34286998247472344,0,TN
+2021-11-29,08:00,,morning,,F,,0,0.5682543997147078,1,FP
+2021-11-29,08:00,,morning,,M,,0,0.5682543997147078,1,FP
+2021-11-29,08:00,,morning,7.0,M,intellectual,0,0.3983455135928521,0,TN
+2021-11-29,08:00,,morning,,M,,0,0.5682543997147078,1,FP
+2021-11-29,08:40,,morning,,M,,0,0.5876590690376672,1,FP
+2021-11-29,08:40,,morning,8.0,M,intellectual,0,0.37938007748137487,0,TN
+2021-11-29,08:40,,morning,,F,,0,0.5876590690376672,1,FP
+2021-11-29,08:40,,morning,,M,,0,0.5876590690376672,1,FP
+2021-11-29,08:40,,morning,7.0,M,intellectual,0,0.42411198293418667,0,TN
+2021-11-29,08:40,,morning,,M,,0,0.5876590690376672,1,FP
+2021-11-29,08:40,,morning,8.0,M,intellectual,0,0.37938007748137487,0,TN
+2021-11-29,08:40,,morning,,F,,0,0.5876590690376672,1,FP
+2021-11-29,08:40,,morning,,M,,0,0.5876590690376672,1,FP
+2021-11-29,08:40,,morning,7.0,M,intellectual,0,0.42411198293418667,0,TN
+2021-11-29,08:40,,morning,9.0,M,intellectual,0,0.2845191762224825,0,TN
+2021-11-29,09:20,,morning,,M,,0,0.5822003061855254,1,FP
+2021-11-29,09:20,,morning,,M,,0,0.5822003061855254,1,FP
+2021-11-29,09:20,,morning,,M,,0,0.5822003061855254,1,FP
+2021-11-29,09:20,,morning,,M,,0,0.5822003061855254,1,FP
+2021-11-29,09:20,,morning,,F,,0,0.5822003061855254,1,FP
+2021-11-29,10:20,,morning,39.0,M,motor,1,0.48790673813346447,1,TP
+2021-11-29,10:20,,morning,,M,,0,0.6186638690146727,1,FP
+2021-11-29,10:20,,morning,,F,,1,0.6186638690146727,1,TP
+2021-11-29,10:20,,morning,,M,,0,0.6186638690146727,1,FP
+2021-11-29,10:20,,morning,,F,,1,0.6186638690146727,1,TP
+2021-11-29,10:20,,morning,,M,,0,0.6186638690146727,1,FP
+2021-11-29,10:20,,morning,,M,,0,0.6186638690146727,1,FP
+2021-11-29,10:20,,morning,,M,,0,0.6186638690146727,1,FP
+2021-10-29,13:10,physiotherapy,afternoon,5.0,M,intellectual,1,0.2707316150648733,0,FN
+2021-10-29,13:10,psychotherapy,afternoon,7.0,M,intellectual,0,0.2989816875515193,0,TN
+2021-10-29,13:10,psychotherapy,afternoon,8.0,M,intellectual,0,0.4212442667094142,0,TN
+2021-10-29,13:10,speech therapy,afternoon,8.0,M,intellectual,0,0.42547203652361393,0,TN
+2021-10-29,13:10,speech therapy,afternoon,5.0,M,intellectual,1,0.24116553686426828,0,FN
+2021-10-29,13:50,physiotherapy,afternoon,63.0,M,motor,0,0.33331344537148405,0,TN
+2021-10-29,13:50,physiotherapy,afternoon,65.0,F,motor,0,0.2965548583000382,0,TN
+2021-10-29,13:50,psychotherapy,afternoon,,M,intellectual,0,0.4276820744459006,0,TN
+2021-10-29,13:50,psychotherapy,afternoon,,M,intellectual,0,0.4276820744459006,0,TN
+2021-10-29,13:50,speech therapy,afternoon,15.0,F,intellectual,0,0.2594003088428485,0,TN
+2021-10-29,13:50,speech therapy,afternoon,,M,intellectual,0,0.40222493722964314,0,TN
+2021-10-29,14:30,physiotherapy,afternoon,39.0,F,motor,0,0.446997886463142,1,FP
+2021-10-29,14:30,physiotherapy,afternoon,49.0,F,motor,0,0.4096878253588793,0,TN
+2021-10-29,14:30,psychotherapy,afternoon,7.0,M,intellectual,0,0.5827344860870676,1,FP
+2021-10-29,14:30,psychotherapy,afternoon,39.0,M,motor,1,0.398727318580705,0,FN
+2021-10-29,14:30,speech therapy,afternoon,,M,intellectual,0,0.41140321084030734,0,TN
+2021-10-29,14:30,speech therapy,afternoon,7.0,M,intellectual,0,0.5745666049994305,1,FP
+2021-10-29,15:10,physiotherapy,afternoon,7.0,M,intellectual,0,0.6078114167848506,1,FP
+2021-10-29,15:10,physiotherapy,afternoon,39.0,M,motor,1,0.21814985518583488,0,FN
+2021-10-29,15:10,psychotherapy,afternoon,9.0,M,intellectual,0,0.4123430211562206,0,TN
+2021-10-29,15:10,psychotherapy,afternoon,110.0,M,intellectual,0,0.22806605349947165,0,TN
+2021-10-29,15:10,speech therapy,afternoon,110.0,M,intellectual,0,0.19616097177338848,0,TN
+2021-10-29,15:50,psychotherapy,afternoon,5.0,M,intellectual,0,0.37016145193996375,0,TN
+2021-10-29,15:50,speech therapy,afternoon,5.0,M,intellectual,0,0.3483049506920437,0,TN
+2021-10-28,13:10,physiotherapy,afternoon,6.0,M,intellectual,0,0.39296370382292195,0,TN
+2021-10-28,13:10,psychotherapy,afternoon,,F,intellectual,0,0.5759055000189117,1,FP
+2021-10-28,13:10,speech therapy,afternoon,6.0,M,intellectual,0,0.3642265361039542,0,TN
+2021-10-28,13:50,physiotherapy,afternoon,47.0,M,motor,0,0.43725070787382037,0,TN
+2021-10-28,13:50,psychotherapy,afternoon,6.0,M,intellectual,0,0.49906874502829585,1,FP
+2021-10-28,13:50,psychotherapy,afternoon,,M,intellectual,0,0.49130869815394707,1,FP
+2021-10-28,13:50,speech therapy,afternoon,,F,intellectual,0,0.48718823036325276,1,FP
+2021-10-28,13:50,speech therapy,afternoon,,M,intellectual,0,0.48718823036325276,1,FP
+2021-10-28,14:30,physiotherapy,afternoon,65.0,F,motor,0,0.3346573886190015,0,TN
+2021-10-28,14:30,psychotherapy,afternoon,6.0,M,intellectual,0,0.44450211789541877,1,FP
+2021-10-28,14:30,psychotherapy,afternoon,,F,intellectual,0,0.4487096583171524,1,FP
+2021-10-28,14:30,speech therapy,afternoon,47.0,M,motor,0,0.4310140470836103,0,TN
+2021-10-28,15:10,speech therapy,afternoon,,M,,0,0.4532787348834281,1,FP
+2021-10-28,15:10,psychotherapy,afternoon,65.0,F,motor,0,0.2017091454715821,0,TN
+2021-10-28,15:10,speech therapy,afternoon,,M,intellectual,0,0.3074392583630521,0,TN
+2021-10-28,16:10,psychotherapy,afternoon,,M,intellectual,0,0.32876149549083633,0,TN
+2022-01-28,07:20,,morning,,M,,0,0.4723919968092716,1,FP
+2022-01-28,07:20,,morning,,M,,0,0.4723919968092716,1,FP
+2022-01-28,08:00,,morning,,M,,1,0.5596787967055215,1,TP
+2022-01-28,08:00,,morning,,M,,1,0.5596787967055215,1,TP
+2022-01-28,08:00,,morning,,M,,1,0.5596787967055215,1,TP
+2022-01-28,08:40,psychotherapy,morning,7.0,M,intellectual,0,0.3160594437212998,0,TN
+2022-01-28,08:40,psychotherapy,morning,,M,,1,0.655794974615956,1,TP
+2022-01-28,08:40,psychotherapy,morning,,M,,0,0.655794974615956,1,FP
+2022-01-28,08:40,,morning,,M,,0,0.5624103570186878,1,FP
+2022-01-28,08:40,,morning,7.0,M,intellectual,0,0.2554053150979964,0,TN
+2022-01-28,08:40,,morning,,M,,1,0.5624103570186878,1,TP
+2022-01-28,08:40,,morning,,M,,0,0.5624103570186878,1,FP
+2022-01-28,09:20,psychotherapy,morning,,M,,0,0.688551260751667,1,FP
+2022-01-28,09:20,,morning,,M,,0,0.5986629060071086,1,FP
+2022-01-28,09:20,,morning,,M,,0,0.5986629060071086,1,FP
+2022-01-28,10:20,,morning,,F,,0,0.5814240941019307,1,FP
+2022-01-28,10:20,psychotherapy,morning,,M,,0,0.6401862888488447,1,FP
+2022-01-28,10:20,,morning,6.0,M,intellectual,0,0.49257739154183605,1,FP
+2022-01-28,10:20,,morning,,F,,0,0.5814240941019307,1,FP
+2022-01-28,11:00,,morning,6.0,M,intellectual,0,0.41419974856004654,0,TN
+2022-01-28,11:00,psychotherapy,morning,6.0,M,intellectual,0,0.461666642733516,1,FP
+2022-01-28,11:00,,morning,,M,,0,0.5477347268175611,1,FP
+2021-10-27,13:10,physiotherapy,afternoon,5.0,M,intellectual,0,0.513281984211254,1,FP
+2021-10-27,13:10,physiotherapy,afternoon,108.0,M,intellectual,0,0.23048697423494588,0,TN
+2021-10-27,13:10,psychotherapy,afternoon,108.0,M,intellectual,0,0.2784590356073731,0,TN
+2021-10-27,13:10,speech therapy,afternoon,5.0,M,intellectual,0,0.4943463587313298,1,FP
+2021-10-27,13:50,physiotherapy,afternoon,28.0,M,motor,0,0.36752711486854284,0,TN
+2021-10-27,13:50,physiotherapy,afternoon,5.0,M,intellectual,1,0.47480763178256513,1,TP
+2021-10-27,13:50,,afternoon,11.0,M,motor,0,0.4819041046108564,1,FP
+2021-10-27,13:50,psychotherapy,afternoon,6.0,M,intellectual,0,0.4917495792949509,1,FP
+2021-10-27,13:50,speech therapy,afternoon,14.0,M,intellectual,0,0.3301969426003678,0,TN
+2021-10-27,14:30,physiotherapy,afternoon,11.0,M,motor,0,0.4535773731672717,1,FP
+2021-10-27,14:30,physiotherapy,afternoon,6.0,F,intellectual,0,0.5822237846311469,1,FP
+2021-10-27,14:30,,afternoon,11.0,M,motor,0,0.4429292488390575,1,FP
+2021-10-27,14:30,psychotherapy,afternoon,6.0,F,intellectual,0,0.586305534478914,1,FP
+2021-10-27,14:30,speech therapy,afternoon,106.0,M,intellectual,0,0.2524283560003633,0,TN
+2021-10-27,15:10,physiotherapy,afternoon,3.0,F,intellectual,0,0.17827510938564892,0,TN
+2021-10-27,15:10,physiotherapy,afternoon,106.0,M,intellectual,0,0.20047586693671907,0,TN
+2021-10-27,15:10,psychotherapy,afternoon,106.0,M,intellectual,0,0.20569609607387832,0,TN
+2021-10-27,15:10,,afternoon,3.0,F,intellectual,0,0.14376338600406174,0,TN
+2021-10-27,15:10,speech therapy,afternoon,5.0,F,motor,0,0.34786663693063913,0,TN
+2022-01-27,07:20,,morning,10.0,M,intellectual,0,0.30440354533390485,0,TN
+2022-01-27,07:20,,morning,10.0,M,intellectual,1,0.34846277950336385,0,FN
+2022-01-27,07:20,,morning,9.0,M,intellectual,0,0.3553478717876976,0,TN
+2022-01-27,07:20,psychotherapy,morning,,F,,1,0.537401313156934,1,TP
+2022-01-27,07:20,,morning,10.0,M,intellectual,0,0.30440354533390485,0,TN
+2022-01-27,07:20,,morning,10.0,M,intellectual,1,0.34846277950336385,0,FN
+2022-01-27,07:20,,morning,9.0,M,intellectual,0,0.3553478717876976,0,TN
+2022-01-27,08:00,,morning,10.0,M,intellectual,0,0.23318556296621834,0,TN
+2022-01-27,08:00,,morning,10.0,M,intellectual,1,0.2899793585057548,0,FN
+2022-01-27,08:00,,morning,9.0,M,intellectual,0,0.2718184732284894,0,TN
+2022-01-27,08:00,psychotherapy,morning,,M,,1,0.4926583984459107,1,TP
+2022-01-27,08:00,,morning,10.0,M,intellectual,0,0.23318556296621834,0,TN
+2022-01-27,08:00,,morning,10.0,M,intellectual,1,0.2899793585057548,0,FN
+2022-01-27,08:00,,morning,9.0,M,intellectual,0,0.2718184732284894,0,TN
+2022-01-27,08:40,,morning,,M,,0,0.50537809236157,1,FP
+2022-01-27,08:40,,morning,7.0,M,intellectual,0,0.1813887471051545,0,TN
+2022-01-27,08:40,,morning,9.0,M,intellectual,0,0.38547363474666063,0,TN
+2022-01-27,08:40,,morning,,M,,1,0.50537809236157,1,TP
+2022-01-27,08:40,psychotherapy,morning,,M,,0,0.5770541364033775,1,FP
+2022-01-27,08:40,psychotherapy,morning,7.0,M,intellectual,0,0.2588037311451183,0,TN
+2022-01-27,08:40,psychotherapy,morning,9.0,M,intellectual,0,0.4674932282633272,1,FP
+2022-01-27,08:40,,morning,,M,,0,0.50537809236157,1,FP
+2022-01-27,09:20,,morning,,M,,0,0.5392742593128528,1,FP
+2022-01-27,09:20,,morning,7.0,M,intellectual,0,0.21072176204831275,0,TN
+2022-01-27,09:20,,morning,9.0,M,intellectual,0,0.38831622046733116,0,TN
+2022-01-27,09:20,psychotherapy,morning,,M,,0,0.6069127404057656,1,FP
+2022-01-27,09:20,psychotherapy,morning,7.0,M,intellectual,0,0.3027131677000293,0,TN
+2022-01-27,09:20,psychotherapy,morning,9.0,M,intellectual,0,0.4829272252195048,1,FP
+2022-01-27,10:20,psychotherapy,morning,,F,,0,0.6275974162441386,1,FP
+2022-01-27,10:20,,morning,,F,,0,0.5832710510649232,1,FP
+2022-01-27,11:00,,morning,,F,,0,0.5401010847907476,1,FP
+2021-11-26,13:20,physiotherapy,afternoon,,M,,0,0.6056480162891021,1,FP
+2021-11-26,14:00,physiotherapy,afternoon,,M,,1,0.6201015201876783,1,TP
+2021-11-26,14:40,physiotherapy,afternoon,4.0,F,intellectual,1,0.45630647245207123,1,TP
+2021-11-26,15:20,physiotherapy,afternoon,,M,,1,0.5805052135648173,1,TP
+2021-11-26,16:20,physiotherapy,afternoon,7.0,M,intellectual,1,0.6188142656024325,1,TP
+2021-11-26,17:00,physiotherapy,afternoon,,F,,1,0.6924698496768379,1,TP
+2021-11-26,17:40,physiotherapy,afternoon,,F,,1,0.6585044120443495,1,TP
+2021-11-26,13:20,occupational therapy,afternoon,5.0,M,intellectual,0,0.48078765729449174,1,FP
+2021-11-26,13:20,occupational therapy,afternoon,,M,,0,0.6199169566608519,1,FP
+2021-11-26,14:00,occupational therapy,afternoon,8.0,M,intellectual,0,0.4102150445090637,0,TN
+2021-11-26,15:20,occupational therapy,afternoon,14.0,M,intellectual,0,0.30198925404819504,0,TN
+2021-11-26,15:20,occupational therapy,afternoon,15.0,M,intellectual,0,0.3631202813703488,0,TN
+2021-11-26,16:20,occupational therapy,afternoon,,M,,0,0.6008673940558485,1,FP
+2021-11-26,17:00,occupational therapy,afternoon,,F,,1,0.6883815348617476,1,TP
+2021-11-26,17:40,occupational therapy,afternoon,,F,,1,0.6170045505503622,1,TP
+2021-11-26,15:20,,afternoon,7.0,M,intellectual,1,0.6147142453158164,1,TP
+2021-11-26,16:20,,afternoon,11.0,M,intellectual,0,0.28205404160538733,0,TN
+2021-11-26,16:20,,afternoon,,F,,0,0.5725587258905155,1,FP
+2021-11-26,16:20,,afternoon,,M,,1,0.5725587258905155,1,TP
+2021-11-26,13:20,psychotherapy,afternoon,12.0,M,intellectual,0,0.46544020942701425,1,FP
+2021-11-26,14:00,psychotherapy,afternoon,5.0,M,intellectual,0,0.39008918995749736,0,TN
+2021-11-26,14:40,psychotherapy,afternoon,,M,,0,0.5946085980560263,1,FP
+2021-11-26,15:20,psychotherapy,afternoon,,M,,0,0.5628903461604464,1,FP
+2021-11-26,16:20,psychotherapy,afternoon,11.0,M,intellectual,0,0.2939513449179363,0,TN
+2021-11-26,16:20,psychotherapy,afternoon,,F,,1,0.6105670997725237,1,TP
+2021-11-26,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.49010911187552103,1,FP
+2021-11-26,14:00,psychotherapy,afternoon,7.0,M,intellectual,1,0.5989103064535682,1,TP
+2021-11-26,14:40,psychotherapy,afternoon,,M,,0,0.5946085980560263,1,FP
+2021-11-26,15:20,psychotherapy,afternoon,,F,,0,0.5628903461604464,1,FP
+2021-11-26,16:20,psychotherapy,afternoon,15.0,M,intellectual,0,0.35429244933249887,0,TN
+2021-11-26,16:20,psychotherapy,afternoon,15.0,M,intellectual,0,0.45579040241404956,1,FP
+2021-11-26,17:00,psychotherapy,afternoon,,M,,0,0.6656601754326408,1,FP
+2021-11-26,13:20,speech therapy,afternoon,6.0,F,intellectual,0,0.5215301502150329,1,FP
+2021-11-26,14:00,speech therapy,afternoon,8.0,M,intellectual,0,0.3684398814338377,0,TN
+2021-11-26,14:40,speech therapy,afternoon,,M,,1,0.5905525565389637,1,TP
+2021-11-26,15:20,speech therapy,afternoon,7.0,M,intellectual,1,0.6402306672056867,1,TP
+2021-11-26,16:20,speech therapy,afternoon,,F,,0,0.6352884725670084,1,FP
+2021-11-26,17:00,speech therapy,afternoon,,M,,0,0.6797583318252425,1,FP
+2021-11-26,17:40,speech therapy,afternoon,,M,,0,0.6512664474934056,1,FP
+2021-11-26,13:20,speech therapy,afternoon,,M,,1,0.6137248392102621,1,TP
+2021-11-26,14:00,speech therapy,afternoon,4.0,F,intellectual,1,0.3909308420682134,0,FN
+2021-11-26,14:40,speech therapy,afternoon,5.0,M,intellectual,0,0.422700723076431,0,TN
+2021-11-26,15:20,speech therapy,afternoon,15.0,M,intellectual,0,0.3585173219778862,0,TN
+2021-11-26,15:20,speech therapy,afternoon,14.0,M,intellectual,1,0.3014843174300995,0,FN
+2021-11-26,16:20,speech therapy,afternoon,,M,,1,0.6352884725670084,1,TP
+2021-11-26,17:00,speech therapy,afternoon,,F,,1,0.6797583318252425,1,TP
+2021-11-26,17:40,speech therapy,afternoon,,M,,1,0.6512664474934056,1,TP
+2021-11-26,13:20,physiotherapy,afternoon,,M,,1,0.6056480162891021,1,TP
+2021-11-26,14:00,physiotherapy,afternoon,6.0,F,intellectual,0,0.4457977842138131,1,FP
+2021-11-26,14:40,physiotherapy,afternoon,,M,,0,0.5909004284632382,1,FP
+2021-11-26,15:20,physiotherapy,afternoon,,M,,0,0.5805052135648173,1,FP
+2021-11-26,16:20,physiotherapy,afternoon,,F,,0,0.6076027731282265,1,FP
+2021-11-26,17:00,physiotherapy,afternoon,,M,,1,0.6924698496768379,1,TP
+2021-11-26,17:40,physiotherapy,afternoon,,M,,0,0.6585044120443495,1,FP
+2021-11-26,07:20,,morning,,M,,0,0.42255536324091664,0,TN
+2021-11-26,07:20,,morning,,F,,0,0.42255536324091664,0,TN
+2021-11-26,08:00,physiotherapy,morning,,M,,0,0.5145690281654186,1,FP
+2021-11-26,08:00,,morning,,M,,0,0.5249175625463998,1,FP
+2021-11-26,08:00,,morning,,M,,0,0.5249175625463998,1,FP
+2021-11-26,08:00,,morning,,M,,0,0.5249175625463998,1,FP
+2021-11-26,08:40,physiotherapy,morning,,F,,0,0.5129783699824582,1,FP
+2021-11-26,08:40,,morning,,M,,1,0.5011200332854762,1,TP
+2021-11-26,08:40,,morning,,M,,0,0.5011200332854762,1,FP
+2021-11-26,08:40,,morning,7.0,M,intellectual,0,0.406763881028006,0,TN
+2021-11-26,08:40,,morning,,M,,0,0.5011200332854762,1,FP
+2021-11-26,08:40,,morning,,M,,1,0.5011200332854762,1,TP
+2021-11-26,08:40,,morning,,M,,0,0.5011200332854762,1,FP
+2021-11-26,08:40,,morning,7.0,M,intellectual,0,0.38807841042363683,0,TN
+2021-11-26,08:40,,morning,7.0,M,intellectual,0,0.406763881028006,0,TN
+2021-11-26,08:40,,morning,,M,,0,0.5011200332854762,1,FP
+2021-11-26,09:20,,morning,,M,,1,0.540551898205919,1,TP
+2021-11-26,09:20,,morning,,M,,0,0.540551898205919,1,FP
+2021-11-26,09:20,,morning,7.0,M,intellectual,0,0.426645351107132,0,TN
+2021-11-26,09:20,,morning,,M,,0,0.540551898205919,1,FP
+2021-11-26,09:20,,morning,,M,,1,0.540551898205919,1,TP
+2021-11-26,09:20,,morning,,M,,0,0.540551898205919,1,FP
+2021-11-26,09:20,,morning,7.0,M,intellectual,0,0.426645351107132,0,TN
+2021-11-26,09:20,,morning,,M,,0,0.540551898205919,1,FP
+2021-11-26,10:20,physiotherapy,morning,,F,,0,0.6143577219857903,1,FP
+2021-11-26,10:20,,morning,,F,,0,0.5993958909040111,1,FP
+2021-11-26,10:20,,morning,6.0,M,intellectual,0,0.48642808776736207,1,FP
+2021-11-26,10:20,,morning,,F,,1,0.5993958909040111,1,TP
+2021-11-26,11:00,physiotherapy,morning,,F,,1,0.6580797757970923,1,TP
+2021-11-26,11:00,,morning,6.0,M,intellectual,0,0.4377065671890082,0,TN
+2021-11-26,11:00,,morning,,M,,0,0.6420543616716435,1,FP
+2021-11-26,11:00,,morning,,F,,0,0.6420543616716435,1,FP
+2021-11-26,11:40,,morning,,F,,1,0.5742202053951203,1,TP
+2021-10-26,13:10,physiotherapy,afternoon,47.0,M,motor,0,0.27701964973229887,0,TN
+2021-10-26,13:10,psychotherapy,afternoon,9.0,M,intellectual,0,0.5166105644460173,1,FP
+2021-10-26,13:10,,afternoon,23.0,M,motor,0,0.322369787704086,0,TN
+2021-10-26,13:10,speech therapy,afternoon,,F,intellectual,0,0.42203021518776673,0,TN
+2021-10-26,13:10,enf,afternoon,23.0,M,motor,0,0.28692051713672334,0,TN
+2021-10-26,13:50,physiotherapy,afternoon,63.0,M,motor,0,0.2729612864353586,0,TN
+2021-10-26,13:50,psychotherapy,afternoon,,F,intellectual,0,0.35144802023993277,0,TN
+2021-10-26,13:50,speech therapy,afternoon,4.0,F,intellectual,0,0.1790930010387498,0,TN
+2021-10-26,13:50,enf,afternoon,47.0,M,motor,0,0.1945306425366808,0,TN
+2021-10-26,14:30,physiotherapy,afternoon,4.0,F,intellectual,0,0.22856835495755753,0,TN
+2021-10-26,14:30,psychotherapy,afternoon,9.0,M,intellectual,0,0.4871964166749234,1,FP
+2021-10-26,14:30,speech therapy,afternoon,5.0,M,intellectual,0,0.3265451589881069,0,TN
+2021-10-26,14:30,enf,afternoon,9.0,M,intellectual,0,0.5053109944238824,1,FP
+2021-10-26,15:10,physiotherapy,afternoon,5.0,F,intellectual,0,0.27654095480545027,0,TN
+2021-10-26,15:10,psychotherapy,afternoon,5.0,F,intellectual,0,0.20848134302868654,0,TN
+2021-10-26,15:10,,afternoon,14.0,M,motor,1,0.30989897864750426,0,FN
+2021-10-26,15:10,speech therapy,afternoon,5.0,F,intellectual,0,0.21752458835058028,0,TN
+2021-10-26,15:50,physiotherapy,afternoon,68.0,F,motor,0,0.30513443363260656,0,TN
+2021-10-26,15:50,speech therapy,afternoon,,M,,1,0.3270928160187659,0,FN
+2021-10-26,16:10,psychotherapy,afternoon,68.0,F,motor,0,0.16837275214182146,0,TN
+2022-01-26,07:20,,morning,,M,,0,0.4356667069066662,0,TN
+2022-01-26,07:20,,morning,,M,,0,0.4356667069066662,0,TN
+2022-01-26,08:00,,morning,11.0,M,intellectual,0,0.3231249072019036,0,TN
+2022-01-26,08:00,,morning,12.0,M,intellectual,0,0.33070418792539824,0,TN
+2022-01-26,08:00,,morning,,M,,0,0.41718555162901494,0,TN
+2022-01-26,08:00,,morning,,M,,0,0.41718555162901494,0,TN
+2022-01-26,08:40,,morning,,F,,0,0.4631801611474781,1,FP
+2022-01-26,08:40,psychotherapy,morning,11.0,M,intellectual,0,0.5056478901160294,1,FP
+2022-01-26,08:40,psychotherapy,morning,12.0,M,intellectual,0,0.5398835489475172,1,FP
+2022-01-26,08:40,,morning,9.0,M,intellectual,0,0.5559474911219897,1,FP
+2022-01-26,09:20,,morning,9.0,M,intellectual,0,0.5614692669187322,1,FP
+2022-01-26,09:20,,morning,11.0,M,intellectual,0,0.40081536973654835,0,TN
+2022-01-26,09:20,,morning,12.0,M,intellectual,0,0.40387286108891696,0,TN
+2022-01-26,09:20,psychotherapy,morning,11.0,M,intellectual,0,0.5379823044110982,1,FP
+2022-01-26,09:20,psychotherapy,morning,12.0,M,intellectual,0,0.5395122492113975,1,FP
+2022-01-26,09:20,,morning,,F,,0,0.4925056310515679,1,FP
+2022-01-26,10:20,,morning,10.0,F,intellectual,0,0.5051655157514654,1,FP
+2022-01-26,10:20,,morning,,M,,0,0.4822930422241941,1,FP
+2022-01-26,10:20,psychotherapy,morning,,M,,0,0.5379647123569609,1,FP
+2022-01-26,10:20,,morning,,M,,1,0.4822930422241941,1,TP
+2022-01-26,11:00,,morning,,M,,1,0.4378588620167532,0,FN
+2022-01-26,11:00,psychotherapy,morning,11.0,M,intellectual,0,0.47342321571766055,1,FP
+2022-01-26,11:00,,morning,10.0,F,intellectual,0,0.5839467152887865,1,FP
+2022-01-26,11:40,,morning,,M,,1,0.4411355098381159,1,TP
+2021-11-25,13:20,physiotherapy,afternoon,,M,,0,0.6372964087171445,1,FP
+2021-11-25,14:00,physiotherapy,afternoon,68.0,M,motor,0,0.43925537665261466,0,TN
+2021-11-25,14:40,physiotherapy,afternoon,,M,,0,0.632581649206627,1,FP
+2021-11-25,15:20,physiotherapy,afternoon,,F,,0,0.6213575393879319,1,FP
+2021-11-25,16:20,physiotherapy,afternoon,,M,,0,0.6457871272265395,1,FP
+2021-11-25,17:00,physiotherapy,afternoon,,M,,0,0.7174907137714818,1,FP
+2021-11-25,14:00,occupational therapy,afternoon,5.0,M,intellectual,1,0.5313199804177793,1,TP
+2021-11-25,14:40,occupational therapy,afternoon,68.0,M,motor,0,0.40586631042307086,0,TN
+2021-11-25,15:20,occupational therapy,afternoon,7.0,M,intellectual,0,0.5711433125483678,1,FP
+2021-11-25,16:20,occupational therapy,afternoon,,M,,0,0.6201034648341938,1,FP
+2021-11-25,17:00,occupational therapy,afternoon,,M,,0,0.6989405234141232,1,FP
+2021-11-25,17:40,occupational therapy,afternoon,,M,,0,0.6426188495745211,1,FP
+2021-11-25,15:20,,afternoon,,M,,1,0.6413267297779153,1,TP
+2021-11-25,13:20,psychotherapy,afternoon,,M,,0,0.6260999672847906,1,FP
+2021-11-25,14:40,psychotherapy,afternoon,5.0,M,intellectual,1,0.5460727074659546,1,TP
+2021-11-25,15:20,psychotherapy,afternoon,5.0,M,intellectual,1,0.6102363686723401,1,TP
+2021-11-25,16:20,psychotherapy,afternoon,7.0,M,intellectual,0,0.5571248983018671,1,FP
+2021-11-25,17:00,psychotherapy,afternoon,,M,,0,0.688327837256182,1,FP
+2021-11-25,17:40,psychotherapy,afternoon,7.0,M,intellectual,1,0.6530391860069508,1,TP
+2021-11-25,13:20,psychotherapy,afternoon,,M,,1,0.6260999672847906,1,TP
+2021-11-25,14:00,psychotherapy,afternoon,,F,,1,0.6434523389053135,1,TP
+2021-11-25,14:40,psychotherapy,afternoon,9.0,M,intellectual,0,0.4892940062525154,1,FP
+2021-11-25,15:20,psychotherapy,afternoon,,M,,0,0.608576005331871,1,FP
+2021-11-25,16:20,psychotherapy,afternoon,,M,,0,0.6451872950775516,1,FP
+2021-11-25,17:00,psychotherapy,afternoon,,M,,0,0.688327837256182,1,FP
+2021-11-25,17:40,psychotherapy,afternoon,,M,,0,0.695571376695716,1,FP
+2021-11-25,13:20,speech therapy,afternoon,,F,,1,0.6478574519794242,1,TP
+2021-11-25,14:40,speech therapy,afternoon,7.0,M,intellectual,0,0.5093867587168294,1,FP
+2021-11-25,15:20,speech therapy,afternoon,68.0,M,motor,0,0.44319676022861254,1,FP
+2021-11-25,16:20,speech therapy,afternoon,,M,,0,0.6696123073557189,1,FP
+2021-11-25,17:00,speech therapy,afternoon,,M,,0,0.7051020644435739,1,FP
+2021-11-25,17:40,speech therapy,afternoon,,M,,0,0.6974880502950109,1,FP
+2021-11-25,13:20,speech therapy,afternoon,,F,,1,0.6478574519794242,1,TP
+2021-11-25,14:00,speech therapy,afternoon,,F,,0,0.6622242022007789,1,FP
+2021-11-25,14:40,speech therapy,afternoon,5.0,M,intellectual,1,0.5293338349586684,1,TP
+2021-11-25,15:20,speech therapy,afternoon,5.0,M,intellectual,1,0.607424646634873,1,TP
+2021-11-25,16:20,speech therapy,afternoon,9.0,M,intellectual,0,0.4166275066832831,0,TN
+2021-11-25,17:00,speech therapy,afternoon,,M,,0,0.7051020644435739,1,FP
+2021-11-25,17:40,speech therapy,afternoon,,M,,0,0.6974880502950109,1,FP
+2021-11-25,13:20,physiotherapy,afternoon,,F,,0,0.6372964087171445,1,FP
+2021-11-25,14:00,physiotherapy,afternoon,,M,,0,0.6440570214721676,1,FP
+2021-11-25,14:40,physiotherapy,afternoon,,F,,0,0.632581649206627,1,FP
+2021-11-25,15:20,physiotherapy,afternoon,,M,,0,0.6213575393879319,1,FP
+2021-11-25,16:20,physiotherapy,afternoon,51.0,F,motor,0,0.47990790007984463,1,FP
+2021-11-25,17:00,physiotherapy,afternoon,,M,,0,0.7174907137714818,1,FP
+2021-11-25,17:40,physiotherapy,afternoon,,M,,0,0.7028684007598114,1,FP
+2022-02-25,13:20,physiotherapy,afternoon,4.0,F,intellectual,0,0.6612793238737436,1,FP
+2022-02-25,13:20,occupational therapy,afternoon,,F,,0,0.6636438019313118,1,FP
+2022-02-25,13:20,psychotherapy,afternoon,,M,,0,0.6806169441456215,1,FP
+2022-02-25,13:20,psychotherapy,afternoon,,F,,0,0.6806169441456215,1,FP
+2022-02-25,13:20,speech therapy,afternoon,,M,,0,0.7318259374012316,1,FP
+2022-02-25,14:00,physiotherapy,afternoon,,F,,0,0.6871132950271983,1,FP
+2022-02-25,14:00,psychotherapy,afternoon,,M,,0,0.6765044312711669,1,FP
+2022-02-25,14:00,psychotherapy,afternoon,,M,,0,0.6765044312711669,1,FP
+2022-02-25,14:00,psychotherapy,afternoon,10.0,M,intellectual,0,0.3583767212054027,0,TN
+2022-02-25,14:00,psychotherapy,afternoon,,F,,0,0.6765044312711669,1,FP
+2022-02-25,14:00,psychotherapy,afternoon,8.0,M,intellectual,0,0.38954482625438513,0,TN
+2022-02-25,14:00,psychotherapy,afternoon,,M,,1,0.6765044312711669,1,TP
+2022-02-25,14:00,speech therapy,afternoon,,M,,0,0.7315817909417721,1,FP
+2022-02-25,14:00,speech therapy,afternoon,10.0,M,intellectual,0,0.29394817243548726,0,TN
+2022-02-25,14:00,speech therapy,afternoon,,F,,0,0.7315817909417721,1,FP
+2022-02-25,14:00,speech therapy,afternoon,8.0,M,intellectual,0,0.3410265562566577,0,TN
+2022-02-25,14:00,speech therapy,afternoon,,M,,1,0.7315817909417721,1,TP
+2022-02-25,14:00,speech therapy,afternoon,4.0,F,intellectual,0,0.6750697279042052,1,FP
+2022-02-25,14:40,physiotherapy,afternoon,,M,,0,0.6868928100690002,1,FP
+2022-02-25,14:40,physiotherapy,afternoon,68.0,M,motor,0,0.43625630972237506,0,TN
+2022-02-25,14:40,physiotherapy,afternoon,,M,,0,0.6868928100690002,1,FP
+2022-02-25,14:40,physiotherapy,afternoon,,M,,0,0.6868928100690002,1,FP
+2022-02-25,14:40,occupational therapy,afternoon,11.0,M,intellectual,0,0.4675419226135044,1,FP
+2022-02-25,14:40,psychotherapy,afternoon,11.0,M,intellectual,0,0.4842885647163589,1,FP
+2022-02-25,14:40,psychotherapy,afternoon,,F,,0,0.6736073367495158,1,FP
+2022-02-25,14:40,speech therapy,afternoon,,M,,0,0.6858937235796324,1,FP
+2022-02-25,14:40,speech therapy,afternoon,,M,,0,0.6858937235796324,1,FP
+2022-02-25,14:40,speech therapy,afternoon,,M,,0,0.6858937235796324,1,FP
+2022-02-25,14:40,speech therapy,afternoon,68.0,M,motor,0,0.4282823079715463,0,TN
+2022-02-25,14:40,speech therapy,afternoon,,M,,0,0.6858937235796324,1,FP
+2022-02-25,14:40,physiotherapy,afternoon,,F,,0,0.6868928100690002,1,FP
+2022-02-25,15:20,speech therapy,afternoon,,F,,0,0.7189230639725454,1,FP
+2022-02-25,16:20,occupational therapy,afternoon,10.0,M,intellectual,0,0.306874227475119,0,TN
+2022-02-25,16:20,,afternoon,,M,,0,0.7251350528237013,1,FP
+2022-02-25,16:20,,afternoon,,M,,0,0.7251350528237013,1,FP
+2022-02-25,16:20,psychotherapy,afternoon,,M,,0,0.7214211646874407,1,FP
+2022-02-25,16:20,psychotherapy,afternoon,,M,,0,0.7214211646874407,1,FP
+2022-02-25,16:20,psychotherapy,afternoon,15.0,M,intellectual,1,0.6879670093242507,1,TP
+2022-02-25,16:20,speech therapy,afternoon,,M,,0,0.7708626210154035,1,FP
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP
+2022-02-25,17:00,psychotherapy,afternoon,,M,,0,0.7090686396193833,1,FP
+2022-02-25,17:00,psychotherapy,afternoon,,M,,0,0.7090686396193833,1,FP
+2022-02-25,17:00,psychotherapy,afternoon,,M,,0,0.7090686396193833,1,FP
+2022-02-25,17:00,psychotherapy,afternoon,,M,,0,0.7090686396193833,1,FP
+2022-02-25,17:00,speech therapy,afternoon,,F,,0,0.7654697397455265,1,FP
+2022-02-25,17:40,physiotherapy,afternoon,,F,,0,0.6160519307422329,1,FP
+2022-01-25,07:20,,morning,8.0,M,intellectual,1,0.5740921952388341,1,TP
+2022-01-25,07:20,psychotherapy,morning,,F,,1,0.6595030256740992,1,TP
+2022-01-25,07:20,,morning,,M,,1,0.6250583245491533,1,TP
+2022-01-25,08:00,,morning,,M,,0,0.5582655850012046,1,FP
+2022-01-25,08:00,,morning,,M,,1,0.5582655850012046,1,TP
+2022-01-25,08:00,,morning,,M,,0,0.5582655850012046,1,FP
+2022-01-25,08:00,,morning,6.0,M,intellectual,0,0.40236214402204223,0,TN
+2022-01-25,08:00,psychotherapy,morning,,M,,1,0.5976229256617525,1,TP
+2022-01-25,08:00,,morning,,M,,0,0.5582655850012046,1,FP
+2022-01-25,08:00,,morning,,M,,1,0.5582655850012046,1,TP
+2022-01-25,08:00,,morning,,M,,0,0.5582655850012046,1,FP
+2022-01-25,08:00,,morning,6.0,M,intellectual,0,0.40236214402204223,0,TN
+2022-01-25,08:00,,morning,,M,,1,0.5582655850012046,1,TP
+2022-01-25,08:40,,morning,,M,,0,0.6617126303282183,1,FP
+2022-01-25,08:40,,morning,,M,,1,0.6617126303282183,1,TP
+2022-01-25,08:40,,morning,,M,,0,0.6617126303282183,1,FP
+2022-01-25,08:40,,morning,6.0,M,intellectual,0,0.5244361001845659,1,FP
+2022-01-25,08:40,psychotherapy,morning,,M,,1,0.6769342693073401,1,TP
+2022-01-25,08:40,,morning,,M,,0,0.6617126303282183,1,FP
+2022-01-25,08:40,,morning,,M,,1,0.6617126303282183,1,TP
+2022-01-25,08:40,,morning,,M,,0,0.6617126303282183,1,FP
+2022-01-25,08:40,,morning,6.0,M,intellectual,0,0.5244361001845659,1,FP
+2022-01-25,08:40,,morning,,F,,1,0.6617126303282183,1,TP
+2022-01-25,09:20,,morning,6.0,M,intellectual,0,0.47006697952338017,1,FP
+2022-01-25,09:20,,morning,,M,,1,0.6709771538814117,1,TP
+2022-01-25,10:20,,morning,13.0,M,intellectual,1,0.4277081258462842,0,FN
+2022-01-25,10:20,psychotherapy,morning,6.0,M,intellectual,0,0.5746670866703004,1,FP
+2022-01-25,10:20,,morning,13.0,M,intellectual,1,0.4277081258462842,0,FN
+2022-01-25,11:00,,morning,6.0,M,intellectual,0,0.43801947509643363,0,TN
+2022-01-25,11:00,,morning,6.0,M,intellectual,0,0.4081161805668784,0,TN
+2021-11-24,13:20,physiotherapy,afternoon,10.0,M,intellectual,0,0.40335923586957145,0,TN
+2021-11-24,14:00,physiotherapy,afternoon,,F,,1,0.6435606231012487,1,TP
+2021-11-24,14:40,physiotherapy,afternoon,,F,,1,0.6304456221201379,1,TP
+2021-11-24,15:20,physiotherapy,afternoon,,M,,1,0.5581526102403103,1,TP
+2021-11-24,16:20,physiotherapy,afternoon,,M,,0,0.5839294775320308,1,FP
+2021-11-24,14:00,occupational therapy,afternoon,,F,,0,0.6869851045104863,1,FP
+2021-11-24,14:40,occupational therapy,afternoon,,F,,0,0.4888962645539537,1,FP
+2021-11-24,15:20,occupational therapy,afternoon,,M,,1,0.5641948807278958,1,TP
+2021-11-24,16:20,occupational therapy,afternoon,,M,,1,0.5730769375064105,1,TP
+2021-11-24,13:20,psychotherapy,afternoon,,F,,0,0.6246767385208096,1,FP
+2021-11-24,14:00,psychotherapy,afternoon,10.0,M,intellectual,0,0.28726173152538415,0,TN
+2021-11-24,14:40,psychotherapy,afternoon,,M,,0,0.6335436912992226,1,FP
+2021-11-24,14:40,psychotherapy,afternoon,,M,,0,0.6335436912992226,1,FP
+2021-11-24,15:20,psychotherapy,afternoon,,M,,0,0.5548945428951021,1,FP
+2021-11-24,16:20,psychotherapy,afternoon,,M,,0,0.5931703286142552,1,FP
+2021-11-24,14:00,psychotherapy,afternoon,9.0,M,intellectual,0,0.41842782240846343,0,TN
+2021-11-24,14:40,psychotherapy,afternoon,,M,,0,0.6335436912992226,1,FP
+2021-11-24,14:40,psychotherapy,afternoon,6.0,M,intellectual,0,0.49214663066716685,1,FP
+2021-11-24,15:20,psychotherapy,afternoon,,F,,0,0.5548945428951021,1,FP
+2021-11-24,16:20,psychotherapy,afternoon,,M,,0,0.5931703286142552,1,FP
+2021-11-24,14:00,speech therapy,afternoon,9.0,M,intellectual,0,0.380774642103115,0,TN
+2021-11-24,14:40,speech therapy,afternoon,,M,,0,0.5344408856367219,1,FP
+2021-11-24,14:40,speech therapy,afternoon,6.0,M,intellectual,0,0.5181927768869934,1,FP
+2021-11-24,15:20,speech therapy,afternoon,,F,,0,0.5737167187080998,1,FP
+2021-11-24,16:20,speech therapy,afternoon,,F,,1,0.6167235877404762,1,TP
+2021-11-24,13:20,speech therapy,afternoon,,F,,1,0.6442034831544574,1,TP
+2021-11-24,14:00,speech therapy,afternoon,,F,,0,0.6562826722597012,1,FP
+2021-11-24,14:40,speech therapy,afternoon,,M,,0,0.5344408856367219,1,FP
+2021-11-24,14:40,speech therapy,afternoon,,M,,0,0.5344408856367219,1,FP
+2021-11-24,14:40,speech therapy,afternoon,,M,,0,0.5344408856367219,1,FP
+2021-11-24,15:20,speech therapy,afternoon,,M,,1,0.5737167187080998,1,TP
+2021-11-24,13:20,physiotherapy,afternoon,,F,,0,0.6392141817188298,1,FP
+2021-11-24,14:00,physiotherapy,afternoon,,F,,0,0.6435606231012487,1,FP
+2021-11-24,14:40,physiotherapy,afternoon,,M,,1,0.6304456221201379,1,TP
+2021-11-24,16:20,physiotherapy,afternoon,,F,,1,0.5839294775320308,1,TP
+2021-11-24,07:20,physiotherapy,morning,,M,,0,0.4637824292468163,1,FP
+2021-11-24,07:20,,morning,,M,,0,0.5051493344356982,1,FP
+2021-11-24,07:20,,morning,,M,,0,0.5051493344356982,1,FP
+2021-11-24,08:00,physiotherapy,morning,,F,,0,0.47332200189178897,1,FP
+2021-11-24,08:00,,morning,12.0,M,intellectual,0,0.35105784289919645,0,TN
+2021-11-24,08:00,,morning,,M,,0,0.5312840584603755,1,FP
+2021-11-24,08:00,,morning,,M,,0,0.5312840584603755,1,FP
+2021-11-24,08:40,,morning,,M,,0,0.5614633489916624,1,FP
+2021-11-24,08:40,,morning,12.0,M,intellectual,0,0.4195991062179585,0,TN
+2021-11-24,08:40,,morning,,M,,0,0.5614633489916624,1,FP
+2021-11-24,08:40,,morning,12.0,M,intellectual,0,0.4195991062179585,0,TN
+2021-11-24,08:40,,morning,,M,,0,0.5614633489916624,1,FP
+2021-11-24,08:40,,morning,9.0,M,intellectual,0,0.5051435259434659,1,FP
+2021-11-24,08:40,,morning,,F,,0,0.5614633489916624,1,FP
+2021-11-24,09:20,physiotherapy,morning,,F,,0,0.5339946240196035,1,FP
+2021-11-24,09:20,,morning,9.0,M,intellectual,0,0.5558175565040387,1,FP
+2021-11-24,09:20,,morning,,M,,0,0.5834662294471851,1,FP
+2021-11-24,09:20,physiotherapy,morning,,F,,0,0.5339946240196035,1,FP
+2021-11-24,10:20,physiotherapy,morning,,M,,0,0.6384450986683571,1,FP
+2021-11-24,10:20,,morning,10.0,F,intellectual,0,0.44174430575295986,1,FP
+2021-11-24,10:20,,morning,,M,,0,0.5948647007997425,1,FP
+2021-11-24,10:20,,morning,,M,,0,0.5948647007997425,1,FP
+2021-11-24,10:20,,morning,,F,,0,0.5948647007997425,1,FP
+2021-11-24,10:20,physiotherapy,morning,,M,,0,0.6384450986683571,1,FP
+2021-11-24,11:00,physiotherapy,morning,39.0,M,motor,0,0.3966285901782195,0,TN
+2021-11-24,11:00,,morning,,M,,0,0.6555443081071034,1,FP
+2021-11-24,11:00,,morning,10.0,F,intellectual,0,0.557278285037884,1,FP
+2021-11-24,11:00,,morning,15.0,F,motor,0,0.3495394744191567,0,TN
+2021-11-24,11:00,,morning,,M,,0,0.6555443081071034,1,FP
+2021-11-24,11:40,,morning,,F,,0,0.5858886878074803,1,FP
+2022-02-24,13:20,occupational therapy,afternoon,,M,,0,0.5163405437770962,1,FP
+2022-02-24,13:20,psychotherapy,afternoon,,M,,0,0.5522501029985463,1,FP
+2022-02-24,13:20,speech therapy,afternoon,,M,,0,0.6259791377691932,1,FP
+2022-02-24,13:20,physiotherapy,afternoon,,F,,0,0.5830143093093019,1,FP
+2022-02-24,14:00,physiotherapy,afternoon,,M,,0,0.5601005257296119,1,FP
+2022-02-24,14:00,psychotherapy,afternoon,12.0,M,intellectual,0,0.6417948584268338,1,FP
+2022-02-24,14:00,speech therapy,afternoon,,F,,0,0.6152935526409012,1,FP
+2022-02-24,14:00,physiotherapy,afternoon,4.0,M,motor,0,0.4792539401045707,1,FP
+2022-02-24,14:40,physiotherapy,afternoon,,F,,1,0.5344874749037807,1,TP
+2022-02-24,14:40,physiotherapy,afternoon,,M,,0,0.5344874749037807,1,FP
+2022-02-24,14:40,occupational therapy,afternoon,,M,,0,0.4354256770702895,0,TN
+2022-02-24,14:40,occupational therapy,afternoon,,F,,0,0.4354256770702895,0,TN
+2022-02-24,14:40,occupational therapy,afternoon,29.0,F,motor,0,0.5624646016239225,1,FP
+2022-02-24,14:40,psychotherapy,afternoon,,F,,0,0.5173415305716758,1,FP
+2022-02-24,14:40,psychotherapy,afternoon,,M,,0,0.5173415305716758,1,FP
+2022-02-24,14:40,psychotherapy,afternoon,,M,,0,0.5173415305716758,1,FP
+2022-02-24,14:40,psychotherapy,afternoon,,M,,0,0.5173415305716758,1,FP
+2022-02-24,14:40,psychotherapy,afternoon,,F,,0,0.5173415305716758,1,FP
+2022-02-24,14:40,psychotherapy,afternoon,29.0,F,motor,0,0.5546795393679762,1,FP
+2022-02-24,14:40,speech therapy,afternoon,,F,,1,0.5677332607790739,1,TP
+2022-02-24,14:40,speech therapy,afternoon,,M,,0,0.5677332607790739,1,FP
+2022-02-24,14:40,speech therapy,afternoon,,F,,0,0.5677332607790739,1,FP
+2022-02-24,14:40,speech therapy,afternoon,,M,,0,0.5677332607790739,1,FP
+2022-02-24,14:40,speech therapy,afternoon,,M,,0,0.5677332607790739,1,FP
+2022-02-24,14:40,physiotherapy,afternoon,,M,,0,0.5344874749037807,1,FP
+2022-02-24,15:20,physiotherapy,afternoon,,F,,0,0.5544116890006188,1,FP
+2022-02-24,16:20,physiotherapy,afternoon,,F,,0,0.521969681422033,1,FP
+2022-02-24,16:20,occupational therapy,afternoon,,F,,0,0.4511048906530912,1,FP
+2022-02-24,16:20,,afternoon,,M,,0,0.5125605769681175,1,FP
+2022-02-24,16:20,,afternoon,,M,,1,0.5125605769681175,1,TP
+2022-02-24,16:20,psychotherapy,afternoon,,M,,0,0.48489581589317504,1,FP
+2022-02-24,16:20,speech therapy,afternoon,,M,,0,0.5644328844746542,1,FP
+2022-02-24,16:20,speech therapy,afternoon,,M,,1,0.5644328844746542,1,TP
+2022-02-24,16:20,speech therapy,afternoon,,M,,0,0.5644328844746542,1,FP
+2022-02-24,16:20,physiotherapy,afternoon,,M,,0,0.521969681422033,1,FP
+2022-02-24,17:00,physiotherapy,afternoon,,M,,0,0.5780531570489009,1,FP
+2022-02-24,17:00,physiotherapy,afternoon,,M,,0,0.5780531570489009,1,FP
+2022-02-24,17:00,psychotherapy,afternoon,,M,,0,0.47138283665819414,1,FP
+2022-02-24,17:00,psychotherapy,afternoon,,M,,0,0.47138283665819414,1,FP
+2022-02-24,17:00,psychotherapy,afternoon,,F,,0,0.47138283665819414,1,FP
+2022-02-24,17:00,speech therapy,afternoon,,M,,0,0.5556761629594743,1,FP
+2022-01-24,07:20,,morning,6.0,M,intellectual,0,0.3823190556239724,0,TN
+2022-01-24,07:20,psychotherapy,morning,9.0,M,intellectual,1,0.576097511199527,1,TP
+2022-01-24,08:00,,morning,8.0,M,intellectual,0,0.44906625585886495,1,FP
+2022-01-24,08:00,,morning,,F,,0,0.5863911743856439,1,FP
+2022-01-24,08:00,,morning,,M,,1,0.5863911743856439,1,TP
+2022-01-24,08:00,,morning,7.0,M,intellectual,0,0.35445354736470486,0,TN
+2022-01-24,08:00,psychotherapy,morning,6.0,M,intellectual,0,0.42008620599091717,0,TN
+2022-01-24,08:00,,morning,8.0,M,intellectual,0,0.44906625585886495,1,FP
+2022-01-24,08:00,,morning,,F,,0,0.5863911743856439,1,FP
+2022-01-24,08:00,,morning,,M,,1,0.5863911743856439,1,TP
+2022-01-24,08:00,,morning,7.0,M,intellectual,0,0.35445354736470486,0,TN
+2022-01-24,08:40,,morning,8.0,M,intellectual,0,0.5011575585015604,1,FP
+2022-01-24,08:40,,morning,,F,,0,0.6555894585047289,1,FP
+2022-01-24,08:40,,morning,,M,,1,0.6555894585047289,1,TP
+2022-01-24,08:40,,morning,7.0,M,intellectual,0,0.3805285935140774,0,TN
+2022-01-24,08:40,psychotherapy,morning,,M,,1,0.6618782555524991,1,TP
+2022-01-24,08:40,,morning,8.0,M,intellectual,0,0.5011575585015604,1,FP
+2022-01-24,08:40,,morning,,F,,0,0.6555894585047289,1,FP
+2022-01-24,08:40,,morning,,M,,1,0.6555894585047289,1,TP
+2022-01-24,08:40,,morning,7.0,M,intellectual,0,0.3805285935140774,0,TN
+2022-01-24,09:20,,morning,,M,,0,0.632165773134253,1,FP
+2022-01-24,09:20,,morning,,M,,1,0.632165773134253,1,TP
+2022-01-24,09:20,,morning,,F,,0,0.632165773134253,1,FP
+2022-01-24,10:20,,morning,,M,,1,0.5400649564312655,1,TP
+2022-01-24,10:20,,morning,,F,,0,0.5400649564312655,1,FP
+2022-01-24,10:20,,morning,,M,,0,0.5400649564312655,1,FP
+2022-01-24,10:20,psychotherapy,morning,,F,,0,0.5576284751595287,1,FP
+2022-01-24,10:20,psychotherapy,morning,,M,,0,0.5576284751595287,1,FP
+2022-01-24,10:20,,morning,,M,,1,0.5400649564312655,1,TP
+2022-01-24,10:20,,morning,,M,,1,0.5400649564312655,1,TP
+2021-11-23,13:20,physiotherapy,afternoon,29.0,M,motor,0,0.5793479701913252,1,FP
+2021-11-23,14:00,physiotherapy,afternoon,,M,,0,0.608996216534701,1,FP
+2021-11-23,14:40,physiotherapy,afternoon,72.0,F,motor,0,0.4575742867970838,1,FP
+2021-11-23,15:20,physiotherapy,afternoon,25.0,F,motor,0,0.508289372116687,1,FP
+2021-11-23,16:20,physiotherapy,afternoon,4.0,F,intellectual,1,0.4567366229962028,1,TP
+2021-11-23,13:20,occupational therapy,afternoon,,M,,0,0.5810501990210142,1,FP
+2021-11-23,14:00,occupational therapy,afternoon,72.0,F,motor,0,0.3960974740942604,0,TN
+2021-11-23,14:40,occupational therapy,afternoon,,M,,0,0.42297570224556397,0,TN
+2021-11-23,15:20,occupational therapy,afternoon,10.0,M,intellectual,0,0.36727610055949894,0,TN
+2021-11-23,16:20,occupational therapy,afternoon,25.0,F,motor,0,0.5597046082873759,1,FP
+2021-11-23,13:20,psychotherapy,afternoon,,M,,0,0.5869130383428881,1,FP
+2021-11-23,14:00,psychotherapy,afternoon,12.0,M,intellectual,1,0.3964606758552143,0,FN
+2021-11-23,14:40,psychotherapy,afternoon,10.0,M,intellectual,0,0.3570147401551323,0,TN
+2021-11-23,15:20,psychotherapy,afternoon,,M,,1,0.5650776465964165,1,TP
+2021-11-23,16:20,psychotherapy,afternoon,,M,,0,0.6031040967357342,1,FP
+2021-11-23,14:40,psychotherapy,afternoon,,M,,0,0.5982837498443493,1,FP
+2021-11-23,15:20,psychotherapy,afternoon,,M,,1,0.5650776465964165,1,TP
+2021-11-23,16:20,psychotherapy,afternoon,,M,,0,0.6031040967357342,1,FP
+2021-11-23,14:40,speech therapy,afternoon,,M,,0,0.4972129111171233,1,FP
+2021-11-23,15:20,speech therapy,afternoon,,M,,0,0.5833811199005485,1,FP
+2021-11-23,16:20,speech therapy,afternoon,10.0,M,intellectual,0,0.3643369876654501,0,TN
+2021-11-23,13:20,speech therapy,afternoon,69.0,M,motor,0,0.5233978470174547,1,FP
+2021-11-23,14:00,speech therapy,afternoon,29.0,M,motor,0,0.6531466506897734,1,FP
+2021-11-23,14:40,speech therapy,afternoon,25.0,F,motor,0,0.551354406386243,1,FP
+2021-11-23,15:20,speech therapy,afternoon,,M,,0,0.5833811199005485,1,FP
+2021-11-23,16:20,speech therapy,afternoon,,M,,1,0.6260484912404751,1,TP
+2021-11-23,13:20,physiotherapy,afternoon,4.0,M,motor,0,0.5389071536418663,1,FP
+2021-11-23,14:00,physiotherapy,afternoon,69.0,M,motor,0,0.5242069369728776,1,FP
+2021-11-23,14:40,physiotherapy,afternoon,,M,,0,0.5950781105663299,1,FP
+2021-11-23,15:20,physiotherapy,afternoon,,M,,0,0.5817984547824768,1,FP
+2021-11-23,16:20,physiotherapy,afternoon,,M,,0,0.6071667361590559,1,FP
+2021-11-23,07:20,physiotherapy,morning,,M,,0,0.44550817548602656,1,FP
+2021-11-23,07:20,,morning,8.0,M,intellectual,0,0.4864646770931624,1,FP
+2021-11-23,07:20,,morning,,F,,0,0.536226104849284,1,FP
+2021-11-23,07:20,,morning,,M,,0,0.536226104849284,1,FP
+2021-11-23,08:00,,morning,,M,,0,0.531895475098573,1,FP
+2021-11-23,08:00,,morning,,M,,1,0.531895475098573,1,TP
+2021-11-23,08:00,,morning,,M,,0,0.531895475098573,1,FP
+2021-11-23,08:00,,morning,6.0,M,intellectual,0,0.3966810085382943,0,TN
+2021-11-23,08:00,,morning,8.0,M,intellectual,0,0.4075401394855894,0,TN
+2021-11-23,08:00,,morning,,M,,0,0.531895475098573,1,FP
+2021-11-23,08:00,,morning,,M,,1,0.531895475098573,1,TP
+2021-11-23,08:00,,morning,,M,,0,0.531895475098573,1,FP
+2021-11-23,08:00,,morning,6.0,M,intellectual,0,0.3966810085382943,0,TN
+2021-11-23,08:00,,morning,,M,,0,0.531895475098573,1,FP
+2021-11-23,08:40,,morning,,M,,1,0.589737046901485,1,TP
+2021-11-23,08:40,,morning,,M,,0,0.589737046901485,1,FP
+2021-11-23,08:40,,morning,6.0,M,intellectual,0,0.360078896069158,0,TN
+2021-11-23,08:40,,morning,,M,,0,0.589737046901485,1,FP
+2021-11-23,08:40,,morning,,M,,1,0.589737046901485,1,TP
+2021-11-23,08:40,,morning,,M,,0,0.589737046901485,1,FP
+2021-11-23,08:40,,morning,6.0,M,intellectual,0,0.360078896069158,0,TN
+2021-11-23,09:20,,morning,6.0,M,intellectual,1,0.4968370859849711,1,TP
+2021-11-23,09:20,,morning,,F,,0,0.6069060528238321,1,FP
+2021-11-23,09:20,,morning,,M,,1,0.6069060528238321,1,TP
+2021-11-23,09:20,,morning,,M,,0,0.6069060528238321,1,FP
+2021-11-23,10:20,,morning,13.0,M,intellectual,0,0.3415107995221782,0,TN
+2021-11-23,10:20,,morning,6.0,M,intellectual,0,0.43036321060380206,0,TN
+2021-11-23,10:20,,morning,13.0,M,intellectual,1,0.3415107995221782,0,FN
+2021-11-23,10:20,,morning,,M,,0,0.6114211338705516,1,FP
+2021-11-23,11:00,,morning,6.0,M,intellectual,1,0.4978174549973961,1,TP
+2022-02-23,13:20,physiotherapy,afternoon,10.0,M,intellectual,0,0.321757517675083,0,TN
+2022-02-23,13:20,speech therapy,afternoon,,M,,1,0.5958665364369788,1,TP
+2022-02-23,13:20,physiotherapy,afternoon,,F,,1,0.5579166257426648,1,TP
+2022-02-23,14:00,physiotherapy,afternoon,,F,,0,0.5321183177758858,1,FP
+2022-02-23,14:00,occupational therapy,afternoon,,F,,1,0.5780239490907608,1,TP
+2022-02-23,14:00,physiotherapy,afternoon,,F,,0,0.5321183177758858,1,FP
+2022-02-23,14:40,physiotherapy,afternoon,,F,,0,0.5028631082469331,1,FP
+2022-02-23,14:40,occupational therapy,afternoon,,F,,0,0.3796711258737337,0,TN
+2022-02-23,14:40,psychotherapy,afternoon,,M,,0,0.516800119180785,1,FP
+2022-02-23,14:40,psychotherapy,afternoon,,M,,0,0.516800119180785,1,FP
+2022-02-23,14:40,psychotherapy,afternoon,,M,,0,0.516800119180785,1,FP
+2022-02-23,14:40,psychotherapy,afternoon,,M,,0,0.516800119180785,1,FP
+2022-02-23,14:40,psychotherapy,afternoon,,M,,0,0.516800119180785,1,FP
+2022-02-23,14:40,psychotherapy,afternoon,6.0,M,intellectual,1,0.5546843125290506,1,TP
+2022-02-23,14:40,psychotherapy,afternoon,,F,,0,0.516800119180785,1,FP
+2022-02-23,14:40,speech therapy,afternoon,,M,,0,0.42873252912752646,0,TN
+2022-02-23,14:40,speech therapy,afternoon,6.0,M,intellectual,1,0.4856088776980785,1,TP
+2022-02-23,14:40,speech therapy,afternoon,,F,,0,0.42873252912752646,0,TN
+2022-02-23,14:40,speech therapy,afternoon,,M,,0,0.42873252912752646,0,TN
+2022-02-23,14:40,speech therapy,afternoon,,M,,0,0.42873252912752646,0,TN
+2022-02-23,14:40,speech therapy,afternoon,,M,,0,0.42873252912752646,0,TN
+2022-02-23,14:40,speech therapy,afternoon,,M,,0,0.42873252912752646,0,TN
+2022-02-23,14:40,physiotherapy,afternoon,,M,,0,0.5028631082469331,1,FP
+2022-02-23,15:20,physiotherapy,afternoon,,F,,0,0.4675527253665692,1,FP
+2022-02-23,15:20,occupational therapy,afternoon,,M,,0,0.4691093872069189,1,FP
+2022-02-23,15:20,physiotherapy,afternoon,,F,,1,0.4675527253665692,1,TP
+2022-02-23,16:20,physiotherapy,afternoon,,M,,0,0.435228883628057,0,TN
+2022-02-23,16:20,occupational therapy,afternoon,,M,,0,0.4367662063770361,0,TN
+2022-02-23,16:20,speech therapy,afternoon,,F,,1,0.48539604435012074,1,TP
+2022-02-23,16:20,physiotherapy,afternoon,,M,,0,0.435228883628057,0,TN
+2021-11-22,13:20,physiotherapy,afternoon,,M,,0,0.6061696364087257,1,FP
+2021-11-22,14:00,physiotherapy,afternoon,,M,,0,0.6131582602452776,1,FP
+2021-11-22,14:40,physiotherapy,afternoon,,M,,0,0.6050784412172692,1,FP
+2021-11-22,15:20,physiotherapy,afternoon,,M,,0,0.6011625546604444,1,FP
+2021-11-22,17:00,physiotherapy,afternoon,,F,,0,0.6948942993031605,1,FP
+2021-11-22,17:40,physiotherapy,afternoon,,M,,0,0.6775367424570443,1,FP
+2021-11-22,13:20,occupational therapy,afternoon,,F,,0,0.6179003257216313,1,FP
+2021-11-22,14:00,occupational therapy,afternoon,10.0,M,intellectual,0,0.24429615489811604,0,TN
+2021-11-22,14:40,occupational therapy,afternoon,8.0,M,intellectual,0,0.41774704396443657,0,TN
+2021-11-22,15:20,occupational therapy,afternoon,,M,,1,0.6057387670166872,1,TP
+2021-11-22,17:00,occupational therapy,afternoon,,M,,0,0.6709258150116131,1,FP
+2021-11-22,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.4379672653104084,0,TN
+2021-11-22,13:20,psychotherapy,afternoon,,M,,0,0.5911523367898346,1,FP
+2021-11-22,13:20,psychotherapy,afternoon,,M,,0,0.5911523367898346,1,FP
+2021-11-22,14:40,psychotherapy,afternoon,,F,,0,0.5991160441506438,1,FP
+2021-11-22,15:20,psychotherapy,afternoon,,M,,0,0.5766197092488882,1,FP
+2021-11-22,16:20,psychotherapy,afternoon,,M,,0,0.6095946309828834,1,FP
+2021-11-22,14:00,psychotherapy,afternoon,,M,,1,0.6091140215418701,1,TP
+2021-11-22,14:40,psychotherapy,afternoon,,F,,0,0.5991160441506438,1,FP
+2021-11-22,15:20,psychotherapy,afternoon,,F,,0,0.5766197092488882,1,FP
+2021-11-22,16:20,psychotherapy,afternoon,,M,,0,0.6095946309828834,1,FP
+2021-11-22,17:00,psychotherapy,afternoon,,M,,0,0.6781577224104701,1,FP
+2021-11-22,17:40,psychotherapy,afternoon,6.0,M,intellectual,0,0.5354070968259491,1,FP
+2021-11-22,13:20,speech therapy,afternoon,10.0,M,intellectual,0,0.327154005831395,0,TN
+2021-11-22,14:00,speech therapy,afternoon,,F,,0,0.6258343825546754,1,FP
+2021-11-22,14:40,speech therapy,afternoon,,M,,1,0.6012918990673505,1,TP
+2021-11-22,15:20,speech therapy,afternoon,,F,,0,0.6078738712725877,1,FP
+2021-11-22,16:20,speech therapy,afternoon,,F,,1,0.632288238661128,1,TP
+2021-11-22,17:00,speech therapy,afternoon,6.0,M,intellectual,0,0.4496647069883943,1,FP
+2021-11-22,17:40,speech therapy,afternoon,,M,,0,0.6673153437286666,1,FP
+2021-11-22,13:20,speech therapy,afternoon,8.0,M,intellectual,0,0.4174337419249532,0,TN
+2021-11-22,13:20,speech therapy,afternoon,,M,,0,0.6108294381551305,1,FP
+2021-11-22,13:20,speech therapy,afternoon,,M,,0,0.6108294381551305,1,FP
+2021-11-22,14:40,speech therapy,afternoon,,F,,0,0.6012918990673505,1,FP
+2021-11-22,15:20,speech therapy,afternoon,,F,,0,0.6078738712725877,1,FP
+2021-11-22,16:20,speech therapy,afternoon,,F,,0,0.632288238661128,1,FP
+2021-11-22,17:00,speech therapy,afternoon,48.0,M,motor,1,0.5033003552132641,1,TP
+2021-11-22,17:40,speech therapy,afternoon,,M,,0,0.6673153437286666,1,FP
+2021-11-22,13:20,physiotherapy,afternoon,,F,,0,0.6061696364087257,1,FP
+2021-11-22,14:00,physiotherapy,afternoon,,F,,0,0.6131582602452776,1,FP
+2021-11-22,14:40,physiotherapy,afternoon,,M,,0,0.6050784412172692,1,FP
+2021-11-22,15:20,physiotherapy,afternoon,,F,,1,0.6011625546604444,1,TP
+2021-11-22,16:20,physiotherapy,afternoon,,F,,0,0.6136333948294037,1,FP
+2021-11-22,17:00,physiotherapy,afternoon,,M,,0,0.6948942993031605,1,FP
+2021-11-22,17:40,physiotherapy,afternoon,,M,,1,0.6775367424570443,1,TP
+2021-11-22,07:20,,morning,6.0,M,intellectual,0,0.39711100662560656,0,TN
+2021-11-22,07:20,,morning,9.0,M,intellectual,0,0.3501372834195448,0,TN
+2021-11-22,07:20,,morning,,M,,1,0.5534851968725601,1,TP
+2021-11-22,08:00,physiotherapy,morning,,M,,1,0.5147912167083234,1,TP
+2021-11-22,08:00,,morning,8.0,M,intellectual,0,0.35148712393501125,0,TN
+2021-11-22,08:00,,morning,,F,,0,0.608622237808888,1,FP
+2021-11-22,08:00,,morning,,M,,0,0.608622237808888,1,FP
+2021-11-22,08:00,,morning,6.0,M,intellectual,0,0.3947336279216461,0,TN
+2021-11-22,08:00,,morning,8.0,M,intellectual,0,0.35148712393501125,0,TN
+2021-11-22,08:00,,morning,,F,,0,0.608622237808888,1,FP
+2021-11-22,08:00,,morning,,M,,0,0.608622237808888,1,FP
+2021-11-22,08:00,,morning,7.0,M,intellectual,0,0.39376915118315065,0,TN
+2021-11-22,08:00,,morning,,M,,0,0.608622237808888,1,FP
+2021-11-22,08:40,physiotherapy,morning,,M,,0,0.5149380680929556,1,FP
+2021-11-22,08:40,,morning,8.0,M,intellectual,0,0.3537734928527072,0,TN
+2021-11-22,08:40,,morning,8.0,M,intellectual,0,0.3537734928527072,0,TN
+2021-11-22,08:40,,morning,,F,,0,0.6001992553530313,1,FP
+2021-11-22,08:40,,morning,,M,,0,0.6001992553530313,1,FP
+2021-11-22,08:40,,morning,7.0,M,intellectual,0,0.388049697900992,0,TN
+2021-11-22,09:20,physiotherapy,morning,,M,,0,0.5147845750056274,1,FP
+2021-11-22,09:20,,morning,,M,,0,0.6150585859207993,1,FP
+2021-11-22,09:20,,morning,,M,,1,0.6150585859207993,1,TP
+2021-11-22,10:20,physiotherapy,morning,39.0,M,motor,0,0.4673377199110562,1,FP
+2021-11-22,10:20,,morning,,M,,1,0.6074199468717144,1,TP
+2021-11-22,10:20,,morning,,F,,0,0.6074199468717144,1,FP
+2021-11-22,10:20,,morning,,M,,0,0.6074199468717144,1,FP
+2021-11-22,10:20,,morning,,F,,0,0.6074199468717144,1,FP
+2021-11-22,10:20,,morning,,M,,0,0.6074199468717144,1,FP
+2021-11-22,10:20,,morning,,M,,0,0.6074199468717144,1,FP
+2021-11-22,10:20,,morning,,M,,0,0.6074199468717144,1,FP
+2022-02-22,13:20,physiotherapy,afternoon,,F,,0,0.5807037496760841,1,FP
+2022-02-22,13:20,occupational therapy,afternoon,,M,,0,0.47441005810485526,1,FP
+2022-02-22,13:20,psychotherapy,afternoon,,M,,0,0.5493088988743676,1,FP
+2022-02-22,13:20,speech therapy,afternoon,,F,,0,0.5893369530800099,1,FP
+2022-02-22,14:00,physiotherapy,afternoon,,M,,0,0.5486688728802762,1,FP
+2022-02-22,14:00,occupational therapy,afternoon,,F,,0,0.4676662993807143,1,FP
+2022-02-22,14:00,psychotherapy,afternoon,,F,,0,0.5317034256136886,1,FP
+2022-02-22,14:00,speech therapy,afternoon,,F,,0,0.569315532981293,1,FP
+2022-02-22,14:00,physiotherapy,afternoon,,M,,0,0.5486688728802762,1,FP
+2022-02-22,14:40,physiotherapy,afternoon,,F,,1,0.5184076487884739,1,TP
+2022-02-22,14:40,psychotherapy,afternoon,,M,,0,0.5006244731301442,1,FP
+2022-02-22,14:40,psychotherapy,afternoon,,M,,0,0.5006244731301442,1,FP
+2022-02-22,14:40,psychotherapy,afternoon,,M,,0,0.5006244731301442,1,FP
+2022-02-22,14:40,psychotherapy,afternoon,,M,,0,0.5006244731301442,1,FP
+2022-02-22,14:40,speech therapy,afternoon,,M,,0,0.41505183689088393,0,TN
+2022-02-22,14:40,speech therapy,afternoon,,M,,0,0.41505183689088393,0,TN
+2022-02-22,14:40,speech therapy,afternoon,,M,,0,0.41505183689088393,0,TN
+2022-02-22,14:40,speech therapy,afternoon,,M,,0,0.41505183689088393,0,TN
+2022-02-22,14:40,speech therapy,afternoon,,M,,0,0.41505183689088393,0,TN
+2022-02-22,14:40,physiotherapy,afternoon,,M,,0,0.5184076487884739,1,FP
+2022-02-22,15:20,physiotherapy,afternoon,,M,,0,0.54509643922127,1,FP
+2022-02-22,16:20,physiotherapy,afternoon,39.0,M,motor,1,0.39590149832509924,0,FN
+2022-02-22,16:20,physiotherapy,afternoon,,F,,0,0.5125724893157539,1,FP
+2022-02-21,13:20,physiotherapy,afternoon,,M,,0,0.6048995359441746,1,FP
+2022-02-21,13:20,occupational therapy,afternoon,,F,,0,0.6006430857268912,1,FP
+2022-02-21,13:20,psychotherapy,afternoon,,M,,0,0.5896314356604178,1,FP
+2022-02-21,13:20,psychotherapy,afternoon,,M,,0,0.5896314356604178,1,FP
+2022-02-21,13:20,psychotherapy,afternoon,,M,,0,0.5896314356604178,1,FP
+2022-02-21,13:20,psychotherapy,afternoon,,M,,0,0.5896314356604178,1,FP
+2022-02-21,13:20,speech therapy,afternoon,10.0,M,intellectual,0,0.31374011533029644,0,TN
+2022-02-21,13:20,speech therapy,afternoon,,M,,0,0.6132598755129488,1,FP
+2022-02-21,13:20,speech therapy,afternoon,,M,,0,0.6132598755129488,1,FP
+2022-02-21,13:20,speech therapy,afternoon,,M,,0,0.6132598755129488,1,FP
+2022-02-21,13:20,speech therapy,afternoon,,M,,0,0.6132598755129488,1,FP
+2022-02-21,14:00,physiotherapy,afternoon,,M,,0,0.5810067827518812,1,FP
+2022-02-21,14:00,occupational therapy,afternoon,10.0,M,intellectual,0,0.32898479508835216,0,TN
+2022-02-21,14:00,psychotherapy,afternoon,,M,,0,0.580031288026447,1,FP
+2022-02-21,14:00,speech therapy,afternoon,,M,,0,0.6011416926474231,1,FP
+2022-02-21,14:40,physiotherapy,afternoon,,M,,1,0.5845270243025233,1,TP
+2022-02-21,14:40,occupational therapy,afternoon,,M,,0,0.5516920795032727,1,FP
+2022-02-21,14:40,psychotherapy,afternoon,,F,,1,0.5735414592202723,1,TP
+2022-02-21,14:40,speech therapy,afternoon,,M,,0,0.5756469327513696,1,FP
+2022-02-21,14:40,physiotherapy,afternoon,,M,,1,0.5845270243025233,1,TP
+2022-02-21,15:20,physiotherapy,afternoon,25.0,F,motor,0,0.3780836467684649,0,TN
+2022-02-21,15:20,occupational therapy,afternoon,,M,,0,0.6079004444252911,1,FP
+2022-02-21,15:20,speech therapy,afternoon,,F,,0,0.6295251392787171,1,FP
+2022-02-21,15:20,physiotherapy,afternoon,,F,,0,0.6233226001289678,1,FP
+2022-02-21,16:20,physiotherapy,afternoon,,M,,1,0.5737275939780255,1,TP
+2022-02-21,16:20,psychotherapy,afternoon,,M,,1,0.5524609359575594,1,TP
+2022-02-21,16:20,psychotherapy,afternoon,,F,,0,0.5524609359575594,1,FP
+2022-02-21,16:20,speech therapy,afternoon,,F,,0,0.5801967764973345,1,FP
+2022-02-21,16:20,speech therapy,afternoon,25.0,F,motor,0,0.3086599509528115,0,TN
+2022-02-21,16:20,physiotherapy,afternoon,,F,,1,0.5737275939780255,1,TP
+2022-02-21,17:00,physiotherapy,afternoon,,F,,0,0.6236681074553573,1,FP
+2022-02-21,17:00,psychotherapy,afternoon,,M,,0,0.5532999609779765,1,FP
+2022-02-21,17:00,psychotherapy,afternoon,,M,,0,0.5532999609779765,1,FP
+2022-02-21,17:00,speech therapy,afternoon,6.0,M,intellectual,1,0.38020196205390383,0,FN
+2022-02-21,17:00,speech therapy,afternoon,,M,,0,0.5777063034578962,1,FP
+2022-02-21,17:00,physiotherapy,afternoon,,M,,0,0.6236681074553573,1,FP
+2022-02-21,17:40,physiotherapy,afternoon,,M,,0,0.39793268916383184,0,TN
+2022-02-21,17:40,occupational therapy,afternoon,4.0,M,intellectual,1,0.5917986630552782,1,TP
+2022-02-21,17:40,psychotherapy,afternoon,4.0,M,intellectual,1,0.6281295551532632,1,TP
+2022-02-21,17:40,psychotherapy,afternoon,6.0,M,intellectual,1,0.35545384532408186,0,FN
+2022-02-21,17:40,physiotherapy,afternoon,,M,,0,0.39793268916383184,0,TN
+2021-12-02,13:20,physiotherapy,afternoon,,M,,0,0.4155434641032384,0,TN
+2021-12-02,14:00,physiotherapy,afternoon,68.0,M,motor,1,0.33755970406186253,0,FN
+2021-12-02,14:40,physiotherapy,afternoon,,M,,1,0.3920308133246569,0,FN
+2021-12-02,15:20,physiotherapy,afternoon,,F,,0,0.36216619932125865,0,TN
+2021-12-02,16:20,physiotherapy,afternoon,,M,,0,0.40571116217953157,0,TN
+2021-12-02,17:00,physiotherapy,afternoon,,M,,0,0.48918300413743915,1,FP
+2021-12-02,14:00,occupational therapy,afternoon,5.0,M,intellectual,1,0.48025641258548335,1,TP
+2021-12-02,14:40,occupational therapy,afternoon,26.0,M,motor,1,0.4609111275474484,1,TP
+2021-12-02,15:20,occupational therapy,afternoon,7.0,M,intellectual,1,0.5585595758342994,1,TP
+2021-12-02,16:20,occupational therapy,afternoon,,M,,0,0.3681973527226379,0,TN
+2021-12-02,17:00,occupational therapy,afternoon,,M,,0,0.42819280019722533,0,TN
+2021-12-02,17:40,occupational therapy,afternoon,,M,,0,0.42139816021912746,0,TN
+2021-12-02,14:40,,afternoon,,M,,0,0.425241536565317,0,TN
+2021-12-02,16:20,,afternoon,,F,,0,0.4543707667952011,1,FP
+2021-12-02,13:20,psychotherapy,afternoon,,M,,1,0.42421079794487165,0,FN
+2021-12-02,14:40,psychotherapy,afternoon,5.0,M,intellectual,1,0.480746724295133,1,TP
+2021-12-02,15:20,psychotherapy,afternoon,5.0,M,intellectual,1,0.522806908413705,1,TP
+2021-12-02,16:20,psychotherapy,afternoon,12.0,M,intellectual,0,0.3332249501537864,0,TN
+2021-12-02,17:00,psychotherapy,afternoon,,M,,0,0.4155851448852849,0,TN
+2021-12-02,13:20,psychotherapy,afternoon,,M,,0,0.42421079794487165,0,TN
+2021-12-02,14:00,psychotherapy,afternoon,,F,,0,0.3958551381015523,0,TN
+2021-12-02,14:40,psychotherapy,afternoon,9.0,M,intellectual,1,0.41997695134868374,0,FN
+2021-12-02,15:20,psychotherapy,afternoon,,M,,0,0.36906106983437464,0,TN
+2021-12-02,16:20,psychotherapy,afternoon,,M,,0,0.4239454189677217,0,TN
+2021-12-02,17:00,psychotherapy,afternoon,,M,,0,0.4155851448852849,0,TN
+2021-12-02,17:40,psychotherapy,afternoon,,M,,0,0.468490598690297,1,FP
+2021-12-02,13:20,speech therapy,afternoon,,F,,0,0.44063548686318443,1,FP
+2021-12-02,14:00,speech therapy,afternoon,,M,,1,0.42857657083224776,0,FN
+2021-12-02,14:40,speech therapy,afternoon,7.0,M,intellectual,1,0.5214796703643718,1,TP
+2021-12-02,15:20,speech therapy,afternoon,68.0,M,motor,1,0.3326977547073069,0,FN
+2021-12-02,16:20,speech therapy,afternoon,,M,,0,0.44391168794386326,1,FP
+2021-12-02,17:00,speech therapy,afternoon,,M,,0,0.4596973645102973,1,FP
+2021-12-02,17:40,speech therapy,afternoon,,M,,0,0.47685583377151525,1,FP
+2021-12-02,13:20,speech therapy,afternoon,,F,,0,0.44063548686318443,1,FP
+2021-12-02,14:00,speech therapy,afternoon,,F,,0,0.42857657083224776,0,TN
+2021-12-02,14:40,speech therapy,afternoon,,M,,0,0.38510816141245524,0,TN
+2021-12-02,15:20,speech therapy,afternoon,5.0,M,intellectual,1,0.5480136754074517,1,TP
+2021-12-02,16:20,speech therapy,afternoon,9.0,M,intellectual,0,0.37115623331825365,0,TN
+2021-12-02,17:00,speech therapy,afternoon,,M,,0,0.4596973645102973,1,FP
+2021-12-02,17:40,speech therapy,afternoon,,M,,0,0.47685583377151525,1,FP
+2021-12-02,13:20,physiotherapy,afternoon,,F,,0,0.4155434641032384,0,TN
+2021-12-02,14:00,physiotherapy,afternoon,,M,,0,0.37838434074915667,0,TN
+2021-12-02,14:40,physiotherapy,afternoon,,F,,0,0.3920308133246569,0,TN
+2021-12-02,15:20,physiotherapy,afternoon,,M,,0,0.36216619932125865,0,TN
+2021-12-02,16:20,physiotherapy,afternoon,51.0,F,motor,0,0.34472445906211757,0,TN
+2021-12-02,17:00,physiotherapy,afternoon,,M,,0,0.48918300413743915,1,FP
+2021-11-19,07:20,,morning,,M,,1,0.47243305106561145,1,TP
+2021-11-19,08:00,physiotherapy,morning,,M,,0,0.5227887367120698,1,FP
+2021-11-19,08:00,,morning,,M,,0,0.5658752870002347,1,FP
+2021-11-19,08:40,physiotherapy,morning,,F,,0,0.545812891789777,1,FP
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,08:40,,morning,7.0,M,intellectual,0,0.38879150236869864,0,TN
+2021-11-19,08:40,,morning,7.0,M,intellectual,0,0.4119063522073498,0,TN
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,08:40,,morning,,M,,0,0.5767606042832911,1,FP
+2021-11-19,09:20,physiotherapy,morning,39.0,M,motor,0,0.34198734199123937,0,TN
+2021-11-19,09:20,,morning,,M,,0,0.590123762494743,1,FP
+2021-11-19,09:20,,morning,,M,,0,0.590123762494743,1,FP
+2021-11-19,09:20,,morning,,M,,0,0.590123762494743,1,FP
+2021-11-19,09:20,,morning,,M,,0,0.590123762494743,1,FP
+2021-11-19,09:20,,morning,,M,,0,0.590123762494743,1,FP
+2021-11-19,10:20,,morning,,F,,0,0.6210036694597633,1,FP
+2021-11-19,10:20,,morning,9.0,M,intellectual,0,0.38257744684968703,0,TN
+2021-11-19,10:20,,morning,6.0,M,intellectual,1,0.4904353789736653,1,TP
+2021-11-19,11:00,,morning,6.0,M,intellectual,0,0.4104853557972943,0,TN
+2021-11-19,11:00,,morning,,M,,0,0.6324413986281927,1,FP
+2021-11-19,11:40,,morning,,F,,1,0.6208245096679224,1,TP
+2021-10-19,13:10,physiotherapy,afternoon,47.0,M,motor,0,0.2731630726277915,0,TN
+2021-10-19,13:10,psychotherapy,afternoon,9.0,M,intellectual,0,0.4812972314283876,1,FP
+2021-10-19,13:10,,afternoon,,F,intellectual,0,0.4425466492966171,1,FP
+2021-10-19,13:10,speech therapy,afternoon,,F,intellectual,0,0.4507799082158855,1,FP
+2021-10-19,14:00,physiotherapy,afternoon,9.0,M,intellectual,0,0.6243443655089189,1,FP
+2021-10-19,14:00,psychotherapy,afternoon,,F,intellectual,0,0.5988098039797253,1,FP
+2021-10-19,14:00,,afternoon,9.0,M,intellectual,0,0.5939609998113561,1,FP
+2021-10-19,14:00,,afternoon,47.0,M,motor,0,0.4679576952133967,1,FP
+2021-10-19,14:00,speech therapy,afternoon,4.0,F,intellectual,0,0.3687929709060224,0,TN
+2021-10-19,14:00,enf,afternoon,47.0,M,motor,0,0.22233234923775252,0,TN
+2021-10-19,14:50,physiotherapy,afternoon,4.0,F,intellectual,0,0.1339542889237037,0,TN
+2021-10-19,14:50,psychotherapy,afternoon,9.0,M,intellectual,0,0.45902169529699216,1,FP
+2021-10-19,14:50,,afternoon,,F,,0,0.5205297272181173,1,FP
+2021-10-19,14:50,speech therapy,afternoon,5.0,M,intellectual,0,0.18521951883492804,0,TN
+2021-10-19,14:50,enf,afternoon,,F,,0,0.18424922339222166,0,TN
+2021-10-19,15:40,physiotherapy,afternoon,5.0,M,intellectual,0,0.34237692648935575,0,TN
+2021-10-19,15:40,physiotherapy,afternoon,39.0,M,motor,0,0.4264786256416555,0,TN
+2021-10-19,15:40,psychotherapy,afternoon,5.0,M,intellectual,0,0.3327135649792106,0,TN
+2021-10-19,15:40,,afternoon,26.0,M,motor,1,0.4390429303175942,0,FN
+2021-10-19,15:40,speech therapy,afternoon,5.0,M,intellectual,0,0.3173961544491968,0,TN
+2021-10-19,15:40,enf,afternoon,26.0,M,motor,1,0.44616774541434184,1,TP
+2021-10-19,13:10,physiotherapy,afternoon,47.0,M,motor,0,0.2731630726277915,0,TN
+2021-10-19,13:10,psychotherapy,afternoon,9.0,M,intellectual,0,0.4812972314283876,1,FP
+2021-10-19,13:10,,afternoon,,F,intellectual,0,0.4425466492966171,1,FP
+2021-10-19,13:10,speech therapy,afternoon,,F,intellectual,0,0.4507799082158855,1,FP
+2021-10-19,14:00,physiotherapy,afternoon,9.0,M,intellectual,0,0.6243443655089189,1,FP
+2021-10-19,14:00,psychotherapy,afternoon,,F,intellectual,0,0.5988098039797253,1,FP
+2021-10-19,14:00,,afternoon,9.0,M,intellectual,0,0.5939609998113561,1,FP
+2021-10-19,14:00,,afternoon,47.0,M,motor,0,0.4679576952133967,1,FP
+2021-10-19,14:00,speech therapy,afternoon,4.0,F,intellectual,0,0.3687929709060224,0,TN
+2021-10-19,14:00,enf,afternoon,47.0,M,motor,0,0.22233234923775252,0,TN
+2021-10-19,14:50,physiotherapy,afternoon,4.0,F,intellectual,0,0.1339542889237037,0,TN
+2021-10-19,14:50,psychotherapy,afternoon,9.0,M,intellectual,0,0.45902169529699216,1,FP
+2021-10-19,14:50,,afternoon,,F,,0,0.5205297272181173,1,FP
+2021-10-19,14:50,speech therapy,afternoon,5.0,M,intellectual,0,0.18521951883492804,0,TN
+2021-10-19,14:50,enf,afternoon,,F,,0,0.18424922339222166,0,TN
+2021-10-19,15:40,physiotherapy,afternoon,5.0,M,intellectual,0,0.34237692648935575,0,TN
+2021-10-19,15:40,physiotherapy,afternoon,39.0,M,motor,0,0.4264786256416555,0,TN
+2021-10-19,15:40,psychotherapy,afternoon,5.0,M,intellectual,0,0.3327135649792106,0,TN
+2021-10-19,15:40,,afternoon,26.0,M,motor,1,0.4390429303175942,0,FN
+2021-10-19,15:40,speech therapy,afternoon,5.0,M,intellectual,0,0.3173961544491968,0,TN
+2021-10-19,15:40,enf,afternoon,26.0,M,motor,1,0.44616774541434184,1,TP
+2021-11-18,07:20,physiotherapy,morning,,M,,0,0.4568737879174241,1,FP
+2021-11-18,07:20,,morning,10.0,M,intellectual,0,0.3451947735163373,0,TN
+2021-11-18,07:20,,morning,10.0,M,intellectual,0,0.26175679895758525,0,TN
+2021-11-18,07:20,,morning,9.0,M,intellectual,0,0.3885699406589337,0,TN
+2021-11-18,07:20,,morning,,M,,0,0.5314867397497445,1,FP
+2021-11-18,08:00,,morning,,M,,1,0.5227581473327807,1,TP
+2021-11-18,08:40,,morning,,M,,0,0.571136537827363,1,FP
+2021-11-18,08:40,,morning,7.0,M,intellectual,0,0.3693914519555774,0,TN
+2021-11-18,08:40,,morning,9.0,M,intellectual,0,0.31753017765811664,0,TN
+2021-11-18,08:40,,morning,7.0,M,intellectual,0,0.3693914519555774,0,TN
+2021-11-18,08:40,,morning,9.0,M,intellectual,0,0.31753017765811664,0,TN
+2021-11-18,08:40,,morning,,M,,0,0.571136537827363,1,FP
+2021-11-18,09:20,,morning,7.0,M,intellectual,0,0.442397049614827,1,FP
+2021-11-18,09:20,,morning,7.0,M,intellectual,0,0.442397049614827,1,FP
+2021-11-18,10:20,,morning,,M,,0,0.6233956176821986,1,FP
+2021-11-18,10:20,,morning,,M,,0,0.6233956176821986,1,FP
+2021-11-18,11:00,,morning,,M,,0,0.624284339208443,1,FP
+2022-02-18,07:20,,morning,,M,,0,0.3691361262390298,0,TN
+2022-02-18,07:20,psychotherapy,morning,,M,,0,0.4350279926245018,0,TN
+2022-02-18,07:20,,morning,,M,,0,0.3691361262390298,0,TN
+2022-02-18,08:00,,morning,,M,,0,0.4780900130766878,1,FP
+2022-02-18,08:00,psychotherapy,morning,,M,,0,0.5071952930717692,1,FP
+2022-02-18,08:00,,morning,,M,,0,0.4780900130766878,1,FP
+2022-02-18,08:40,,morning,,M,,0,0.5102795757216109,1,FP
+2022-02-18,08:40,,morning,7.0,M,intellectual,0,0.3136786609862911,0,TN
+2022-02-18,08:40,,morning,,M,,0,0.5102795757216109,1,FP
+2022-02-18,08:40,,morning,,M,,0,0.5102795757216109,1,FP
+2022-02-18,08:40,psychotherapy,morning,7.0,M,intellectual,0,0.33201088011601115,0,TN
+2022-02-18,08:40,psychotherapy,morning,,M,,0,0.5617076826516498,1,FP
+2022-02-18,08:40,psychotherapy,morning,,M,,0,0.5617076826516498,1,FP
+2022-02-18,08:40,,morning,,M,,0,0.5102795757216109,1,FP
+2022-02-18,08:40,,morning,7.0,M,intellectual,0,0.3136786609862911,0,TN
+2022-02-18,08:40,,morning,,M,,0,0.5102795757216109,1,FP
+2022-02-18,08:40,,morning,,M,,0,0.5102795757216109,1,FP
+2022-02-18,09:20,,morning,,M,,0,0.5054719373758956,1,FP
+2022-02-18,09:20,,morning,7.0,M,intellectual,0,0.30145595887618554,0,TN
+2022-02-18,09:20,,morning,,M,,0,0.5054719373758956,1,FP
+2022-02-18,09:20,,morning,,M,,0,0.5054719373758956,1,FP
+2022-02-18,09:20,psychotherapy,morning,7.0,M,intellectual,0,0.3373437570506669,0,TN
+2022-02-18,09:20,psychotherapy,morning,,M,,0,0.5569166071560147,1,FP
+2022-02-18,09:20,psychotherapy,morning,,M,,0,0.5569166071560147,1,FP
+2022-02-18,09:20,,morning,,M,,0,0.5054719373758956,1,FP
+2022-02-18,09:20,,morning,,M,,0,0.5054719373758956,1,FP
+2022-02-18,10:20,,morning,,F,,0,0.5861259927156441,1,FP
+2022-02-18,10:20,,morning,,M,,0,0.5861259927156441,1,FP
+2022-02-18,10:20,,morning,,M,,0,0.5861259927156441,1,FP
+2022-02-18,10:20,,morning,,M,,0,0.5861259927156441,1,FP
+2022-02-18,10:20,psychotherapy,morning,,M,,0,0.6109483953073198,1,FP
+2022-02-18,10:20,psychotherapy,morning,,M,,0,0.6109483953073198,1,FP
+2022-02-18,10:20,psychotherapy,morning,,M,,0,0.6109483953073198,1,FP
+2022-02-18,10:20,,morning,6.0,M,intellectual,0,0.5555864082151034,1,FP
+2022-02-18,11:00,,morning,6.0,M,intellectual,0,0.5469637482763295,1,FP
+2022-02-18,11:00,,morning,,M,,0,0.5520569871038405,1,FP
+2022-02-18,11:00,,morning,,M,,0,0.5520569871038405,1,FP
+2022-02-18,11:00,,morning,,M,,0,0.5520569871038405,1,FP
+2022-02-18,11:00,psychotherapy,morning,,M,,0,0.5792118207033077,1,FP
+2022-02-18,11:00,psychotherapy,morning,,M,,0,0.5792118207033077,1,FP
+2022-02-18,11:00,psychotherapy,morning,,M,,0,0.5792118207033077,1,FP
+2022-02-18,11:00,,morning,,F,,0,0.5520569871038405,1,FP
+2022-02-18,11:00,,morning,,F,,1,0.5520569871038405,1,TP
+2021-12-17,07:20,,morning,,M,,0,0.39654602901776886,0,TN
+2021-12-17,08:00,,morning,,M,,1,0.46884564011907914,1,TP
+2021-12-17,08:00,,morning,,M,,0,0.46884564011907914,1,FP
+2021-12-17,08:00,,morning,,M,,0,0.46884564011907914,1,FP
+2021-12-17,08:00,,morning,,M,,0,0.46884564011907914,1,FP
+2021-12-17,08:00,,morning,,M,,0,0.46884564011907914,1,FP
+2021-12-17,08:40,,morning,,F,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,7.0,M,intellectual,0,0.4795052303888131,1,FP
+2021-12-17,08:40,,morning,3.0,M,motor,0,0.3584873648477801,0,TN
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,7.0,M,intellectual,0,0.48799365624832064,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,08:40,,morning,,M,,0,0.5177907066780414,1,FP
+2021-12-17,09:20,,morning,39.0,M,motor,1,0.36725476791262535,0,FN
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,09:20,,morning,7.0,M,intellectual,0,0.528591893063444,1,FP
+2021-12-17,09:20,,morning,,M,,0,0.5226254812741941,1,FP
+2021-12-17,10:20,,morning,,F,,1,0.5539784388336777,1,TP
+2021-12-17,10:20,,morning,,F,,0,0.5539784388336777,1,FP
+2021-12-17,10:20,,morning,6.0,M,intellectual,0,0.45204500139068915,1,FP
+2021-12-17,10:20,,morning,,F,,0,0.5539784388336777,1,FP
+2021-12-17,11:00,,morning,,F,,0,0.5260673573280781,1,FP
+2021-12-17,11:00,,morning,6.0,M,intellectual,0,0.3851785068068411,0,TN
+2021-12-17,11:00,,morning,,M,,1,0.5260673573280781,1,TP
+2021-12-17,11:00,,morning,,F,,0,0.5260673573280781,1,FP
+2021-12-17,11:00,,morning,,M,,0,0.5260673573280781,1,FP
+2021-12-17,11:40,,morning,,F,,0,0.5618482465826029,1,FP
+2021-12-17,13:20,physiotherapy,afternoon,,M,,0,0.5820615991780193,1,FP
+2021-12-17,14:00,physiotherapy,afternoon,,M,,0,0.5610790401455158,1,FP
+2021-12-17,14:40,physiotherapy,afternoon,4.0,F,intellectual,0,0.6305277586236189,1,FP
+2021-12-17,17:00,physiotherapy,afternoon,,F,,0,0.6668349400294918,1,FP
+2021-12-17,13:20,occupational therapy,afternoon,5.0,M,intellectual,0,0.6727272631271183,1,FP
+2021-12-17,14:00,occupational therapy,afternoon,,M,,0,0.572009416648078,1,FP
+2021-12-17,14:40,occupational therapy,afternoon,8.0,M,intellectual,0,0.4993146550147287,1,FP
+2021-12-17,15:20,occupational therapy,afternoon,15.0,M,intellectual,1,0.3353864564761434,0,FN
+2021-12-17,16:20,occupational therapy,afternoon,,M,,0,0.5687050109803048,1,FP
+2021-12-17,17:00,occupational therapy,afternoon,,F,,0,0.6382136974451255,1,FP
+2021-12-17,16:20,,afternoon,11.0,M,intellectual,0,0.2873093500025771,0,TN
+2021-12-17,16:20,,afternoon,,F,,0,0.5685039593534308,1,FP
+2021-12-17,16:20,,afternoon,,M,,0,0.5685039593534308,1,FP
+2021-12-17,14:00,psychotherapy,afternoon,5.0,M,intellectual,0,0.5846813085915165,1,FP
+2021-12-17,15:20,psychotherapy,afternoon,,M,,0,0.5563547592626428,1,FP
+2021-12-17,16:20,psychotherapy,afternoon,11.0,M,intellectual,0,0.3131581686077849,0,TN
+2021-12-17,16:20,psychotherapy,afternoon,,F,,0,0.6042431737708551,1,FP
+2021-12-17,16:20,psychotherapy,afternoon,,M,,0,0.6042431737708551,1,FP
+2021-12-17,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.5204009221721011,1,FP
+2021-12-17,14:40,psychotherapy,afternoon,,M,,0,0.5804451196583902,1,FP
+2021-12-17,17:00,psychotherapy,afternoon,,M,,0,0.6161586944819835,1,FP
+2021-12-17,13:20,speech therapy,afternoon,6.0,F,intellectual,0,0.48535728345671747,1,FP
+2021-12-17,14:00,speech therapy,afternoon,8.0,M,intellectual,0,0.4423376401636486,1,FP
+2021-12-17,16:20,speech therapy,afternoon,,F,,0,0.6302938033496441,1,FP
+2021-12-17,17:00,speech therapy,afternoon,,M,,0,0.6667223552964693,1,FP
+2021-12-17,17:40,speech therapy,afternoon,,M,,0,0.690648382562011,1,FP
+2021-12-17,13:20,speech therapy,afternoon,,M,,0,0.5902947107186473,1,FP
+2021-12-17,14:00,speech therapy,afternoon,4.0,F,intellectual,0,0.5801458327895584,1,FP
+2021-12-17,14:40,speech therapy,afternoon,5.0,M,intellectual,0,0.6262598995658462,1,FP
+2021-12-17,15:20,speech therapy,afternoon,15.0,M,intellectual,1,0.3111364614357596,0,FN
+2021-12-17,17:40,speech therapy,afternoon,,M,,0,0.690648382562011,1,FP
+2021-12-17,13:20,physiotherapy,afternoon,,M,,0,0.5820615991780193,1,FP
+2021-12-17,14:00,physiotherapy,afternoon,6.0,F,intellectual,0,0.4337561674994108,0,TN
+2021-12-17,14:40,physiotherapy,afternoon,,M,,0,0.5803529467806995,1,FP
+2021-12-17,16:20,physiotherapy,afternoon,,F,,0,0.6081783221147751,1,FP
+2021-12-17,17:40,physiotherapy,afternoon,,M,,0,0.6974486921394748,1,FP
+2021-11-17,07:20,physiotherapy,morning,,M,,1,0.4626506228333559,1,TP
+2021-11-17,07:20,,morning,,M,,0,0.4840802436528973,1,FP
+2021-11-17,07:20,,morning,,M,,0,0.4840802436528973,1,FP
+2021-11-17,08:00,physiotherapy,morning,,F,,1,0.4642604557880927,1,TP
+2021-11-17,08:00,,morning,11.0,M,intellectual,0,0.246330976132573,0,TN
+2021-11-17,08:00,,morning,12.0,M,intellectual,0,0.338648060276589,0,TN
+2021-11-17,08:00,,morning,,M,,0,0.5022910304731348,1,FP
+2021-11-17,08:00,,morning,,M,,0,0.5022910304731348,1,FP
+2021-11-17,08:40,,morning,,M,,0,0.5406114592424756,1,FP
+2021-11-17,08:40,,morning,11.0,M,intellectual,0,0.3178552040965641,0,TN
+2021-11-17,08:40,,morning,12.0,M,intellectual,0,0.38596253065975605,0,TN
+2021-11-17,08:40,,morning,,M,,0,0.5406114592424756,1,FP
+2021-11-17,08:40,,morning,11.0,M,intellectual,0,0.3178552040965641,0,TN
+2021-11-17,08:40,,morning,12.0,M,intellectual,0,0.38596253065975605,0,TN
+2021-11-17,08:40,,morning,,M,,0,0.5406114592424756,1,FP
+2021-11-17,09:20,physiotherapy,morning,,F,,0,0.5328617452754558,1,FP
+2021-11-17,09:20,,morning,9.0,M,intellectual,0,0.5644596327892997,1,FP
+2021-11-17,09:20,,morning,11.0,M,intellectual,0,0.3198825710882848,0,TN
+2021-11-17,09:20,,morning,12.0,M,intellectual,0,0.40789096219353843,0,TN
+2021-11-17,09:20,,morning,,M,,0,0.5628459731876759,1,FP
+2021-11-17,09:20,,morning,11.0,M,intellectual,0,0.3198825710882848,0,TN
+2021-11-17,09:20,,morning,12.0,M,intellectual,0,0.40789096219353843,0,TN
+2021-11-17,09:20,,morning,,M,,0,0.5628459731876759,1,FP
+2021-11-17,09:20,,morning,,M,,1,0.5628459731876759,1,TP
+2021-11-17,09:20,physiotherapy,morning,,F,,0,0.5328617452754558,1,FP
+2021-11-17,10:20,,morning,10.0,F,intellectual,0,0.460615116172354,1,FP
+2021-11-17,10:20,,morning,,M,,0,0.5937672267345472,1,FP
+2021-11-17,10:20,,morning,,M,,1,0.5937672267345472,1,TP
+2021-11-17,10:20,,morning,,F,,0,0.5937672267345472,1,FP
+2021-11-17,10:20,physiotherapy,morning,,M,,1,0.6373937179919432,1,TP
+2021-11-17,11:00,,morning,,M,,1,0.6054076141389572,1,TP
+2021-11-17,11:00,,morning,10.0,F,intellectual,0,0.5681986688093889,1,FP
+2021-11-17,11:40,,morning,,F,,0,0.5847838705783625,1,FP
+2022-02-17,07:20,,morning,,M,,0,0.38953611885852113,0,TN
+2022-02-17,07:20,psychotherapy,morning,,M,,0,0.4240946291371966,0,TN
+2022-02-17,07:20,,morning,,M,,0,0.38953611885852113,0,TN
+2022-02-17,08:00,,morning,,M,,0,0.3839022277583464,0,TN
+2022-02-17,08:00,psychotherapy,morning,,M,,1,0.3919231101672509,0,FN
+2022-02-17,08:00,,morning,,M,,0,0.3839022277583464,0,TN
+2022-02-17,08:40,,morning,7.0,M,intellectual,0,0.28819319217410816,0,TN
+2022-02-17,08:40,psychotherapy,morning,9.0,M,intellectual,0,0.5121992485820079,1,FP
+2022-02-17,08:40,,morning,,M,,0,0.44386834763242916,1,FP
+2022-02-17,09:20,,morning,9.0,M,intellectual,0,0.4590914681400727,1,FP
+2022-02-17,09:20,psychotherapy,morning,7.0,M,intellectual,0,0.3625890906538411,0,TN
+2022-02-17,10:20,,morning,7.0,M,intellectual,0,0.6268847263265811,1,FP
+2022-02-17,10:20,,morning,,M,,1,0.5413802922199482,1,TP
+2022-02-17,11:00,,morning,,M,,1,0.4877293199593268,1,TP
+2022-02-17,11:00,,morning,7.0,M,intellectual,0,0.565788645017577,1,FP
+2022-02-17,11:00,,morning,7.0,M,intellectual,0,0.565788645017577,1,FP
+2021-12-16,13:20,physiotherapy,afternoon,,M,,0,0.5815770652526276,1,FP
+2021-12-16,14:00,physiotherapy,afternoon,68.0,M,motor,1,0.3259534536729728,0,FN
+2021-12-16,14:40,physiotherapy,afternoon,,M,,1,0.5313061645873554,1,TP
+2021-12-16,15:20,physiotherapy,afternoon,,F,,0,0.5125915339657328,1,FP
+2021-12-16,16:20,physiotherapy,afternoon,,M,,0,0.5644100968533048,1,FP
+2021-12-16,17:00,physiotherapy,afternoon,,M,,0,0.6479709287298571,1,FP
+2021-12-16,14:00,occupational therapy,afternoon,5.0,M,intellectual,1,0.5607993965284074,1,TP
+2021-12-16,14:40,occupational therapy,afternoon,68.0,M,motor,1,0.4754425489632355,1,TP
+2021-12-16,16:20,occupational therapy,afternoon,,M,,0,0.5134938338137812,1,FP
+2021-12-16,17:00,occupational therapy,afternoon,,M,,1,0.6114954794325446,1,TP
+2021-12-16,17:40,occupational therapy,afternoon,,M,,0,0.5406769177508438,1,FP
+2021-12-16,14:00,,afternoon,68.0,M,motor,1,0.29625334855659974,0,FN
+2021-12-16,14:40,,afternoon,,M,,0,0.5184292688720371,1,FP
+2021-12-16,13:20,psychotherapy,afternoon,,M,,1,0.5588347267816219,1,TP
+2021-12-16,14:00,psychotherapy,afternoon,12.0,M,intellectual,0,0.3438613772901358,0,TN
+2021-12-16,17:00,psychotherapy,afternoon,,M,,0,0.5808656896670882,1,FP
+2021-12-16,14:00,psychotherapy,afternoon,,F,,1,0.5255476319916595,1,TP
+2021-12-16,16:20,psychotherapy,afternoon,,M,,1,0.5527453792790376,1,TP
+2021-12-16,17:00,psychotherapy,afternoon,,M,,0,0.5808656896670882,1,FP
+2021-12-16,17:40,psychotherapy,afternoon,,M,,0,0.5988688606536555,1,FP
+2021-12-16,14:00,speech therapy,afternoon,,M,,1,0.5767043124100338,1,TP
+2021-12-16,15:20,speech therapy,afternoon,68.0,M,motor,1,0.3740861900603189,0,FN
+2021-12-16,16:20,speech therapy,afternoon,,M,,0,0.590235776520081,1,FP
+2021-12-16,17:40,speech therapy,afternoon,,M,,1,0.6239130717470847,1,TP
+2021-12-16,13:20,speech therapy,afternoon,,F,,1,0.5927236872072817,1,TP
+2021-12-16,14:00,speech therapy,afternoon,,F,,0,0.5767043124100338,1,FP
+2021-12-16,14:40,speech therapy,afternoon,,M,,0,0.5404509270253932,1,FP
+2021-12-16,15:20,speech therapy,afternoon,5.0,M,intellectual,1,0.6511257960355207,1,TP
+2021-12-16,16:20,speech therapy,afternoon,9.0,M,intellectual,0,0.3893319017239474,0,TN
+2021-12-16,17:00,speech therapy,afternoon,,M,,0,0.6405069657867609,1,FP
+2021-12-16,17:40,speech therapy,afternoon,,M,,0,0.6239130717470847,1,FP
+2021-12-16,13:20,physiotherapy,afternoon,,F,,0,0.5815770652526276,1,FP
+2021-12-16,14:40,physiotherapy,afternoon,,F,,1,0.5313061645873554,1,TP
+2021-12-16,15:20,physiotherapy,afternoon,,M,,0,0.5125915339657328,1,FP
+2021-12-16,17:00,physiotherapy,afternoon,,M,,0,0.6479709287298571,1,FP
+2021-11-16,07:20,,morning,8.0,M,intellectual,0,0.5033986086139612,1,FP
+2021-11-16,07:20,,morning,,F,,1,0.5217077345643251,1,TP
+2021-11-16,08:00,,morning,,M,,0,0.5173635561742924,1,FP
+2021-11-16,08:00,,morning,,M,,0,0.5173635561742924,1,FP
+2021-11-16,08:00,,morning,8.0,M,intellectual,0,0.4075162475781676,0,TN
+2021-11-16,08:00,,morning,,M,,0,0.5173635561742924,1,FP
+2021-11-16,08:40,,morning,,M,,0,0.5755679172720427,1,FP
+2021-11-16,08:40,,morning,,M,,0,0.5755679172720427,1,FP
+2021-11-16,09:20,physiotherapy,morning,,F,,1,0.5076669890902522,1,TP
+2021-11-16,09:20,,morning,6.0,M,intellectual,0,0.48059920054778016,1,FP
+2021-11-16,09:20,,morning,,M,,0,0.5929205793210924,1,FP
+2021-11-16,10:20,,morning,6.0,M,intellectual,0,0.5050570277456056,1,FP
+2021-11-16,10:20,,morning,,M,,0,0.6103391311559253,1,FP
+2021-11-16,11:00,,morning,6.0,M,intellectual,0,0.4435955993704357,1,FP
+2021-11-16,11:00,,morning,,M,,0,0.5970233154105323,1,FP
+2021-11-16,11:00,,morning,,F,,1,0.5970233154105323,1,TP
+2022-02-16,07:20,,morning,,M,,0,0.3719174803986506,0,TN
+2022-02-16,07:20,,morning,,M,,0,0.3719174803986506,0,TN
+2022-02-16,08:00,,morning,,M,,0,0.3703846568262527,0,TN
+2022-02-16,08:00,,morning,,M,,0,0.3703846568262527,0,TN
+2022-02-16,08:40,,morning,,M,,0,0.43742017995275434,0,TN
+2022-02-16,08:40,,morning,9.0,M,intellectual,1,0.7751924509356398,1,TP
+2022-02-16,08:40,,morning,,M,,0,0.43742017995275434,0,TN
+2022-02-16,09:20,,morning,9.0,M,intellectual,1,0.765134981159342,1,TP
+2022-02-16,09:20,psychotherapy,morning,,M,,0,0.4879853833403049,1,FP
+2022-02-16,09:20,,morning,,M,,0,0.43835523469959525,0,TN
+2022-02-16,10:20,,morning,10.0,F,intellectual,0,0.7278861685178837,1,FP
+2022-02-16,10:20,,morning,,M,,0,0.5282270170033363,1,FP
+2022-02-16,10:20,,morning,,M,,0,0.5282270170033363,1,FP
+2022-02-16,11:00,,morning,,M,,0,0.4856877752374968,1,FP
+2022-02-16,11:00,psychotherapy,morning,,M,,0,0.5087303085506111,1,FP
+2022-02-16,11:00,,morning,10.0,F,intellectual,0,0.8114441594321311,1,FP
+2022-02-16,11:40,,morning,,M,,0,0.48621568647865415,1,FP
+2021-12-15,13:20,physiotherapy,afternoon,10.0,M,intellectual,0,0.38680795729813244,0,TN
+2021-12-15,14:00,occupational therapy,afternoon,,F,,0,0.5536230580896251,1,FP
+2021-12-15,14:40,occupational therapy,afternoon,,F,,0,0.34912748904353375,0,TN
+2021-12-15,15:20,occupational therapy,afternoon,,M,,0,0.428647491030404,0,TN
+2021-12-15,13:20,psychotherapy,afternoon,,F,,0,0.5264372812994558,1,FP
+2021-12-15,14:00,psychotherapy,afternoon,10.0,M,intellectual,0,0.2827443201546857,0,TN
+2021-12-15,14:40,psychotherapy,afternoon,,M,,0,0.47519909771810065,1,FP
+2021-12-15,14:40,psychotherapy,afternoon,,M,,1,0.47519909771810065,1,TP
+2021-12-15,14:40,psychotherapy,afternoon,,M,,0,0.47519909771810065,1,FP
+2021-12-15,14:40,psychotherapy,afternoon,,M,,0,0.47519909771810065,1,FP
+2021-12-15,14:40,psychotherapy,afternoon,,M,,0,0.47519909771810065,1,FP
+2021-12-15,14:40,psychotherapy,afternoon,6.0,M,intellectual,0,0.5636774279367677,1,FP
+2021-12-15,14:40,psychotherapy,afternoon,,F,,0,0.47519909771810065,1,FP
+2021-12-15,14:40,speech therapy,afternoon,,M,,0,0.39420399328157385,0,TN
+2021-12-15,14:40,speech therapy,afternoon,6.0,M,intellectual,0,0.5714590879922216,1,FP
+2021-12-15,14:40,speech therapy,afternoon,,F,,0,0.39420399328157385,0,TN
+2021-12-15,13:20,speech therapy,afternoon,,F,,0,0.5407287143323525,1,FP
+2021-12-15,14:00,speech therapy,afternoon,,F,,0,0.5216933794989209,1,FP
+2021-12-15,14:40,speech therapy,afternoon,,M,,1,0.39420399328157385,0,FN
+2021-12-15,14:40,speech therapy,afternoon,,M,,0,0.39420399328157385,0,TN
+2021-12-15,14:40,speech therapy,afternoon,,M,,0,0.39420399328157385,0,TN
+2021-12-15,16:20,speech therapy,afternoon,,M,,0,0.5055794777596349,1,FP
+2021-12-15,13:20,physiotherapy,afternoon,,F,,0,0.5353350167215314,1,FP
+2021-12-15,14:00,physiotherapy,afternoon,,F,,0,0.5007849052606609,1,FP
+2021-12-15,14:40,physiotherapy,afternoon,,M,,0,0.4780874581601915,1,FP
+2021-12-15,15:20,physiotherapy,afternoon,,M,,0,0.4199147590067215,0,TN
+2021-12-15,16:20,physiotherapy,afternoon,,F,,0,0.47142611392774225,1,FP
+2021-12-15,07:20,,morning,,M,,1,0.45141629166559516,1,TP
+2021-12-15,07:20,,morning,,M,,0,0.45141629166559516,1,FP
+2021-12-15,07:20,,morning,,M,,0,0.45141629166559516,1,FP
+2021-12-15,08:00,,morning,,F,,1,0.4122559137651147,0,FN
+2021-12-15,08:00,,morning,11.0,M,intellectual,0,0.23893944388202173,0,TN
+2021-12-15,08:00,,morning,12.0,M,intellectual,0,0.29979636703960383,0,TN
+2021-12-15,08:00,,morning,,M,,0,0.4122559137651147,0,TN
+2021-12-15,08:00,,morning,,M,,0,0.4122559137651147,0,TN
+2021-12-15,08:00,,morning,,M,,0,0.4122559137651147,0,TN
+2021-12-15,08:40,,morning,,M,,1,0.47395922491213577,1,TP
+2021-12-15,08:40,,morning,11.0,M,intellectual,0,0.347969985164101,0,TN
+2021-12-15,08:40,,morning,12.0,M,intellectual,0,0.3689286040255454,0,TN
+2021-12-15,08:40,,morning,,M,,0,0.47395922491213577,1,FP
+2021-12-15,08:40,,morning,9.0,M,intellectual,0,0.55724177138805,1,FP
+2021-12-15,08:40,,morning,,F,,1,0.47395922491213577,1,TP
+2021-12-15,09:20,,morning,,F,,0,0.5084586573419968,1,FP
+2021-12-15,09:20,,morning,9.0,M,intellectual,0,0.5582980514156305,1,FP
+2021-12-15,09:20,,morning,11.0,M,intellectual,0,0.3308260130992226,0,TN
+2021-12-15,09:20,,morning,12.0,M,intellectual,1,0.3731940083708641,0,FN
+2021-12-15,09:20,,morning,,M,,0,0.5084586573419968,1,FP
+2021-12-15,09:20,,morning,11.0,M,intellectual,0,0.3308260130992226,0,TN
+2021-12-15,09:20,,morning,12.0,M,intellectual,1,0.3731940083708641,0,FN
+2021-12-15,09:20,,morning,,M,,0,0.5084586573419968,1,FP
+2021-12-15,09:20,,morning,,M,,0,0.5084586573419968,1,FP
+2021-12-15,09:20,,morning,,M,,0,0.5084586573419968,1,FP
+2021-12-15,10:20,,morning,,M,,0,0.539303680860679,1,FP
+2021-12-15,10:20,,morning,10.0,F,intellectual,0,0.4640197524113001,1,FP
+2021-12-15,10:20,,morning,,M,,0,0.539303680860679,1,FP
+2021-12-15,10:20,,morning,,M,,0,0.539303680860679,1,FP
+2021-12-15,10:20,,morning,,M,,0,0.539303680860679,1,FP
+2021-12-15,10:20,,morning,,F,,0,0.539303680860679,1,FP
+2021-12-15,11:00,,morning,39.0,M,motor,0,0.29548221590523266,0,TN
+2021-12-15,11:00,,morning,,M,,0,0.48623698852139774,1,FP
+2021-12-15,11:00,,morning,10.0,F,intellectual,0,0.5614415593230135,1,FP
+2021-12-15,11:00,,morning,10.0,F,intellectual,0,0.5614415593230135,1,FP
+2021-12-15,11:00,,morning,10.0,F,intellectual,0,0.5614415593230135,1,FP
+2021-12-15,11:00,,morning,,M,,0,0.48623698852139774,1,FP
+2021-12-15,11:40,,morning,,F,,0,0.4890212904903601,1,FP
+2021-12-15,07:20,,morning,10.0,M,intellectual,0,0.3437355361970052,0,TN
+2021-12-15,07:20,,morning,10.0,M,intellectual,0,0.2840505277980387,0,TN
+2021-12-15,07:20,,morning,9.0,M,intellectual,0,0.38571237186137025,0,TN
+2021-12-15,07:20,,morning,,F,,0,0.45141629166559516,1,FP
+2021-12-15,07:20,,morning,10.0,M,intellectual,0,0.3437355361970052,0,TN
+2021-12-15,07:20,,morning,10.0,M,intellectual,0,0.2840505277980387,0,TN
+2021-12-15,07:20,,morning,9.0,M,intellectual,0,0.38571237186137025,0,TN
+2021-12-15,08:00,,morning,,F,,0,0.4122559137651147,0,TN
+2021-12-15,08:00,,morning,10.0,M,intellectual,0,0.2512528431047125,0,TN
+2021-12-15,08:00,,morning,10.0,M,intellectual,0,0.21688503404083623,0,TN
+2021-12-15,08:00,,morning,9.0,M,intellectual,0,0.30490574439400175,0,TN
+2021-12-15,08:00,,morning,,M,,0,0.4122559137651147,0,TN
+2021-12-15,08:00,,morning,10.0,M,intellectual,0,0.2512528431047125,0,TN
+2021-12-15,08:00,,morning,10.0,M,intellectual,0,0.21688503404083623,0,TN
+2021-12-15,08:00,,morning,9.0,M,intellectual,0,0.30490574439400175,0,TN
+2021-12-15,08:40,,morning,,F,,1,0.47395922491213577,1,TP
+2021-12-15,08:40,,morning,,M,,0,0.47395922491213577,1,FP
+2021-12-15,08:40,,morning,7.0,M,intellectual,0,0.47052576005448943,1,FP
+2021-12-15,08:40,,morning,49.0,M,motor,0,0.38218662715348145,0,TN
+2021-12-15,08:40,,morning,,M,,0,0.47395922491213577,1,FP
+2021-12-15,08:40,,morning,,M,,0,0.47395922491213577,1,FP
+2021-12-15,08:40,,morning,7.0,M,intellectual,0,0.47052576005448943,1,FP
+2021-12-15,08:40,,morning,9.0,M,intellectual,0,0.3612414842199197,0,TN
+2021-12-15,08:40,,morning,,M,,0,0.47395922491213577,1,FP
+2021-12-15,09:20,,morning,,M,,0,0.5084586573419968,1,FP
+2021-12-15,09:20,,morning,,M,,0,0.5084586573419968,1,FP
+2021-12-15,09:20,,morning,7.0,M,intellectual,0,0.5789242720499506,1,FP
+2021-12-15,09:20,,morning,9.0,M,intellectual,0,0.3721465397084433,0,TN
+2021-12-15,09:20,,morning,,M,,0,0.5084586573419968,1,FP
+2021-12-15,09:20,,morning,7.0,M,intellectual,0,0.5789242720499506,1,FP
+2021-12-15,09:20,,morning,9.0,M,intellectual,0,0.3721465397084433,0,TN
+2021-12-15,09:20,,morning,,F,,1,0.5084586573419968,1,TP
+2021-12-15,10:20,,morning,,M,,0,0.539303680860679,1,FP
+2021-12-15,10:20,,morning,,F,,0,0.539303680860679,1,FP
+2021-12-15,10:20,,morning,,F,,0,0.539303680860679,1,FP
+2021-12-15,11:00,,morning,,F,,0,0.48623698852139774,1,FP
+2021-12-15,11:00,,morning,,M,,0,0.48623698852139774,1,FP
+2021-12-15,11:40,,morning,,M,,0,0.4890212904903601,1,FP
+2021-12-15,11:40,,morning,,F,,0,0.4890212904903601,1,FP
+2022-02-15,07:20,,morning,8.0,M,intellectual,0,0.5054724678560789,1,FP
+2022-02-15,07:20,psychotherapy,morning,,F,,0,0.44089794387448794,1,FP
+2022-02-15,07:20,,morning,,M,,0,0.4273450594554343,0,TN
+2022-02-15,08:00,,morning,,M,,0,0.40628267929549067,0,TN
+2022-02-15,08:00,,morning,,M,,0,0.40628267929549067,0,TN
+2022-02-15,08:00,,morning,,M,,0,0.40628267929549067,0,TN
+2022-02-15,08:00,,morning,6.0,M,intellectual,0,0.47772273554328604,1,FP
+2022-02-15,08:00,psychotherapy,morning,8.0,M,intellectual,0,0.4717208046364912,1,FP
+2022-02-15,08:00,,morning,,M,,0,0.40628267929549067,0,TN
+2022-02-15,08:00,,morning,,M,,0,0.40628267929549067,0,TN
+2022-02-15,08:00,,morning,,M,,0,0.40628267929549067,0,TN
+2022-02-15,08:00,,morning,6.0,M,intellectual,0,0.47772273554328604,1,FP
+2022-02-15,08:00,,morning,,M,,0,0.40628267929549067,0,TN
+2022-02-15,08:40,,morning,,M,,0,0.485308885796636,1,FP
+2022-02-15,08:40,,morning,,M,,0,0.485308885796636,1,FP
+2022-02-15,08:40,,morning,,M,,0,0.485308885796636,1,FP
+2022-02-15,08:40,,morning,6.0,M,intellectual,0,0.5604819604184633,1,FP
+2022-02-15,08:40,psychotherapy,morning,,M,,0,0.4948154767355913,1,FP
+2022-02-15,08:40,,morning,,M,,0,0.485308885796636,1,FP
+2022-02-15,08:40,,morning,,M,,0,0.485308885796636,1,FP
+2022-02-15,08:40,,morning,,M,,0,0.485308885796636,1,FP
+2022-02-15,08:40,,morning,6.0,M,intellectual,0,0.5604819604184633,1,FP
+2022-02-15,08:40,,morning,,F,,0,0.485308885796636,1,FP
+2022-02-15,09:20,,morning,6.0,M,intellectual,0,0.48068419778504945,1,FP
+2022-02-15,09:20,,morning,,M,,0,0.49159745883787465,1,FP
+2022-02-15,10:20,,morning,13.0,M,intellectual,0,0.5802205134770699,1,FP
+2022-02-15,10:20,psychotherapy,morning,6.0,M,intellectual,0,0.572764189670178,1,FP
+2022-02-15,10:20,,morning,13.0,M,intellectual,0,0.5802205134770699,1,FP
+2022-02-15,11:00,,morning,6.0,M,intellectual,0,0.5071024851459167,1,FP
+2022-02-15,11:00,,morning,,F,,0,0.5092374264216438,1,FP
+2021-12-14,13:20,physiotherapy,afternoon,29.0,M,motor,0,0.6123734459154286,1,FP
+2021-12-14,14:00,physiotherapy,afternoon,,F,,0,0.5047390328160888,1,FP
+2021-12-14,15:20,physiotherapy,afternoon,25.0,F,motor,0,0.4620232017852392,1,FP
+2021-12-14,16:20,physiotherapy,afternoon,4.0,F,intellectual,0,0.5733905912929343,1,FP
+2021-12-14,13:20,occupational therapy,afternoon,,M,,0,0.49579813448886173,1,FP
+2021-12-14,14:00,occupational therapy,afternoon,72.0,F,motor,0,0.3408497766501118,0,TN
+2021-12-14,14:40,occupational therapy,afternoon,,M,,0,0.3033111848983792,0,TN
+2021-12-14,15:20,occupational therapy,afternoon,10.0,M,intellectual,0,0.42152891924930974,0,TN
+2021-12-14,16:20,occupational therapy,afternoon,25.0,F,motor,0,0.5305604473332627,1,FP
+2021-12-14,14:40,,afternoon,69.0,M,motor,0,0.5314283658346387,1,FP
+2021-12-14,13:20,psychotherapy,afternoon,,M,,0,0.5286935799339626,1,FP
+2021-12-14,14:00,psychotherapy,afternoon,12.0,M,intellectual,1,0.4505840296291324,1,TP
+2021-12-14,14:40,psychotherapy,afternoon,10.0,M,intellectual,1,0.43905725086967695,0,FN
+2021-12-14,15:20,psychotherapy,afternoon,,M,,1,0.45066903624312393,1,TP
+2021-12-14,16:20,psychotherapy,afternoon,,M,,0,0.5155194618020985,1,FP
+2021-12-14,14:00,psychotherapy,afternoon,,M,,0,0.48599530513244565,1,FP
+2021-12-14,14:40,psychotherapy,afternoon,29.0,M,motor,0,0.6498214409114356,1,FP
+2021-12-14,15:20,psychotherapy,afternoon,,M,,0,0.45066903624312393,1,FP
+2021-12-14,14:40,speech therapy,afternoon,,M,,0,0.3969260592726968,0,TN
+2021-12-14,15:20,speech therapy,afternoon,,M,,0,0.47632040035105866,1,FP
+2021-12-14,16:20,speech therapy,afternoon,10.0,M,intellectual,0,0.40026734353141424,0,TN
+2021-12-14,13:20,speech therapy,afternoon,69.0,M,motor,0,0.447702322581132,1,FP
+2021-12-14,14:00,speech therapy,afternoon,29.0,M,motor,0,0.6857984098854045,1,FP
+2021-12-14,14:40,speech therapy,afternoon,25.0,F,motor,0,0.5529154367430591,1,FP
+2021-12-14,15:20,speech therapy,afternoon,,M,,0,0.47632040035105866,1,FP
+2021-12-14,16:20,speech therapy,afternoon,,M,,0,0.5412252912911308,1,FP
+2021-12-14,13:20,physiotherapy,afternoon,4.0,M,motor,0,0.5981544986019325,1,FP
+2021-12-14,14:00,physiotherapy,afternoon,69.0,M,motor,0,0.33092886318495524,0,TN
+2021-12-14,15:20,physiotherapy,afternoon,,M,,0,0.46921143939593246,1,FP
+2021-12-14,16:20,physiotherapy,afternoon,,M,,0,0.5213352511567227,1,FP
+2021-12-14,07:20,,morning,8.0,M,intellectual,1,0.5052462282348764,1,TP
+2021-12-14,07:20,,morning,,F,,0,0.516713958068876,1,FP
+2021-12-14,07:20,,morning,,M,,0,0.516713958068876,1,FP
+2021-12-14,08:00,,morning,,M,,0,0.454356233229993,1,FP
+2021-12-14,08:00,,morning,,M,,0,0.454356233229993,1,FP
+2021-12-14,08:00,,morning,,M,,0,0.454356233229993,1,FP
+2021-12-14,08:00,,morning,6.0,M,intellectual,0,0.4388283838819289,0,TN
+2021-12-14,08:00,,morning,8.0,M,intellectual,1,0.4399710871591146,0,FN
+2021-12-14,08:00,,morning,,M,,0,0.454356233229993,1,FP
+2021-12-14,08:00,,morning,,M,,0,0.454356233229993,1,FP
+2021-12-14,08:00,,morning,,M,,0,0.454356233229993,1,FP
+2021-12-14,08:00,,morning,6.0,M,intellectual,0,0.4388283838819289,0,TN
+2021-12-14,08:00,,morning,,M,,0,0.454356233229993,1,FP
+2021-12-14,08:40,,morning,,M,,0,0.5272105072873818,1,FP
+2021-12-14,08:40,,morning,,M,,0,0.5272105072873818,1,FP
+2021-12-14,08:40,,morning,,M,,0,0.5272105072873818,1,FP
+2021-12-14,08:40,,morning,6.0,M,intellectual,1,0.49555716623248114,1,TP
+2021-12-14,08:40,,morning,,M,,0,0.5272105072873818,1,FP
+2021-12-14,08:40,,morning,,M,,1,0.5272105072873818,1,TP
+2021-12-14,08:40,,morning,,M,,1,0.5272105072873818,1,TP
+2021-12-14,08:40,,morning,,M,,1,0.5272105072873818,1,TP
+2021-12-14,08:40,,morning,6.0,M,intellectual,1,0.49555716623248114,1,TP
+2021-12-14,08:40,,morning,,F,,1,0.5272105072873818,1,TP
+2021-12-14,09:20,,morning,6.0,M,intellectual,0,0.5296288323760903,1,FP
+2021-12-14,09:20,,morning,6.0,M,intellectual,0,0.5296288323760903,1,FP
+2021-12-14,09:20,,morning,,M,,0,0.5667035440005684,1,FP
+2021-12-14,09:20,,morning,,M,,0,0.5667035440005684,1,FP
+2021-12-14,10:20,,morning,,F,,0,0.5836951968562293,1,FP
+2021-12-14,10:20,,morning,13.0,M,intellectual,0,0.3689656539047303,0,TN
+2021-12-14,10:20,,morning,6.0,M,intellectual,0,0.5212698733530858,1,FP
+2021-12-14,10:20,,morning,13.0,M,intellectual,0,0.3689656539047303,0,TN
+2021-12-14,10:20,,morning,,M,,1,0.5836951968562293,1,TP
+2021-12-14,11:00,,morning,6.0,M,intellectual,0,0.4689798201203421,1,FP
+2021-12-14,11:00,,morning,,M,,1,0.49571859161828236,1,TP
+2021-12-14,11:00,,morning,6.0,M,intellectual,0,0.5217008289704986,1,FP
+2021-12-14,11:00,,morning,,F,,0,0.49571859161828236,1,FP
+2022-02-14,07:20,psychotherapy,morning,9.0,M,intellectual,0,0.6025763389709581,1,FP
+2022-02-14,07:20,,morning,10.0,M,intellectual,0,0.5211593964645852,1,FP
+2022-02-14,08:00,,morning,8.0,M,intellectual,0,0.4958539127149596,1,FP
+2022-02-14,08:00,,morning,,F,,1,0.560439733471741,1,TP
+2022-02-14,08:00,,morning,,M,,0,0.560439733471741,1,FP
+2022-02-14,08:00,,morning,7.0,M,intellectual,0,0.47370489668895915,1,FP
+2022-02-14,08:00,,morning,,F,,0,0.560439733471741,1,FP
+2022-02-14,08:00,,morning,,M,,0,0.560439733471741,1,FP
+2022-02-14,08:00,,morning,,M,,0,0.560439733471741,1,FP
+2022-02-14,08:00,psychotherapy,morning,,F,,0,0.5804977222243782,1,FP
+2022-02-14,08:00,psychotherapy,morning,,M,,0,0.5804977222243782,1,FP
+2022-02-14,08:00,psychotherapy,morning,,M,,0,0.5804977222243782,1,FP
+2022-02-14,08:00,,morning,8.0,M,intellectual,0,0.4958539127149596,1,FP
+2022-02-14,08:00,,morning,,F,,1,0.560439733471741,1,TP
+2022-02-14,08:00,,morning,,M,,0,0.560439733471741,1,FP
+2022-02-14,08:00,,morning,7.0,M,intellectual,0,0.47370489668895915,1,FP
+2022-02-14,08:40,,morning,8.0,M,intellectual,0,0.5373764987943024,1,FP
+2022-02-14,08:40,,morning,,F,,1,0.586848700430677,1,TP
+2022-02-14,08:40,,morning,,M,,0,0.586848700430677,1,FP
+2022-02-14,08:40,,morning,7.0,M,intellectual,0,0.46454505818929814,1,FP
+2022-02-14,08:40,,morning,,F,,0,0.586848700430677,1,FP
+2022-02-14,08:40,,morning,,M,,0,0.586848700430677,1,FP
+2022-02-14,08:40,,morning,,M,,0,0.586848700430677,1,FP
+2022-02-14,08:40,psychotherapy,morning,,F,,0,0.6003305736585494,1,FP
+2022-02-14,08:40,psychotherapy,morning,,M,,0,0.6003305736585494,1,FP
+2022-02-14,08:40,psychotherapy,morning,,M,,0,0.6003305736585494,1,FP
+2022-02-14,08:40,,morning,8.0,M,intellectual,0,0.5373764987943024,1,FP
+2022-02-14,08:40,,morning,,F,,1,0.586848700430677,1,TP
+2022-02-14,08:40,,morning,,M,,0,0.586848700430677,1,FP
+2022-02-14,08:40,,morning,7.0,M,intellectual,0,0.46454505818929814,1,FP
+2022-02-14,09:20,,morning,,M,,0,0.5740048271174889,1,FP
+2022-02-14,09:20,,morning,,M,,0,0.5740048271174889,1,FP
+2022-02-14,09:20,,morning,,F,,0,0.5740048271174889,1,FP
+2022-02-14,10:20,,morning,,M,,0,0.6422003550113367,1,FP
+2021-12-13,07:20,,morning,6.0,M,intellectual,0,0.3852642721589824,0,TN
+2021-12-13,07:20,,morning,9.0,M,intellectual,0,0.372826343932604,0,TN
+2021-12-13,07:20,,morning,,M,,0,0.5407180247039833,1,FP
+2021-12-13,08:00,,morning,,M,,0,0.5595715030672405,1,FP
+2021-12-13,08:00,,morning,8.0,M,intellectual,0,0.3035160016704333,0,TN
+2021-12-13,08:00,,morning,,F,,0,0.5595715030672405,1,FP
+2021-12-13,08:00,,morning,,M,,0,0.5595715030672405,1,FP
+2021-12-13,08:00,,morning,7.0,M,intellectual,0,0.4424276058359478,1,FP
+2021-12-13,08:00,,morning,6.0,M,intellectual,0,0.4075529794168179,0,TN
+2021-12-13,08:00,,morning,10.0,M,intellectual,0,0.47773324885487206,1,FP
+2021-12-13,08:00,,morning,,F,,0,0.5595715030672405,1,FP
+2021-12-13,08:00,,morning,,M,,0,0.5595715030672405,1,FP
+2021-12-13,08:00,,morning,7.0,M,intellectual,0,0.4424276058359478,1,FP
+2021-12-13,08:00,,morning,,M,,0,0.5595715030672405,1,FP
+2021-12-13,08:40,,morning,,M,,0,0.5986635072128881,1,FP
+2021-12-13,08:40,,morning,8.0,M,intellectual,0,0.37860796293481014,0,TN
+2021-12-13,08:40,,morning,,F,,0,0.5986635072128881,1,FP
+2021-12-13,08:40,,morning,,M,,0,0.5986635072128881,1,FP
+2021-12-13,08:40,,morning,7.0,M,intellectual,0,0.45812822541420023,1,FP
+2021-12-13,08:40,,morning,,M,,0,0.5986635072128881,1,FP
+2021-12-13,08:40,,morning,8.0,M,intellectual,0,0.37860796293481014,0,TN
+2021-12-13,08:40,,morning,,F,,0,0.5986635072128881,1,FP
+2021-12-13,08:40,,morning,,M,,0,0.5986635072128881,1,FP
+2021-12-13,08:40,,morning,7.0,M,intellectual,0,0.45812822541420023,1,FP
+2021-12-13,08:40,,morning,9.0,M,intellectual,0,0.4122694723497875,0,TN
+2021-12-13,09:20,,morning,,M,,0,0.5987943905735513,1,FP
+2021-12-13,09:20,,morning,,M,,0,0.5987943905735513,1,FP
+2021-12-13,09:20,,morning,,M,,0,0.5987943905735513,1,FP
+2021-12-13,09:20,,morning,,F,,0,0.5987943905735513,1,FP
+2021-12-13,10:20,,morning,39.0,M,motor,0,0.39528288595392397,0,TN
+2021-12-13,10:20,,morning,,M,,0,0.613860874123008,1,FP
+2021-12-13,10:20,,morning,,F,,0,0.613860874123008,1,FP
+2021-12-13,10:20,,morning,,M,,0,0.613860874123008,1,FP
+2021-12-13,10:20,,morning,,M,,0,0.613860874123008,1,FP
+2021-12-13,10:20,,morning,,M,,1,0.613860874123008,1,TP
+2021-12-13,10:20,,morning,,F,,0,0.613860874123008,1,FP
+2021-12-13,10:20,,morning,,M,,0,0.613860874123008,1,FP
+2021-12-13,13:20,physiotherapy,afternoon,,M,,1,0.6249025752053954,1,TP
+2021-12-13,14:00,physiotherapy,afternoon,,M,,1,0.5841405241972955,1,TP
+2021-12-13,14:40,physiotherapy,afternoon,,M,,1,0.613718146390936,1,TP
+2021-12-13,15:20,physiotherapy,afternoon,,M,,1,0.620860101529964,1,TP
+2021-12-13,16:20,physiotherapy,afternoon,48.0,M,motor,1,0.43256824592083426,0,FN
+2021-12-13,17:00,physiotherapy,afternoon,,F,,1,0.6799858494137465,1,TP
+2021-12-13,17:40,physiotherapy,afternoon,,M,,1,0.7195932322552958,1,TP
+2021-12-13,13:20,occupational therapy,afternoon,,F,,0,0.6486882173861619,1,FP
+2021-12-13,14:00,occupational therapy,afternoon,10.0,M,intellectual,0,0.3666843015721571,0,TN
+2021-12-13,14:40,occupational therapy,afternoon,8.0,M,intellectual,0,0.46145787593758636,1,FP
+2021-12-13,15:20,occupational therapy,afternoon,,M,,0,0.6377903074510345,1,FP
+2021-12-13,17:00,occupational therapy,afternoon,,M,,0,0.6735336779438313,1,FP
+2021-12-13,17:40,occupational therapy,afternoon,4.0,M,intellectual,0,0.6434183152269873,1,FP
+2021-12-13,13:20,psychotherapy,afternoon,8.0,M,intellectual,0,0.44824591981441864,1,FP
+2021-12-13,13:20,psychotherapy,afternoon,,M,,1,0.623847836665885,1,TP
+2021-12-13,13:20,psychotherapy,afternoon,,M,,0,0.623847836665885,1,FP
+2021-12-13,13:20,psychotherapy,afternoon,,M,,0,0.623847836665885,1,FP
+2021-12-13,14:40,psychotherapy,afternoon,,F,,0,0.6186545693511394,1,FP
+2021-12-13,15:20,psychotherapy,afternoon,,M,,0,0.6105946503671317,1,FP
+2021-12-13,17:00,psychotherapy,afternoon,,M,,0,0.6535216599767338,1,FP
+2021-12-13,17:40,psychotherapy,afternoon,4.0,M,intellectual,0,0.649968922079348,1,FP
+2021-12-13,14:00,psychotherapy,afternoon,,M,,0,0.581542310948839,1,FP
+2021-12-13,14:40,psychotherapy,afternoon,,F,,0,0.6186545693511394,1,FP
+2021-12-13,15:20,psychotherapy,afternoon,,F,,0,0.6105946503671317,1,FP
+2021-12-13,16:20,psychotherapy,afternoon,,M,,0,0.6425637293221124,1,FP
+2021-12-13,17:00,psychotherapy,afternoon,,M,,0,0.6535216599767338,1,FP
+2021-12-13,17:40,psychotherapy,afternoon,6.0,M,intellectual,0,0.6540550132640197,1,FP
+2021-12-13,13:20,speech therapy,afternoon,10.0,M,intellectual,0,0.4064416002321292,0,TN
+2021-12-13,14:00,speech therapy,afternoon,,F,,0,0.6038044462044094,1,FP
+2021-12-13,14:40,speech therapy,afternoon,,M,,0,0.6279836550411633,1,FP
+2021-12-13,15:20,speech therapy,afternoon,,F,,0,0.6274453738129349,1,FP
+2021-12-13,16:20,speech therapy,afternoon,,F,,0,0.6513401176565293,1,FP
+2021-12-13,17:00,speech therapy,afternoon,6.0,M,intellectual,0,0.5191638397636144,1,FP
+2021-12-13,17:40,speech therapy,afternoon,,M,,0,0.7101346041634015,1,FP
+2021-12-13,13:20,speech therapy,afternoon,8.0,M,intellectual,0,0.4206405419846351,0,TN
+2021-12-13,13:20,speech therapy,afternoon,,M,,1,0.6294762121740044,1,TP
+2021-12-13,13:20,speech therapy,afternoon,,M,,0,0.6294762121740044,1,FP
+2021-12-13,13:20,speech therapy,afternoon,,M,,0,0.6294762121740044,1,FP
+2021-12-13,15:20,speech therapy,afternoon,,F,,0,0.6274453738129349,1,FP
+2021-12-13,16:20,speech therapy,afternoon,,F,,0,0.6513401176565293,1,FP
+2021-12-13,17:00,speech therapy,afternoon,48.0,M,motor,1,0.38060805409129184,0,FN
+2021-12-13,17:40,speech therapy,afternoon,,M,,0,0.7101346041634015,1,FP
+2021-12-13,13:20,physiotherapy,afternoon,,F,,0,0.6249025752053954,1,FP
+2021-12-13,14:40,physiotherapy,afternoon,,M,,0,0.613718146390936,1,FP
+2021-12-13,15:20,physiotherapy,afternoon,,F,,0,0.620860101529964,1,FP
+2021-12-13,16:20,physiotherapy,afternoon,,F,,0,0.6330909445427947,1,FP
+2021-12-13,17:00,physiotherapy,afternoon,,M,,0,0.6799858494137465,1,FP
+2021-11-12,07:20,,morning,,F,,1,0.44186188169971263,1,TP
+2021-11-12,07:20,,morning,,M,,0,0.44186188169971263,1,FP
+2021-11-12,07:20,,morning,,F,,1,0.44186188169971263,1,TP
+2021-11-12,08:00,physiotherapy,morning,,M,,0,0.44314450921724124,1,FP
+2021-11-12,08:00,,morning,,M,,0,0.5232897884590665,1,FP
+2021-11-12,08:00,,morning,,M,,1,0.5232897884590665,1,TP
+2021-11-12,08:00,,morning,,M,,0,0.5232897884590665,1,FP
+2021-11-12,08:00,,morning,,M,,0,0.5232897884590665,1,FP
+2021-11-12,08:40,physiotherapy,morning,,F,,0,0.4652369975401751,1,FP
+2021-11-12,08:40,,morning,,M,,1,0.5335142628013686,1,TP
+2021-11-12,08:40,,morning,,M,,0,0.5335142628013686,1,FP
+2021-11-12,08:40,,morning,,M,,0,0.5335142628013686,1,FP
+2021-11-12,08:40,,morning,7.0,M,intellectual,0,0.3071594252131915,0,TN
+2021-11-12,08:40,,morning,7.0,M,intellectual,0,0.3752136493048558,0,TN
+2021-11-12,08:40,,morning,,M,,0,0.5335142628013686,1,FP
+2021-11-12,08:40,,morning,,M,,1,0.5335142628013686,1,TP
+2021-11-12,08:40,,morning,,M,,0,0.5335142628013686,1,FP
+2021-11-12,08:40,,morning,,M,,0,0.5335142628013686,1,FP
+2021-11-12,08:40,,morning,7.0,M,intellectual,0,0.3071594252131915,0,TN
+2021-11-12,08:40,,morning,7.0,M,intellectual,0,0.3752136493048558,0,TN
+2021-11-12,08:40,,morning,,M,,0,0.5335142628013686,1,FP
+2021-11-12,09:20,physiotherapy,morning,39.0,M,motor,0,0.2964185485753738,0,TN
+2021-11-12,09:20,,morning,,M,,1,0.548017010099568,1,TP
+2021-11-12,09:20,,morning,,M,,0,0.548017010099568,1,FP
+2021-11-12,09:20,,morning,,M,,0,0.548017010099568,1,FP
+2021-11-12,09:20,,morning,,M,,0,0.548017010099568,1,FP
+2021-11-12,09:20,,morning,,M,,1,0.548017010099568,1,TP
+2021-11-12,09:20,,morning,,M,,0,0.548017010099568,1,FP
+2021-11-12,09:20,,morning,,M,,0,0.548017010099568,1,FP
+2021-11-12,09:20,,morning,,M,,0,0.548017010099568,1,FP
+2021-11-12,10:20,physiotherapy,morning,11.0,F,intellectual,0,0.45764782960963923,1,FP
+2021-11-12,10:20,,morning,,F,,0,0.5798104256791774,1,FP
+2021-11-12,10:20,,morning,9.0,M,intellectual,0,0.33230317078848026,0,TN
+2021-11-12,10:20,,morning,6.0,M,intellectual,0,0.5008180170094385,1,FP
+2021-11-12,10:20,,morning,,F,,0,0.5798104256791774,1,FP
+2021-11-12,11:00,physiotherapy,morning,,F,,0,0.5757392158887683,1,FP
+2021-11-12,11:00,,morning,6.0,M,intellectual,0,0.38555305689710734,0,TN
+2021-11-12,11:00,,morning,,M,,0,0.5813836908046425,1,FP
+2021-11-12,11:00,,morning,,F,,0,0.5813836908046425,1,FP
+2021-11-12,11:40,,morning,,F,,0,0.5787924774408563,1,FP
+2021-10-12,07:20,,morning,,M,,0,0.5296167701744143,1,FP
+2021-10-12,08:00,,morning,,M,,1,0.5005865019504852,1,TP
+2021-10-12,08:00,,morning,,M,,0,0.5005865019504852,1,FP
+2021-10-12,08:00,,morning,,M,,0,0.5005865019504852,1,FP
+2021-10-12,08:00,,morning,,M,,0,0.5005865019504852,1,FP
+2021-10-12,08:00,,morning,,M,,0,0.5005865019504852,1,FP
+2021-10-12,08:40,,morning,,F,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,,M,,1,0.5801828365030994,1,TP
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,,M,,1,0.5801828365030994,1,TP
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,7.0,M,intellectual,0,0.3628731312922883,0,TN
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,,M,,1,0.5801828365030994,1,TP
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,08:40,,morning,7.0,M,intellectual,0,0.3628731312922883,0,TN
+2021-10-12,08:40,,morning,,M,,0,0.5801828365030994,1,FP
+2021-10-12,09:20,,morning,46.0,M,motor,0,0.3583323694257832,0,TN
+2021-10-12,09:20,,morning,,M,,0,0.6005536521266394,1,FP
+2021-10-12,09:20,,morning,,M,,1,0.6005536521266394,1,TP
+2021-10-12,09:20,,morning,,M,,0,0.6005536521266394,1,FP
+2021-10-12,09:20,,morning,,M,,0,0.6005536521266394,1,FP
+2021-10-12,09:20,,morning,,M,,1,0.6005536521266394,1,TP
+2021-10-12,09:20,,morning,,M,,0,0.6005536521266394,1,FP
+2021-10-12,09:20,,morning,,M,,0,0.6005536521266394,1,FP
+2021-10-12,09:20,,morning,,M,,1,0.6005536521266394,1,TP
+2021-10-12,09:20,,morning,,M,,0,0.6005536521266394,1,FP
+2021-10-12,09:20,,morning,10.0,M,intellectual,0,0.40538601563696536,0,TN
+2021-10-12,09:20,,morning,,M,,0,0.6005536521266394,1,FP
+2021-10-12,10:20,,morning,,F,,0,0.6051196594034368,1,FP
+2021-10-12,10:20,,morning,,F,,0,0.6051196594034368,1,FP
+2021-10-12,10:20,,morning,,M,,0,0.6051196594034368,1,FP
+2021-10-12,10:20,,morning,6.0,M,intellectual,0,0.47418745149764935,1,FP
+2021-10-12,10:20,,morning,,F,,0,0.6051196594034368,1,FP
+2021-10-12,11:00,,morning,,F,,0,0.5647966902481909,1,FP
+2021-10-12,11:00,,morning,6.0,M,intellectual,0,0.4500679011744754,1,FP
+2021-10-12,11:00,,morning,,M,,0,0.5647966902481909,1,FP
+2021-10-12,11:00,,morning,,F,,0,0.5647966902481909,1,FP
+2021-10-12,11:00,,morning,,M,,0,0.5647966902481909,1,FP
+2021-10-12,11:40,,morning,,F,,0,0.5911318362273812,1,FP
+2021-11-11,07:20,physiotherapy,morning,,M,,0,0.44530305263052355,1,FP
+2021-11-11,07:20,,morning,10.0,M,intellectual,0,0.35878948581341563,0,TN
+2021-11-11,07:20,,morning,10.0,M,intellectual,0,0.2317084838590452,0,TN
+2021-11-11,07:20,,morning,9.0,M,intellectual,0,0.3945474604820168,0,TN
+2021-11-11,07:20,,morning,,F,,0,0.538666650529202,1,FP
+2021-11-11,07:20,,morning,10.0,M,intellectual,0,0.35878948581341563,0,TN
+2021-11-11,07:20,,morning,13.0,M,intellectual,0,0.33413173266749757,0,TN
+2021-11-11,07:20,,morning,9.0,M,intellectual,0,0.3945474604820168,0,TN
+2021-11-11,08:00,physiotherapy,morning,,M,,0,0.4374313070537342,0,TN
+2021-11-11,08:00,,morning,10.0,M,intellectual,0,0.18142990054298644,0,TN
+2021-11-11,08:00,,morning,9.0,M,intellectual,0,0.2811342104905021,0,TN
+2021-11-11,08:00,,morning,,M,,1,0.5299535214055687,1,TP
+2021-11-11,08:00,,morning,10.0,M,intellectual,0,0.18142990054298644,0,TN
+2021-11-11,08:00,,morning,9.0,M,intellectual,0,0.2811342104905021,0,TN
+2021-11-11,08:40,physiotherapy,morning,,F,,0,0.4986550821443159,1,FP
+2021-11-11,08:40,,morning,,M,,0,0.5781910581660735,1,FP
+2021-11-11,08:40,,morning,7.0,M,intellectual,0,0.34687163123168946,0,TN
+2021-11-11,08:40,,morning,9.0,M,intellectual,0,0.33907868083890885,0,TN
+2021-11-11,08:40,,morning,,M,,0,0.5781910581660735,1,FP
+2021-11-11,08:40,,morning,7.0,M,intellectual,0,0.34687163123168946,0,TN
+2021-11-11,08:40,,morning,9.0,M,intellectual,0,0.33907868083890885,0,TN
+2021-11-11,08:40,,morning,,M,,0,0.5781910581660735,1,FP
+2021-11-11,09:20,,morning,7.0,M,intellectual,0,0.42108339699881636,0,TN
+2021-11-11,09:20,,morning,7.0,M,intellectual,0,0.42108339699881636,0,TN
+2021-11-11,09:20,,morning,6.0,M,intellectual,0,0.46101532379530835,1,FP
+2021-11-11,10:20,physiotherapy,morning,,M,,0,0.6179669722314467,1,FP
+2021-11-11,10:20,,morning,,F,,1,0.6301471824746656,1,TP
+2021-11-11,10:20,,morning,,M,,0,0.6301471824746656,1,FP
+2021-11-11,11:00,physiotherapy,morning,,M,,0,0.6068528017703526,1,FP
+2021-11-11,11:00,,morning,,M,,0,0.6310294014937209,1,FP
+2021-11-11,11:00,,morning,,M,,0,0.6310294014937209,1,FP
+2021-11-11,11:40,,morning,,M,,0,0.6207620140159729,1,FP
+2021-11-11,11:40,,morning,,F,,0,0.6207620140159729,1,FP
+2022-02-11,07:00,,morning,,M,,0,0.4171997652200418,0,TN
+2022-02-11,07:00,,morning,,M,,0,0.4171997652200418,0,TN
+2022-02-11,07:00,,morning,,M,,0,0.4171997652200418,0,TN
+2022-02-11,07:50,,morning,,M,,0,0.42348957180549485,0,TN
+2022-02-11,07:50,,morning,,M,,0,0.42348957180549485,0,TN
+2022-02-11,07:50,,morning,,M,,0,0.42348957180549485,0,TN
+2022-02-11,08:40,psychotherapy,morning,7.0,M,intellectual,0,0.36369063755952635,0,TN
+2022-02-11,08:40,psychotherapy,morning,,M,,1,0.5414939961187019,1,TP
+2022-02-11,08:40,psychotherapy,morning,,M,,0,0.5414939961187019,1,FP
+2022-02-11,08:40,,morning,,M,,0,0.5700801330514241,1,FP
+2022-02-11,08:40,,morning,7.0,M,intellectual,0,0.34328403988730694,0,TN
+2022-02-11,08:40,,morning,,M,,1,0.5700801330514241,1,TP
+2022-02-11,09:20,,morning,,M,,0,0.5688239917703489,1,FP
+2022-02-11,10:20,,morning,,F,,0,0.6463741835461322,1,FP
+2022-02-11,10:20,,morning,,M,,0,0.6463741835461322,1,FP
+2022-02-11,10:20,,morning,,M,,0,0.6463741835461322,1,FP
+2022-02-11,10:20,,morning,,M,,0,0.6463741835461322,1,FP
+2022-02-11,10:20,psychotherapy,morning,,M,,0,0.6219503341192151,1,FP
+2022-02-11,10:20,,morning,6.0,M,intellectual,1,0.6042571103759067,1,TP
+2022-02-11,10:20,,morning,,M,,0,0.6463741835461322,1,FP
+2022-02-11,10:20,,morning,,M,,0,0.6463741835461322,1,FP
+2022-02-11,11:00,,morning,6.0,M,intellectual,1,0.5916576860928457,1,TP
+2022-02-11,11:00,,morning,,F,,0,0.6160315291222721,1,FP
+2022-02-11,13:20,physiotherapy,afternoon,4.0,F,intellectual,0,0.6476397505925527,1,FP
+2022-02-11,13:20,occupational therapy,afternoon,,F,,0,0.6196116114398768,1,FP
+2022-02-11,13:20,psychotherapy,afternoon,,F,,0,0.6561978387655168,1,FP
+2022-02-11,14:00,physiotherapy,afternoon,,F,,0,0.6407879481320782,1,FP
+2022-02-11,14:00,psychotherapy,afternoon,,M,,0,0.6512388185025924,1,FP
+2022-02-11,14:00,psychotherapy,afternoon,,M,,0,0.6512388185025924,1,FP
+2022-02-11,14:00,psychotherapy,afternoon,10.0,M,intellectual,0,0.28871271904642576,0,TN
+2022-02-11,14:00,psychotherapy,afternoon,,F,,0,0.6512388185025924,1,FP
+2022-02-11,14:00,psychotherapy,afternoon,8.0,M,intellectual,0,0.4576277480661782,1,FP
+2022-02-11,14:00,psychotherapy,afternoon,,M,,0,0.6512388185025924,1,FP
+2022-02-11,14:00,speech therapy,afternoon,,M,,0,0.7018173953305933,1,FP
+2022-02-11,14:00,speech therapy,afternoon,10.0,M,intellectual,0,0.3146147061232605,0,TN
+2022-02-11,14:00,speech therapy,afternoon,,F,,0,0.7018173953305933,1,FP
+2022-02-11,14:00,speech therapy,afternoon,8.0,M,intellectual,0,0.5021036169473839,1,FP
+2022-02-11,14:00,speech therapy,afternoon,,M,,0,0.7018173953305933,1,FP
+2022-02-11,14:00,speech therapy,afternoon,4.0,F,intellectual,0,0.6194086371472483,1,FP
+2022-02-11,14:40,physiotherapy,afternoon,,M,,0,0.6375531854407845,1,FP
+2022-02-11,14:40,physiotherapy,afternoon,68.0,M,motor,0,0.6071658372342844,1,FP
+2022-02-11,14:40,physiotherapy,afternoon,,M,,0,0.6375531854407845,1,FP
+2022-02-11,14:40,physiotherapy,afternoon,,M,,0,0.6375531854407845,1,FP
+2022-02-11,14:40,occupational therapy,afternoon,,M,,0,0.5769318758745916,1,FP
+2022-02-11,14:40,occupational therapy,afternoon,11.0,M,intellectual,1,0.6522763192032979,1,TP
+2022-02-11,14:40,psychotherapy,afternoon,,M,,0,0.6452629924014337,1,FP
+2022-02-11,14:40,psychotherapy,afternoon,11.0,M,intellectual,1,0.6300116610448478,1,TP
+2022-02-11,14:40,speech therapy,afternoon,,M,,0,0.6722757137918616,1,FP
+2022-02-11,14:40,speech therapy,afternoon,68.0,M,motor,0,0.6214521385989841,1,FP
+2022-02-11,14:40,speech therapy,afternoon,,M,,0,0.6722757137918616,1,FP
+2022-02-11,14:40,speech therapy,afternoon,,M,,0,0.6722757137918616,1,FP
+2022-02-11,14:40,physiotherapy,afternoon,,F,,1,0.6375531854407845,1,TP
+2022-02-11,15:20,,afternoon,,M,,0,0.6616819144593762,1,FP
+2022-02-11,15:20,psychotherapy,afternoon,,M,,0,0.6282520894429559,1,FP
+2022-02-11,15:20,speech therapy,afternoon,,F,,1,0.6851213903476701,1,TP
+2022-02-11,15:20,physiotherapy,afternoon,,F,,0,0.637753139426537,1,FP
+2022-02-11,16:20,occupational therapy,afternoon,10.0,M,intellectual,0,0.28485565129528184,0,TN
+2022-02-11,16:20,,afternoon,11.0,M,intellectual,1,0.7082766415247447,1,TP
+2022-02-11,16:20,,afternoon,,M,,0,0.7117756432527873,1,FP
+2022-02-11,16:20,,afternoon,,M,,0,0.7117756432527873,1,FP
+2022-02-11,16:20,psychotherapy,afternoon,11.0,M,intellectual,1,0.6396078675484854,1,TP
+2022-02-11,16:20,psychotherapy,afternoon,,M,,0,0.6809086397983046,1,FP
+2022-02-11,16:20,psychotherapy,afternoon,,M,,0,0.6809086397983046,1,FP
+2022-02-11,16:20,psychotherapy,afternoon,15.0,M,intellectual,0,0.5883641181452351,1,FP
+2022-02-11,16:20,speech therapy,afternoon,,M,,0,0.726631679798878,1,FP
+2022-02-11,16:20,physiotherapy,afternoon,,M,,0,0.6826151603895936,1,FP
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP
+2022-02-11,17:00,occupational therapy,afternoon,,M,,0,0.6894849234146088,1,FP
+2022-02-11,17:00,occupational therapy,afternoon,,M,,0,0.6894849234146088,1,FP
+2022-02-11,17:00,occupational therapy,afternoon,,M,,0,0.6894849234146088,1,FP
+2022-02-11,17:00,occupational therapy,afternoon,,M,,0,0.6894849234146088,1,FP
+2022-02-11,17:00,psychotherapy,afternoon,,M,,0,0.6797143391498726,1,FP
+2022-02-11,17:00,psychotherapy,afternoon,,M,,0,0.6797143391498726,1,FP
+2022-02-11,17:00,psychotherapy,afternoon,,M,,0,0.6797143391498726,1,FP
+2022-02-11,17:00,psychotherapy,afternoon,,M,,0,0.6797143391498726,1,FP
+2022-02-11,17:00,speech therapy,afternoon,,F,,1,0.733229181126014,1,TP
+2022-02-11,17:00,speech therapy,afternoon,,M,,0,0.733229181126014,1,FP
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP
+2022-02-11,17:40,physiotherapy,afternoon,,F,,1,0.5573127407286452,1,TP
+2021-11-10,07:20,physiotherapy,morning,,M,,0,0.37724418539671567,0,TN
+2021-11-10,07:20,,morning,,M,,1,0.426960198541629,0,FN
+2021-11-10,07:20,,morning,,M,,0,0.426960198541629,0,TN
+2021-11-10,08:00,physiotherapy,morning,,F,,0,0.41825376665410496,0,TN
+2021-11-10,08:00,,morning,11.0,M,intellectual,0,0.24904723593745579,0,TN
+2021-11-10,08:00,,morning,12.0,M,intellectual,0,0.32153817388419803,0,TN
+2021-11-10,08:00,,morning,,M,,0,0.48586433478119245,1,FP
+2021-11-10,08:00,,morning,,M,,1,0.48586433478119245,1,TP
+2021-11-10,08:00,,morning,,M,,0,0.48586433478119245,1,FP
+2021-11-10,08:40,physiotherapy,morning,,F,,0,0.4318656885977942,0,TN
+2021-11-10,08:40,,morning,,M,,0,0.48306664410225303,1,FP
+2021-11-10,08:40,,morning,11.0,M,intellectual,0,0.28206039028139446,0,TN
+2021-11-10,08:40,,morning,12.0,M,intellectual,0,0.3176416071211646,0,TN
+2021-11-10,08:40,,morning,,M,,0,0.48306664410225303,1,FP
+2021-11-10,08:40,,morning,11.0,M,intellectual,0,0.28206039028139446,0,TN
+2021-11-10,08:40,,morning,12.0,M,intellectual,0,0.3176416071211646,0,TN
+2021-11-10,08:40,,morning,,M,,0,0.48306664410225303,1,FP
+2021-11-10,08:40,,morning,9.0,M,intellectual,0,0.506565365545202,1,FP
+2021-11-10,08:40,,morning,,F,,0,0.48306664410225303,1,FP
+2021-11-10,09:20,physiotherapy,morning,,F,,0,0.44523342336169347,1,FP
+2021-11-10,09:20,,morning,9.0,M,intellectual,0,0.5293263468601925,1,FP
+2021-11-10,09:20,,morning,,M,,0,0.5055389207429487,1,FP
+2021-11-10,09:20,,morning,,M,,0,0.5055389207429487,1,FP
+2021-11-10,09:20,,morning,,M,,0,0.5055389207429487,1,FP
+2021-11-10,09:20,,morning,,M,,1,0.5055389207429487,1,TP
+2021-11-10,09:20,physiotherapy,morning,,F,,0,0.44523342336169347,1,FP
+2021-11-10,10:20,physiotherapy,morning,,M,,0,0.5529221401808775,1,FP
+2021-11-10,10:20,,morning,10.0,F,intellectual,0,0.419823914738074,0,TN
+2021-11-10,10:20,,morning,,M,,0,0.5371805453710469,1,FP
+2021-11-10,10:20,,morning,,M,,0,0.5371805453710469,1,FP
+2021-11-10,10:20,physiotherapy,morning,,M,,1,0.5529221401808775,1,TP
+2021-11-10,11:00,,morning,,M,,0,0.5893807510196363,1,FP
+2021-11-10,11:00,,morning,10.0,F,intellectual,0,0.5789774072092719,1,FP
+2021-11-10,11:00,,morning,,M,,0,0.5893807510196363,1,FP
+2021-11-10,11:40,,morning,,F,,0,0.527940693270434,1,FP
+2022-02-10,07:20,,morning,10.0,M,intellectual,0,0.40487531156794176,0,TN
+2022-02-10,07:20,,morning,10.0,M,intellectual,0,0.7037525618355714,1,FP
+2022-02-10,07:20,,morning,9.0,M,intellectual,0,0.40629803875688514,0,TN
+2022-02-10,07:20,psychotherapy,morning,,F,,0,0.32301891586364656,0,TN
+2022-02-10,07:20,,morning,10.0,M,intellectual,0,0.40487531156794176,0,TN
+2022-02-10,07:20,,morning,10.0,M,intellectual,0,0.7037525618355714,1,FP
+2022-02-10,07:20,,morning,9.0,M,intellectual,0,0.40629803875688514,0,TN
+2022-02-10,08:00,,morning,10.0,M,intellectual,0,0.3863525833454655,0,TN
+2022-02-10,08:00,,morning,10.0,M,intellectual,0,0.725648149206685,1,FP
+2022-02-10,08:00,,morning,9.0,M,intellectual,0,0.372770055909494,0,TN
+2022-02-10,08:00,psychotherapy,morning,,M,,0,0.30358817333752164,0,TN
+2022-02-10,08:00,,morning,10.0,M,intellectual,0,0.3863525833454655,0,TN
+2022-02-10,08:00,,morning,10.0,M,intellectual,0,0.725648149206685,1,FP
+2022-02-10,08:00,,morning,9.0,M,intellectual,0,0.372770055909494,0,TN
+2022-02-10,08:40,,morning,,M,,0,0.41756449175273197,0,TN
+2022-02-10,08:40,,morning,7.0,M,intellectual,0,0.23736779788011686,0,TN
+2022-02-10,08:40,,morning,9.0,M,intellectual,0,0.42497872589549784,0,TN
+2022-02-10,08:40,,morning,,M,,0,0.41756449175273197,0,TN
+2022-02-10,08:40,psychotherapy,morning,,M,,0,0.36498405865279493,0,TN
+2022-02-10,08:40,psychotherapy,morning,7.0,M,intellectual,0,0.25646112083011385,0,TN
+2022-02-10,08:40,psychotherapy,morning,9.0,M,intellectual,0,0.38380599972314283,0,TN
+2022-02-10,08:40,,morning,,M,,0,0.41756449175273197,0,TN
+2022-02-10,09:20,,morning,,M,,0,0.4484608929570134,1,FP
+2022-02-10,09:20,,morning,7.0,M,intellectual,0,0.2930196502261757,0,TN
+2022-02-10,09:20,,morning,9.0,M,intellectual,0,0.451415023625401,1,FP
+2022-02-10,09:20,psychotherapy,morning,,M,,0,0.4002200038704766,0,TN
+2022-02-10,09:20,psychotherapy,morning,7.0,M,intellectual,0,0.32957735270141914,0,TN
+2022-02-10,09:20,psychotherapy,morning,9.0,M,intellectual,0,0.4305628252906929,0,TN
+2022-02-10,10:20,,morning,7.0,M,intellectual,0,0.6876222390086051,1,FP
+2022-02-10,10:20,psychotherapy,morning,,F,,0,0.4857478665680246,1,FP
+2022-02-10,10:20,,morning,,F,,0,0.5261261002799782,1,FP
+2022-02-10,11:00,,morning,,F,,0,0.47457017259656903,1,FP
+2022-02-10,11:00,,morning,7.0,M,intellectual,0,0.6265128747929468,1,FP
+2022-02-10,13:20,physiotherapy,afternoon,,M,,0,0.4782376234941965,1,FP
+2022-02-10,13:20,occupational therapy,afternoon,,M,,0,0.42788124780298487,0,TN
+2022-02-10,13:20,occupational therapy,afternoon,,F,,0,0.42788124780298487,0,TN
+2022-02-10,13:20,occupational therapy,afternoon,29.0,F,motor,1,0.5792094743042275,1,TP
+2022-02-10,13:20,psychotherapy,afternoon,,F,,1,0.47431783147388623,1,TP
+2022-02-10,13:20,psychotherapy,afternoon,,M,,0,0.47431783147388623,1,FP
+2022-02-10,13:20,psychotherapy,afternoon,,F,,0,0.47431783147388623,1,FP
+2022-02-10,13:20,psychotherapy,afternoon,29.0,F,motor,1,0.600598578007709,1,TP
+2022-02-10,13:20,physiotherapy,afternoon,,F,,0,0.4782376234941965,1,FP
+2022-02-10,14:00,physiotherapy,afternoon,,M,,0,0.4541922244451904,1,FP
+2022-02-10,14:00,psychotherapy,afternoon,12.0,M,intellectual,0,0.5614479295609422,1,FP
+2022-02-10,14:00,speech therapy,afternoon,,F,,0,0.5263453909802174,1,FP
+2022-02-10,14:00,physiotherapy,afternoon,4.0,M,motor,1,0.5199167352731869,1,TP
+2022-02-10,14:40,physiotherapy,afternoon,,F,,0,0.4150511628525672,0,TN
+2022-02-10,14:40,physiotherapy,afternoon,,M,,0,0.4150511628525672,0,TN
+2022-02-10,14:40,occupational therapy,afternoon,,M,,0,0.3385533906118648,0,TN
+2022-02-10,14:40,psychotherapy,afternoon,,F,,0,0.42501513392459545,0,TN
+2022-02-10,14:40,psychotherapy,afternoon,,M,,0,0.42501513392459545,0,TN
+2022-02-10,14:40,psychotherapy,afternoon,,M,,0,0.42501513392459545,0,TN
+2022-02-10,14:40,speech therapy,afternoon,,F,,0,0.4622772241126705,1,FP
+2022-02-10,14:40,speech therapy,afternoon,,M,,0,0.4622772241126705,1,FP
+2022-02-10,14:40,speech therapy,afternoon,,F,,0,0.4622772241126705,1,FP
+2022-02-10,14:40,speech therapy,afternoon,,M,,0,0.4622772241126705,1,FP
+2022-02-10,14:40,speech therapy,afternoon,,M,,0,0.4622772241126705,1,FP
+2022-02-10,14:40,physiotherapy,afternoon,,M,,0,0.4150511628525672,0,TN
+2022-02-10,15:20,,afternoon,,M,,0,0.4965912946621515,1,FP
+2022-02-10,15:20,psychotherapy,afternoon,,F,,0,0.43893244492536726,0,TN
+2022-02-10,16:20,physiotherapy,afternoon,,F,,0,0.5023273160083593,1,FP
+2022-02-10,16:20,occupational therapy,afternoon,,F,,0,0.4480740269552,1,FP
+2022-02-10,16:20,,afternoon,,M,,0,0.5504474187348453,1,FP
+2022-02-10,16:20,,afternoon,,M,,0,0.5504474187348453,1,FP
+2022-02-10,16:20,psychotherapy,afternoon,,M,,0,0.49265498950168757,1,FP
+2022-02-10,16:20,speech therapy,afternoon,,M,,0,0.558021662962203,1,FP
+2022-02-10,16:20,speech therapy,afternoon,,M,,0,0.558021662962203,1,FP
+2022-02-10,16:20,speech therapy,afternoon,,M,,0,0.558021662962203,1,FP
+2022-02-10,16:20,physiotherapy,afternoon,,M,,0,0.5023273160083593,1,FP
+2022-02-10,17:00,physiotherapy,afternoon,,M,,0,0.5647766993775072,1,FP
+2022-02-10,17:00,physiotherapy,afternoon,,M,,0,0.5647766993775072,1,FP
+2022-02-10,17:00,occupational therapy,afternoon,,M,,0,0.5002603243476358,1,FP
+2022-02-10,17:00,psychotherapy,afternoon,,M,,0,0.48522175544165463,1,FP
+2022-02-10,17:00,psychotherapy,afternoon,,M,,0,0.48522175544165463,1,FP
+2022-02-10,17:00,speech therapy,afternoon,,M,,0,0.5573942707401839,1,FP
+2022-02-10,17:40,psychotherapy,afternoon,,M,,0,0.299999316881,0,TN
+2021-12-01,13:20,physiotherapy,afternoon,10.0,F,intellectual,0,0.4539254739643081,1,FP
+2021-12-01,14:00,physiotherapy,afternoon,,F,,0,0.40526978939141717,0,TN
+2021-12-01,14:40,physiotherapy,afternoon,,F,,0,0.4155965567225387,0,TN
+2021-12-01,15:20,physiotherapy,afternoon,,M,,0,0.34785698629933054,0,TN
+2021-12-01,16:20,physiotherapy,afternoon,,M,,0,0.39073543696645413,0,TN
+2021-12-01,14:00,occupational therapy,afternoon,,F,,0,0.42115834666811464,0,TN
+2021-12-01,14:40,occupational therapy,afternoon,,F,,0,0.27748787183411405,0,TN
+2021-12-01,15:20,occupational therapy,afternoon,,M,,0,0.3344222191429542,0,TN
+2021-12-01,16:20,occupational therapy,afternoon,,M,,0,0.3706746762532372,0,TN
+2021-12-01,13:20,psychotherapy,afternoon,,F,,0,0.4049638413537826,0,TN
+2021-12-01,14:00,psychotherapy,afternoon,10.0,M,intellectual,0,0.32466411365901426,0,TN
+2021-12-01,14:40,psychotherapy,afternoon,,M,,0,0.3385780379472463,0,TN
+2021-12-01,14:40,psychotherapy,afternoon,,M,,0,0.3385780379472463,0,TN
+2021-12-01,14:40,psychotherapy,afternoon,,M,,0,0.3385780379472463,0,TN
+2021-12-01,14:40,speech therapy,afternoon,,M,,0,0.28004443884320246,0,TN
+2021-12-01,14:40,speech therapy,afternoon,6.0,M,intellectual,0,0.6105793935825411,1,FP
+2021-12-01,14:40,speech therapy,afternoon,,M,,0,0.28004443884320246,0,TN
+2021-12-01,14:40,speech therapy,afternoon,6.0,M,intellectual,0,0.6105793935825411,1,FP
+2021-12-01,14:40,speech therapy,afternoon,,F,,0,0.28004443884320246,0,TN
+2021-12-01,16:20,speech therapy,afternoon,,F,,1,0.4010601367992417,0,FN
+2021-12-01,13:20,speech therapy,afternoon,,F,,0,0.43251195946453364,0,TN
+2021-12-01,14:00,speech therapy,afternoon,,F,,0,0.4179588304033689,0,TN
+2021-12-01,14:40,speech therapy,afternoon,,M,,0,0.28004443884320246,0,TN
+2021-12-01,14:40,speech therapy,afternoon,,M,,0,0.28004443884320246,0,TN
+2021-12-01,14:40,speech therapy,afternoon,,M,,0,0.28004443884320246,0,TN
+2021-12-01,16:20,speech therapy,afternoon,,M,,0,0.4010601367992417,0,TN
+2021-12-01,13:20,physiotherapy,afternoon,,F,,0,0.44577220749322044,1,FP
+2021-12-01,14:00,physiotherapy,afternoon,,F,,0,0.40526978939141717,0,TN
+2021-12-01,14:40,physiotherapy,afternoon,,M,,0,0.4155965567225387,0,TN
+2021-12-01,16:20,physiotherapy,afternoon,,F,,1,0.39073543696645413,0,FN
+2021-11-09,07:20,physiotherapy,morning,,F,,0,0.3645422381891557,0,TN
+2021-11-09,07:20,,morning,8.0,M,intellectual,0,0.4192188416267674,0,TN
+2021-11-09,07:20,,morning,,F,,0,0.4667272115527343,1,FP
+2021-11-09,07:20,,morning,,M,,0,0.4667272115527343,1,FP
+2021-11-09,08:00,physiotherapy,morning,,M,,0,0.3534757943967574,0,TN
+2021-11-09,08:00,,morning,,M,,0,0.4487321523499338,1,FP
+2021-11-09,08:00,,morning,,M,,0,0.4487321523499338,1,FP
+2021-11-09,08:00,,morning,6.0,M,intellectual,0,0.28788901144420204,0,TN
+2021-11-09,08:00,,morning,,M,intellectual,0,0.4477661631112401,1,FP
+2021-11-09,08:00,,morning,,M,,0,0.4487321523499338,1,FP
+2021-11-09,08:00,,morning,,M,,0,0.4487321523499338,1,FP
+2021-11-09,08:00,,morning,6.0,M,intellectual,0,0.28788901144420204,0,TN
+2021-11-09,08:40,physiotherapy,morning,,F,,1,0.4193539955929228,0,FN
+2021-11-09,08:40,,morning,6.0,M,intellectual,0,0.30792731065544376,0,TN
+2021-11-09,08:40,,morning,,M,,0,0.5210953562155978,1,FP
+2021-11-09,08:40,,morning,6.0,M,intellectual,0,0.30792731065544376,0,TN
+2021-11-09,09:20,physiotherapy,morning,,F,,0,0.4183931635513599,0,TN
+2021-11-09,09:20,,morning,6.0,M,intellectual,0,0.41100476343731485,0,TN
+2021-11-09,09:20,,morning,,F,,0,0.5319936951901905,1,FP
+2021-11-09,10:20,physiotherapy,morning,6.0,M,intellectual,0,0.38827205750004357,0,TN
+2021-11-09,10:20,,morning,6.0,M,intellectual,0,0.4246697119834535,0,TN
+2021-11-09,10:20,,morning,13.0,M,intellectual,0,0.3189921068872363,0,TN
+2021-11-09,10:20,,morning,,M,,0,0.5500408322508874,1,FP
+2021-11-09,11:00,physiotherapy,morning,15.0,M,motor,0,0.25480592671599445,0,TN
+2021-11-09,11:00,,morning,6.0,M,intellectual,0,0.36148637661038613,0,TN
+2021-11-09,11:00,,morning,,M,,0,0.5222730834163135,1,FP
+2021-11-09,11:00,,morning,15.0,M,motor,0,0.2727446657201376,0,TN
+2022-02-09,07:20,,morning,,M,,1,0.3790247697845197,0,FN
+2022-02-09,08:00,,morning,11.0,M,intellectual,0,0.5503771166008499,1,FP
+2022-02-09,08:00,,morning,12.0,M,intellectual,0,0.4525556109245965,1,FP
+2022-02-09,08:00,,morning,,M,,0,0.39610229238678335,0,TN
+2022-02-09,08:00,,morning,,M,,1,0.39610229238678335,0,FN
+2022-02-09,08:40,,morning,,F,,0,0.4634462814345624,1,FP
+2022-02-09,08:40,psychotherapy,morning,11.0,M,intellectual,0,0.5270263143039227,1,FP
+2022-02-09,08:40,psychotherapy,morning,12.0,M,intellectual,0,0.43412277995781945,0,TN
+2022-02-09,08:40,,morning,9.0,M,intellectual,0,0.812878661033679,1,FP
+2022-02-09,08:40,,morning,,M,,0,0.4634462814345624,1,FP
+2022-02-09,09:20,,morning,9.0,M,intellectual,0,0.8081708228999048,1,FP
+2022-02-09,09:20,psychotherapy,morning,11.0,M,intellectual,0,0.5455524024027858,1,FP
+2022-02-09,09:20,psychotherapy,morning,12.0,M,intellectual,0,0.47548233004803736,1,FP
+2022-02-09,09:20,,morning,,F,,0,0.46223673269660964,1,FP
+2022-02-09,10:20,,morning,10.0,F,intellectual,0,0.7771910284680364,1,FP
+2022-02-09,10:20,,morning,,M,,1,0.5521909297700681,1,TP
+2022-02-09,10:20,psychotherapy,morning,,M,,1,0.5516947772552744,1,TP
+2022-02-09,10:20,,morning,,M,,0,0.5521909297700681,1,FP
+2022-02-09,10:20,,morning,,M,,0,0.5521909297700681,1,FP
+2022-02-09,11:00,,morning,10.0,F,intellectual,0,0.8534759152256716,1,FP
+2022-02-09,11:00,,morning,,M,,1,0.5119528515115205,1,TP
+2022-02-09,11:40,,morning,,M,,0,0.5115633764520174,1,FP
+2022-02-09,13:20,physiotherapy,afternoon,10.0,M,intellectual,0,0.27880057220509435,0,TN
+2022-02-09,13:20,psychotherapy,afternoon,,F,,0,0.5403434741844232,1,FP
+2022-02-09,13:20,physiotherapy,afternoon,,F,,0,0.5300516746435058,1,FP
+2022-02-09,14:00,physiotherapy,afternoon,,F,,1,0.5033097287903652,1,TP
+2022-02-09,14:00,occupational therapy,afternoon,,F,,0,0.5545321165950483,1,FP
+2022-02-09,14:00,psychotherapy,afternoon,10.0,M,intellectual,0,0.2946126105056084,0,TN
+2022-02-09,14:00,speech therapy,afternoon,,F,,1,0.5482331267408097,1,TP
+2022-02-09,14:00,speech therapy,afternoon,,F,,0,0.5482331267408097,1,FP
+2022-02-09,14:00,physiotherapy,afternoon,,F,,0,0.5033097287903652,1,FP
+2022-02-09,14:40,physiotherapy,afternoon,,F,,1,0.4601014493228601,1,TP
+2022-02-09,14:40,occupational therapy,afternoon,,F,,0,0.3561576172544511,0,TN
+2022-02-09,14:40,,afternoon,,M,,0,0.4942150743833171,1,FP
+2022-02-09,14:40,,afternoon,6.0,M,intellectual,1,0.3302023630268205,0,FN
+2022-02-09,14:40,,afternoon,,F,,0,0.4942150743833171,1,FP
+2022-02-09,14:40,psychotherapy,afternoon,,M,,0,0.48451938378439674,1,FP
+2022-02-09,14:40,psychotherapy,afternoon,,M,,0,0.48451938378439674,1,FP
+2022-02-09,14:40,psychotherapy,afternoon,,M,,0,0.48451938378439674,1,FP
+2022-02-09,14:40,psychotherapy,afternoon,,M,,1,0.48451938378439674,1,TP
+2022-02-09,14:40,psychotherapy,afternoon,,M,,0,0.48451938378439674,1,FP
+2022-02-09,14:40,psychotherapy,afternoon,6.0,M,intellectual,1,0.42235947055249323,0,FN
+2022-02-09,14:40,psychotherapy,afternoon,,F,,0,0.48451938378439674,1,FP
+2022-02-09,14:40,speech therapy,afternoon,,M,,0,0.3937984923466959,0,TN
+2022-02-09,14:40,speech therapy,afternoon,6.0,M,intellectual,1,0.3423694063001167,0,FN
+2022-02-09,14:40,speech therapy,afternoon,,F,,0,0.3937984923466959,0,TN
+2022-02-09,14:40,speech therapy,afternoon,,M,,0,0.3937984923466959,0,TN
+2022-02-09,14:40,speech therapy,afternoon,,M,,0,0.3937984923466959,0,TN
+2022-02-09,14:40,speech therapy,afternoon,,M,,0,0.3937984923466959,0,TN
+2022-02-09,14:40,speech therapy,afternoon,,M,,1,0.3937984923466959,0,FN
+2022-02-09,14:40,physiotherapy,afternoon,,M,,0,0.4601014493228601,1,FP
+2022-02-09,15:20,physiotherapy,afternoon,,F,,1,0.4478189894438549,1,TP
+2022-02-09,15:20,occupational therapy,afternoon,,M,,0,0.45212776183611364,1,FP
+2022-02-09,15:20,physiotherapy,afternoon,,F,,1,0.4478189894438549,1,TP
+2022-02-09,16:20,physiotherapy,afternoon,,M,,1,0.5016567048308935,1,TP
+2022-02-09,16:20,occupational therapy,afternoon,,M,,0,0.5060087920861175,1,FP
+2022-02-09,16:20,speech therapy,afternoon,,F,,1,0.5440574434919001,1,TP
+2021-11-08,07:20,,morning,6.0,M,intellectual,0,0.48547862132722297,1,FP
+2021-11-08,07:20,,morning,,M,,0,0.5113196808958098,1,FP
+2021-11-08,08:00,physiotherapy,morning,,M,,0,0.48298325436359657,1,FP
+2021-11-08,08:00,,morning,,F,,1,0.5540246344416516,1,TP
+2021-11-08,08:00,,morning,,M,,0,0.5540246344416516,1,FP
+2021-11-08,08:00,,morning,7.0,M,intellectual,0,0.4884166074679775,1,FP
+2021-11-08,08:00,,morning,6.0,M,intellectual,0,0.47728257285986353,1,FP
+2021-11-08,08:00,,morning,,F,,1,0.5540246344416516,1,TP
+2021-11-08,08:00,,morning,,M,,0,0.5540246344416516,1,FP
+2021-11-08,08:00,,morning,7.0,M,intellectual,0,0.4884166074679775,1,FP
+2021-11-08,08:00,,morning,,M,,0,0.5540246344416516,1,FP
+2021-11-08,08:40,physiotherapy,morning,,M,,0,0.511606983807152,1,FP
+2021-11-08,08:40,,morning,,F,,1,0.5733807222352553,1,TP
+2021-11-08,08:40,,morning,7.0,M,intellectual,0,0.5010858851394705,1,FP
+2021-11-08,08:40,,morning,,F,,1,0.5733807222352553,1,TP
+2021-11-08,08:40,,morning,7.0,M,intellectual,0,0.5010858851394705,1,FP
+2021-11-08,09:20,physiotherapy,morning,,M,,0,0.4898150699386558,1,FP
+2021-11-08,09:20,,morning,,M,,0,0.5674419178262495,1,FP
+2021-11-08,09:20,,morning,,M,,0,0.5674419178262495,1,FP
+2021-11-08,09:20,,morning,,M,,0,0.5674419178262495,1,FP
+2021-11-08,10:20,physiotherapy,morning,39.0,M,motor,0,0.5780233023922328,1,FP
+2021-11-08,10:20,,morning,,M,,0,0.5836285238598844,1,FP
+2021-11-08,10:20,,morning,,F,,0,0.5836285238598844,1,FP
+2021-11-08,10:20,,morning,,M,,0,0.5836285238598844,1,FP
+2021-11-08,10:20,,morning,,F,,0,0.5836285238598844,1,FP
+2021-11-08,10:20,,morning,,M,,0,0.5836285238598844,1,FP
+2021-11-08,10:20,,morning,,M,,0,0.5836285238598844,1,FP
+2022-02-08,07:20,,morning,8.0,M,intellectual,1,0.49440644414644375,1,TP
+2022-02-08,07:20,psychotherapy,morning,,F,,1,0.37656954861019803,0,FN
+2022-02-08,07:20,,morning,,M,,0,0.3983006443214941,0,TN
+2022-02-08,08:00,,morning,,M,,0,0.39392059982541755,0,TN
+2022-02-08,08:00,,morning,,M,,0,0.39392059982541755,0,TN
+2022-02-08,08:00,,morning,6.0,M,intellectual,1,0.4909905906056928,1,TP
+2022-02-08,08:00,psychotherapy,morning,8.0,M,intellectual,0,0.4110415990395876,0,TN
+2022-02-08,08:00,,morning,,M,,0,0.39392059982541755,0,TN
+2022-02-08,08:00,,morning,,M,,0,0.39392059982541755,0,TN
+2022-02-08,08:00,,morning,,M,,0,0.39392059982541755,0,TN
+2022-02-08,08:00,,morning,6.0,M,intellectual,1,0.4909905906056928,1,TP
+2022-02-08,08:00,,morning,,M,,0,0.39392059982541755,0,TN
+2022-02-08,08:40,psychotherapy,morning,,M,,0,0.42865160358531146,0,TN
+2022-02-08,08:40,,morning,,M,,0,0.4715405577931563,1,FP
+2022-02-08,08:40,,morning,,M,,0,0.4715405577931563,1,FP
+2022-02-08,08:40,,morning,,M,,0,0.4715405577931563,1,FP
+2022-02-08,08:40,,morning,6.0,M,intellectual,1,0.5736359168412353,1,TP
+2022-02-08,09:20,,morning,6.0,M,intellectual,0,0.4400117951746961,1,FP
+2022-02-08,09:20,psychotherapy,morning,6.0,M,intellectual,0,0.5369566671756477,1,FP
+2022-02-08,09:20,,morning,,M,,0,0.4696783007951992,1,FP
+2022-02-08,10:20,,morning,13.0,M,intellectual,1,0.7049284669760549,1,TP
+2022-02-08,10:20,psychotherapy,morning,6.0,M,intellectual,0,0.5647645122405168,1,FP
+2022-02-08,10:20,,morning,13.0,M,intellectual,1,0.7049284669760549,1,TP
+2022-02-08,11:00,,morning,6.0,M,intellectual,0,0.5639084575988621,1,FP
+2022-02-08,11:00,,morning,6.0,M,intellectual,0,0.48563725769644983,1,FP
+2022-02-08,11:00,,morning,,M,,0,0.48943103014211226,1,FP
+2022-02-08,13:20,physiotherapy,afternoon,,M,,1,0.48853881031494706,1,TP
+2022-02-08,13:20,occupational therapy,afternoon,,M,,0,0.4661735950286495,1,FP
+2022-02-08,13:20,speech therapy,afternoon,,F,,0,0.5189811827903087,1,FP
+2022-02-08,14:00,physiotherapy,afternoon,,F,,0,0.47133067822204816,1,FP
+2022-02-08,14:00,psychotherapy,afternoon,,M,,0,0.48824518696274316,1,FP
+2022-02-08,14:00,speech therapy,afternoon,,M,,1,0.5159446979236514,1,TP
+2022-02-08,14:00,physiotherapy,afternoon,,M,,1,0.47133067822204816,1,TP
+2022-02-08,14:40,physiotherapy,afternoon,,F,,1,0.43494177013276425,0,FN
+2022-02-08,14:40,psychotherapy,afternoon,,M,,0,0.45095878736414785,1,FP
+2022-02-08,14:40,psychotherapy,afternoon,,M,,0,0.45095878736414785,1,FP
+2022-02-08,14:40,psychotherapy,afternoon,,M,,0,0.45095878736414785,1,FP
+2022-02-08,14:40,psychotherapy,afternoon,,M,,0,0.45095878736414785,1,FP
+2022-02-08,14:40,speech therapy,afternoon,,M,,0,0.36978121999275554,0,TN
+2022-02-08,14:40,speech therapy,afternoon,,M,,0,0.36978121999275554,0,TN
+2022-02-08,14:40,speech therapy,afternoon,,M,,0,0.36978121999275554,0,TN
+2022-02-08,14:40,speech therapy,afternoon,,M,,0,0.36978121999275554,0,TN
+2022-02-08,14:40,speech therapy,afternoon,,M,,0,0.36978121999275554,0,TN
+2022-02-08,14:40,physiotherapy,afternoon,,M,,0,0.43494177013276425,0,TN
+2022-02-08,15:20,physiotherapy,afternoon,,M,,0,0.4677399370362912,1,FP
+2022-02-08,15:20,occupational therapy,afternoon,,F,,0,0.44824575634334973,1,FP
+2022-02-08,15:20,psychotherapy,afternoon,,F,,0,0.4640879906267234,1,FP
+2022-02-08,15:20,physiotherapy,afternoon,,M,,0,0.4677399370362912,1,FP
+2022-02-08,16:20,physiotherapy,afternoon,39.0,M,motor,0,0.6404969140845882,1,FP
+2022-02-08,16:20,physiotherapy,afternoon,,F,,0,0.5217098130728027,1,FP
+2022-02-07,07:20,,morning,6.0,M,intellectual,0,0.5057133216565101,1,FP
+2022-02-07,07:20,psychotherapy,morning,9.0,M,intellectual,0,0.5565741768754505,1,FP
+2022-02-07,08:00,,morning,,F,,0,0.5011713512407565,1,FP
+2022-02-07,08:00,,morning,,M,,0,0.5011713512407565,1,FP
+2022-02-07,08:00,,morning,7.0,M,intellectual,0,0.47033001220550436,1,FP
+2022-02-07,08:00,psychotherapy,morning,6.0,M,intellectual,0,0.4935258177375721,1,FP
+2022-02-07,08:00,,morning,8.0,M,intellectual,0,0.509257454714824,1,FP
+2022-02-07,08:00,,morning,,F,,0,0.5011713512407565,1,FP
+2022-02-07,08:00,,morning,,M,,0,0.5011713512407565,1,FP
+2022-02-07,08:00,,morning,7.0,M,intellectual,0,0.47033001220550436,1,FP
+2022-02-07,08:00,,morning,,M,,0,0.5011713512407565,1,FP
+2022-02-07,08:40,,morning,,F,,0,0.5358463202430213,1,FP
+2022-02-07,08:40,,morning,7.0,M,intellectual,0,0.47518189905442315,1,FP
+2022-02-07,08:40,psychotherapy,morning,,M,,1,0.5002659781762091,1,TP
+2022-02-07,08:40,,morning,,F,,0,0.5358463202430213,1,FP
+2022-02-07,08:40,,morning,7.0,M,intellectual,0,0.47518189905442315,1,FP
+2022-02-07,08:40,,morning,9.0,M,intellectual,0,0.6150931846620996,1,FP
+2022-02-07,09:20,,morning,,M,,0,0.5059080591267304,1,FP
+2022-02-07,09:20,,morning,,M,,1,0.5059080591267304,1,TP
+2022-02-07,09:20,,morning,,F,,0,0.5059080591267304,1,FP
+2022-02-07,10:20,,morning,,M,,1,0.5879432028814193,1,TP
+2022-02-07,10:20,,morning,,F,,0,0.5879432028814193,1,FP
+2022-02-07,10:20,,morning,,M,,0,0.5879432028814193,1,FP
+2022-02-07,10:20,psychotherapy,morning,,F,,0,0.5521341035191601,1,FP
+2022-02-07,10:20,psychotherapy,morning,,M,,0,0.5521341035191601,1,FP
+2022-02-07,10:20,,morning,,M,,0,0.5879432028814193,1,FP
+2022-02-07,13:20,physiotherapy,afternoon,,M,,0,0.5481513997883458,1,FP
+2022-02-07,13:20,occupational therapy,afternoon,,F,,0,0.5801479691355045,1,FP
+2022-02-07,13:20,psychotherapy,afternoon,,M,,0,0.5500732383807558,1,FP
+2022-02-07,13:20,psychotherapy,afternoon,,M,,0,0.5500732383807558,1,FP
+2022-02-07,13:20,psychotherapy,afternoon,,M,,0,0.5500732383807558,1,FP
+2022-02-07,13:20,psychotherapy,afternoon,,M,,0,0.5500732383807558,1,FP
+2022-02-07,13:20,speech therapy,afternoon,10.0,M,intellectual,0,0.37094584517473456,0,TN
+2022-02-07,13:20,speech therapy,afternoon,,M,,0,0.569535874611839,1,FP
+2022-02-07,13:20,speech therapy,afternoon,,M,,0,0.569535874611839,1,FP
+2022-02-07,13:20,speech therapy,afternoon,,M,,0,0.569535874611839,1,FP
+2022-02-07,13:20,speech therapy,afternoon,,M,,0,0.569535874611839,1,FP
+2022-02-07,14:00,physiotherapy,afternoon,,M,,0,0.5429038789362031,1,FP
+2022-02-07,14:00,occupational therapy,afternoon,10.0,M,intellectual,0,0.3813054798887267,0,TN
+2022-02-07,14:00,psychotherapy,afternoon,,M,,0,0.5595350577774868,1,FP
+2022-02-07,14:00,speech therapy,afternoon,,M,,0,0.5782470844357571,1,FP
+2022-02-07,14:40,physiotherapy,afternoon,,M,,1,0.5568844551735961,1,TP
+2022-02-07,14:40,occupational therapy,afternoon,,M,,0,0.5700686790385787,1,FP
+2022-02-07,14:40,psychotherapy,afternoon,,F,,0,0.5633328566566633,1,FP
+2022-02-07,14:40,psychotherapy,afternoon,,M,,0,0.5633328566566633,1,FP
+2022-02-07,14:40,speech therapy,afternoon,,M,,0,0.570339582607045,1,FP
+2022-02-07,14:40,speech therapy,afternoon,,M,,0,0.570339582607045,1,FP
+2022-02-07,14:40,physiotherapy,afternoon,,M,,0,0.5568844551735961,1,FP
+2022-02-07,15:20,physiotherapy,afternoon,,M,,1,0.5673295815308895,1,TP
+2022-02-07,15:20,occupational therapy,afternoon,25.0,F,motor,0,0.46551024639637484,1,FP
+2022-02-07,15:20,psychotherapy,afternoon,,M,,0,0.5554497898646916,1,FP
+2022-02-07,15:20,speech therapy,afternoon,,M,,0,0.5864015344150029,1,FP
+2022-02-07,15:20,speech therapy,afternoon,,F,,0,0.5864015344150029,1,FP
+2022-02-07,15:20,physiotherapy,afternoon,,F,,1,0.5673295815308895,1,TP
+2022-02-07,16:20,physiotherapy,afternoon,,M,,1,0.601340948877065,1,TP
+2022-02-07,16:20,psychotherapy,afternoon,,M,,0,0.5976879885609552,1,FP
+2022-02-07,16:20,psychotherapy,afternoon,,F,,0,0.5976879885609552,1,FP
+2022-02-07,16:20,speech therapy,afternoon,,F,,1,0.6199180865493665,1,TP
+2022-02-07,16:20,speech therapy,afternoon,25.0,F,motor,0,0.46505464591486273,1,FP
+2022-02-07,16:20,physiotherapy,afternoon,,F,,1,0.601340948877065,1,TP
+2022-02-07,17:00,physiotherapy,afternoon,,F,,0,0.6619210911490888,1,FP
+2022-02-07,17:00,psychotherapy,afternoon,,M,,0,0.611108870503267,1,FP
+2022-02-07,17:00,psychotherapy,afternoon,,M,,0,0.611108870503267,1,FP
+2022-02-07,17:00,speech therapy,afternoon,6.0,M,intellectual,0,0.5524769070621451,1,FP
+2022-02-07,17:00,speech therapy,afternoon,,M,,0,0.6318847627639669,1,FP
+2022-02-07,17:00,physiotherapy,afternoon,,M,,0,0.6619210911490888,1,FP
+2022-02-07,17:40,physiotherapy,afternoon,,M,,0,0.4552363348748845,1,FP
+2022-02-07,17:40,psychotherapy,afternoon,6.0,M,intellectual,0,0.5092757372953856,1,FP
+2022-02-07,17:40,physiotherapy,afternoon,,M,,0,0.4552363348748845,1,FP
+2021-11-05,07:20,,morning,,M,,0,0.46544144556509986,1,FP
+2021-11-05,08:00,physiotherapy,morning,,M,,0,0.43080140501621483,0,TN
+2021-11-05,08:00,,morning,7.0,M,intellectual,0,0.4068953347409637,0,TN
+2021-11-05,08:40,physiotherapy,morning,,F,,0,0.5128534723894952,1,FP
+2021-11-05,08:40,,morning,,M,,0,0.5695729819841964,1,FP
+2021-11-05,08:40,,morning,,M,,0,0.5695729819841964,1,FP
+2021-11-05,08:40,,morning,,M,,0,0.5695729819841964,1,FP
+2021-11-05,08:40,,morning,7.0,M,intellectual,0,0.49864205538936995,1,FP
+2021-11-05,08:40,,morning,,M,,0,0.5695729819841964,1,FP
+2021-11-05,08:40,,morning,,M,,0,0.5695729819841964,1,FP
+2021-11-05,08:40,,morning,,M,,0,0.5695729819841964,1,FP
+2021-11-05,08:40,,morning,7.0,M,intellectual,0,0.42332437143327556,0,TN
+2021-11-05,08:40,,morning,7.0,M,intellectual,0,0.49864205538936995,1,FP
+2021-11-05,08:40,,morning,,M,,0,0.5695729819841964,1,FP
+2021-11-05,09:20,physiotherapy,morning,39.0,M,motor,1,0.4370854899433716,0,FN
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,09:20,,morning,,M,,0,0.5714613486310843,1,FP
+2021-11-05,10:20,physiotherapy,morning,,F,,0,0.6052544083611587,1,FP
+2021-11-05,10:20,,morning,6.0,M,intellectual,0,0.5689196170060196,1,FP
+2021-11-05,11:00,physiotherapy,morning,,M,,0,0.5619309652531768,1,FP
+2021-11-05,11:00,,morning,6.0,M,intellectual,0,0.45782243959535,1,FP
+2021-11-05,11:00,,morning,,M,,0,0.5571082758878917,1,FP
+2021-11-05,11:00,,morning,,F,,0,0.5571082758878917,1,FP
+2021-11-05,11:40,,morning,,F,,0,0.6135115946433853,1,FP
+2021-11-04,07:20,physiotherapy,morning,,M,,0,0.22553935028906397,0,TN
+2021-11-04,07:20,,morning,,F,,0,0.30591698531097844,0,TN
+2021-11-04,07:20,,morning,10.0,M,intellectual,0,0.2684667590510181,0,TN
+2021-11-04,08:00,physiotherapy,morning,,M,,0,0.18797263759973704,0,TN
+2021-11-04,08:00,,morning,10.0,M,intellectual,0,0.1978120848053259,0,TN
+2021-11-04,08:00,,morning,,M,,0,0.2653915652824145,0,TN
+2021-11-04,08:40,physiotherapy,morning,,F,,0,0.2908912147774516,0,TN
+2021-11-04,08:40,,morning,6.0,M,intellectual,0,0.36219693608770664,0,TN
+2021-11-04,08:40,,morning,7.0,M,intellectual,0,0.3395061694196232,0,TN
+2021-11-04,08:40,,morning,,M,,0,0.36985665840978627,0,TN
+2021-11-04,08:40,,morning,,F,,0,0.36985665840978627,0,TN
+2021-11-04,09:20,physiotherapy,morning,,F,,0,0.2722698843159019,0,TN
+2021-11-04,09:20,,morning,,F,,0,0.3575825547753119,0,TN
+2021-11-04,09:20,,morning,7.0,M,intellectual,0,0.3896265924826677,0,TN
+2021-11-04,09:20,,morning,6.0,M,intellectual,0,0.3939787622778431,0,TN
+2021-11-04,10:20,physiotherapy,morning,,M,,1,0.413990250475029,0,FN
+2021-11-04,10:20,,morning,,M,,0,0.4447222249086157,1,FP
+2021-11-04,10:20,,morning,,M,,0,0.4447222249086157,1,FP
+2021-11-04,11:00,physiotherapy,morning,,M,,0,0.3475362317972779,0,TN
+2021-11-04,11:00,,morning,,M,,0,0.3884580668666352,0,TN
+2021-11-04,11:00,,morning,,M,,0,0.3884580668666352,0,TN
+2021-11-04,11:40,,morning,,M,,0,0.4682177637328881,1,FP
+2021-11-04,11:40,,morning,,F,,0,0.4682177637328881,1,FP
+2021-11-04,11:40,,morning,,M,,0,0.4682177637328881,1,FP
+2022-02-04,07:20,,morning,,M,,0,0.3067111278309577,0,TN
+2022-02-04,07:20,,morning,,M,,0,0.3067111278309577,0,TN
+2022-02-04,08:00,,morning,,M,,1,0.3851377150816103,0,FN
+2022-02-04,08:00,,morning,,M,,1,0.3851377150816103,0,FN
+2022-02-04,08:00,,morning,,M,,1,0.3851377150816103,0,FN
+2022-02-04,08:40,,morning,,M,,0,0.38496203497027065,0,TN
+2022-02-04,08:40,psychotherapy,morning,7.0,M,intellectual,1,0.37588579365416314,0,FN
+2022-02-04,08:40,psychotherapy,morning,,M,,1,0.35913306755938895,0,FN
+2022-02-04,08:40,psychotherapy,morning,,M,,0,0.35913306755938895,0,TN
+2022-02-04,08:40,,morning,,M,,0,0.38496203497027065,0,TN
+2022-02-04,08:40,,morning,7.0,M,intellectual,1,0.3354651786879429,0,FN
+2022-02-04,08:40,,morning,,M,,1,0.38496203497027065,0,FN
+2022-02-04,08:40,,morning,,M,,0,0.38496203497027065,0,TN
+2022-02-04,09:20,,morning,,M,,1,0.4258478955796908,0,FN
+2022-02-04,09:20,psychotherapy,morning,,M,,0,0.3796504149855424,0,TN
+2022-02-04,09:20,,morning,,M,,1,0.4258478955796908,0,FN
+2022-02-04,09:20,,morning,,M,,0,0.4258478955796908,0,TN
+2022-02-04,10:20,,morning,,F,,0,0.5180898208800986,1,FP
+2022-02-04,10:20,psychotherapy,morning,,M,,0,0.4432575492370772,1,FP
+2022-02-04,10:20,,morning,6.0,M,intellectual,0,0.6650311880377959,1,FP
+2022-02-04,11:00,,morning,6.0,M,intellectual,0,0.6383825405992073,1,FP
+2022-02-04,11:00,,morning,,F,,0,0.45961899106613563,1,FP
+2022-02-04,11:00,,morning,,M,,0,0.45961899106613563,1,FP
+2021-11-03,07:20,physiotherapy,morning,,M,,0,0.22711397880953904,0,TN
+2021-11-03,07:20,,morning,,M,,1,0.24363685377425692,0,FN
+2021-11-03,08:00,,morning,11.0,M,intellectual,0,0.2511788959397356,0,TN
+2021-11-03,08:00,,morning,12.0,M,intellectual,0,0.27733671443487357,0,TN
+2021-11-03,08:00,,morning,,M,,1,0.22501441158520807,0,FN
+2021-11-03,08:00,,morning,,M,,0,0.22501441158520807,0,TN
+2021-11-03,08:40,physiotherapy,morning,,F,,0,0.27978844766862104,0,TN
+2021-11-03,08:40,,morning,,M,,0,0.3046225336583073,0,TN
+2021-11-03,08:40,,morning,11.0,M,intellectual,0,0.3161591840741514,0,TN
+2021-11-03,08:40,,morning,12.0,M,intellectual,0,0.31036510289368185,0,TN
+2021-11-03,08:40,,morning,,M,,0,0.3046225336583073,0,TN
+2021-11-03,08:40,,morning,11.0,M,intellectual,0,0.3161591840741514,0,TN
+2021-11-03,08:40,,morning,12.0,M,intellectual,0,0.31036510289368185,0,TN
+2021-11-03,08:40,,morning,,M,,0,0.3046225336583073,0,TN
+2021-11-03,08:40,,morning,9.0,M,intellectual,0,0.3995567503305692,0,TN
+2021-11-03,09:20,physiotherapy,morning,,F,,0,0.2758890927049892,0,TN
+2021-11-03,09:20,,morning,9.0,M,intellectual,0,0.4015351857036975,0,TN
+2021-11-03,09:20,,morning,11.0,M,intellectual,0,0.297628079130777,0,TN
+2021-11-03,09:20,,morning,12.0,M,intellectual,0,0.3105525860753894,0,TN
+2021-11-03,09:20,,morning,,M,,0,0.301955979996589,0,TN
+2021-11-03,09:20,,morning,11.0,M,intellectual,0,0.297628079130777,0,TN
+2021-11-03,09:20,,morning,12.0,M,intellectual,0,0.3105525860753894,0,TN
+2021-11-03,09:20,,morning,,M,,0,0.301955979996589,0,TN
+2021-11-03,09:20,,morning,,M,,0,0.301955979996589,0,TN
+2021-11-03,09:20,,morning,,M,,0,0.301955979996589,0,TN
+2021-11-03,10:20,physiotherapy,morning,,M,,0,0.41841018463419466,0,TN
+2021-11-03,10:20,,morning,6.0,M,intellectual,0,0.430719680725325,0,TN
+2021-11-03,10:20,,morning,10.0,F,intellectual,0,0.30165002083378717,0,TN
+2021-11-03,10:20,,morning,6.0,M,intellectual,0,0.430719680725325,0,TN
+2021-11-03,10:20,,morning,,F,,0,0.38363506368098543,0,TN
+2021-11-03,11:00,physiotherapy,morning,,M,,0,0.3078517160368256,0,TN
+2021-11-03,11:00,,morning,6.0,M,intellectual,0,0.33067201369805244,0,TN
+2021-11-03,11:00,,morning,9.0,M,intellectual,0,0.17409902082064496,0,TN
+2021-11-03,11:00,,morning,,M,,0,0.2916944324309546,0,TN
+2021-11-03,11:00,,morning,10.0,F,intellectual,0,0.42646850638931383,0,TN
+2021-11-03,11:40,,morning,,M,,0,0.3992167029070537,0,TN
+2021-11-03,11:40,,morning,,F,,0,0.3992167029070537,0,TN
+2021-11-03,11:40,,morning,,M,,0,0.3992167029070537,0,TN
+2022-02-03,07:20,,morning,10.0,M,intellectual,0,0.451871777350505,1,FP
+2022-02-03,07:20,,morning,10.0,M,intellectual,0,0.6625133765701099,1,FP
+2022-02-03,07:20,,morning,9.0,M,intellectual,0,0.5283666868136369,1,FP
+2022-02-03,07:20,psychotherapy,morning,,F,,0,0.2897415810506379,0,TN
+2022-02-03,07:20,,morning,10.0,M,intellectual,0,0.451871777350505,1,FP
+2022-02-03,07:20,,morning,10.0,M,intellectual,0,0.6625133765701099,1,FP
+2022-02-03,07:20,,morning,9.0,M,intellectual,0,0.5283666868136369,1,FP
+2022-02-03,08:00,,morning,10.0,M,intellectual,0,0.40194457638056985,0,TN
+2022-02-03,08:00,,morning,10.0,M,intellectual,0,0.6508353082149734,1,FP
+2022-02-03,08:00,,morning,9.0,M,intellectual,0,0.46241801697817975,1,FP
+2022-02-03,08:00,psychotherapy,morning,,M,,1,0.2757208691733452,0,FN
+2022-02-03,08:00,,morning,10.0,M,intellectual,0,0.40194457638056985,0,TN
+2022-02-03,08:00,,morning,10.0,M,intellectual,0,0.6508353082149734,1,FP
+2022-02-03,08:00,,morning,9.0,M,intellectual,0,0.46241801697817975,1,FP
+2022-02-03,08:40,,morning,,M,,0,0.3179172641738273,0,TN
+2022-02-03,08:40,,morning,7.0,M,intellectual,0,0.2625220741804417,0,TN
+2022-02-03,08:40,,morning,9.0,M,intellectual,0,0.46546281409746354,1,FP
+2022-02-03,08:40,,morning,,M,,0,0.3179172641738273,0,TN
+2022-02-03,08:40,psychotherapy,morning,,M,,0,0.30832774342007857,0,TN
+2022-02-03,08:40,psychotherapy,morning,7.0,M,intellectual,0,0.3125487929605532,0,TN
+2022-02-03,08:40,psychotherapy,morning,9.0,M,intellectual,0,0.3785406650754238,0,TN
+2022-02-03,08:40,,morning,,M,,1,0.3179172641738273,0,FN
+2022-02-03,09:20,,morning,,M,,0,0.38133544707706113,0,TN
+2022-02-03,09:20,,morning,7.0,M,intellectual,0,0.3402842908997038,0,TN
+2022-02-03,09:20,,morning,9.0,M,intellectual,0,0.5092062255964679,1,FP
+2022-02-03,09:20,psychotherapy,morning,,M,,0,0.3492931702211646,0,TN
+2022-02-03,09:20,psychotherapy,morning,7.0,M,intellectual,0,0.3972314946059072,0,TN
+2022-02-03,09:20,psychotherapy,morning,9.0,M,intellectual,0,0.43418798574857437,0,TN
+2022-02-03,10:20,,morning,,M,,1,0.4682242824240346,1,TP
+2022-02-03,10:20,psychotherapy,morning,,F,,0,0.4149764733062838,0,TN
+2022-02-03,10:20,,morning,,F,,0,0.4682242824240346,1,FP
+2022-02-03,11:00,,morning,,F,,0,0.38503470978135274,0,TN
+2022-02-03,11:00,,morning,7.0,M,intellectual,1,0.5126743390518863,1,TP
+2022-02-02,07:20,,morning,,M,,0,0.2413323950354282,0,TN
+2022-02-02,07:20,,morning,,M,,0,0.2413323950354282,0,TN
+2022-02-02,08:00,,morning,11.0,M,intellectual,0,0.453964075034935,1,FP
+2022-02-02,08:00,,morning,12.0,M,intellectual,0,0.37687040392272364,0,TN
+2022-02-02,08:00,,morning,,M,,0,0.22465907741157565,0,TN
+2022-02-02,08:00,,morning,,M,,0,0.22465907741157565,0,TN
+2022-02-02,08:40,,morning,,F,,1,0.2503100529286667,0,FN
+2022-02-02,08:40,psychotherapy,morning,11.0,M,intellectual,0,0.33793505689821635,0,TN
+2022-02-02,08:40,psychotherapy,morning,12.0,M,intellectual,0,0.3075975666037129,0,TN
+2022-02-02,08:40,,morning,9.0,M,intellectual,0,0.6657451525602004,1,FP
+2022-02-02,08:40,,morning,,F,,0,0.2503100529286667,0,TN
+2022-02-02,09:20,,morning,9.0,M,intellectual,0,0.688843522667636,1,FP
+2022-02-02,09:20,,morning,11.0,M,intellectual,0,0.49719114665815856,1,FP
+2022-02-02,09:20,,morning,12.0,M,intellectual,0,0.4523229901087108,1,FP
+2022-02-02,09:20,psychotherapy,morning,11.0,M,intellectual,0,0.43146438790925595,0,TN
+2022-02-02,09:20,psychotherapy,morning,12.0,M,intellectual,0,0.369911105864422,0,TN
+2022-02-02,09:20,,morning,,F,,1,0.29429912646534284,0,FN
+2022-02-02,10:20,,morning,10.0,F,intellectual,0,0.6004803769029629,1,FP
+2022-02-02,10:20,,morning,,M,,0,0.363080348194291,0,TN
+2022-02-02,10:20,psychotherapy,morning,,M,,0,0.3128990795477043,0,TN
+2022-02-02,10:20,,morning,,M,,0,0.363080348194291,0,TN
+2022-02-02,11:00,,morning,,M,,0,0.29312113472029555,0,TN
+2022-02-02,11:00,psychotherapy,morning,11.0,M,intellectual,0,0.44777420826026326,1,FP
+2022-02-02,11:00,,morning,10.0,F,intellectual,0,0.7215084699119821,1,FP
+2022-02-02,11:40,,morning,,M,,0,0.2930388426122297,0,TN
+2021-11-01,07:20,physiotherapy,morning,,M,,0,0.2823291907977733,0,TN
+2021-11-01,07:20,,morning,8.0,M,intellectual,0,0.2773148443219017,0,TN
+2021-11-01,07:20,,morning,,M,,0,0.32081308473977427,0,TN
+2021-11-01,08:00,physiotherapy,morning,,M,,0,0.2818951364454288,0,TN
+2021-11-01,08:00,,morning,,M,,0,0.32951092744697597,0,TN
+2021-11-01,08:00,,morning,,M,,0,0.32951092744697597,0,TN
+2021-11-01,08:00,,morning,8.0,M,intellectual,0,0.2869934080405906,0,TN
+2021-11-01,08:00,,morning,,M,,0,0.32951092744697597,0,TN
+2021-11-01,08:40,physiotherapy,morning,,M,,0,0.38932428711326417,0,TN
+2021-11-01,08:40,,morning,,M,,0,0.43114793394789847,0,TN
+2021-11-01,08:40,,morning,,M,,0,0.43114793394789847,0,TN
+2021-11-01,09:20,physiotherapy,morning,,M,,1,0.3124331656950594,0,FN
+2021-11-01,09:20,,morning,7.0,M,intellectual,0,0.39398665542649697,0,TN
+2021-11-01,09:20,,morning,,M,,0,0.36106124464106976,0,TN
+2021-11-01,09:20,,morning,10.0,M,intellectual,0,0.3437067478005849,0,TN
+2021-11-01,09:20,,morning,,F,,0,0.36106124464106976,0,TN
+2021-11-01,10:20,,morning,10.0,M,intellectual,0,0.36884752638932194,0,TN
+2021-11-01,10:20,,morning,,M,,0,0.4235900223021597,0,TN
+2021-11-01,10:20,,morning,,M,,0,0.4235900223021597,0,TN
+2021-11-01,10:20,,morning,7.0,M,intellectual,0,0.420554433193579,0,TN
+2021-11-01,10:20,,morning,,M,,0,0.4235900223021597,0,TN
+2021-11-01,10:20,,morning,,M,,0,0.4235900223021597,0,TN
+2022-02-01,07:20,,morning,8.0,M,intellectual,1,0.3512386051075447,0,FN
+2022-02-01,07:20,psychotherapy,morning,,F,,1,0.23256876985710678,0,FN
+2022-02-01,07:20,,morning,,M,,0,0.31442850851452014,0,TN
+2022-02-01,08:00,,morning,,M,,0,0.2773600298146157,0,TN
+2022-02-01,08:00,,morning,,M,,0,0.2773600298146157,0,TN
+2022-02-01,08:00,,morning,,M,,0,0.2773600298146157,0,TN
+2022-02-01,08:00,,morning,6.0,M,intellectual,1,0.38745035879887146,0,FN
+2022-02-01,08:00,psychotherapy,morning,8.0,M,intellectual,1,0.3111067751906589,0,FN
+2022-02-01,08:00,,morning,,M,,0,0.2773600298146157,0,TN
+2022-02-01,08:00,,morning,,M,,0,0.2773600298146157,0,TN
+2022-02-01,08:00,,morning,,M,,0,0.2773600298146157,0,TN
+2022-02-01,08:00,,morning,6.0,M,intellectual,1,0.38745035879887146,0,FN
+2022-02-01,08:00,,morning,,M,,0,0.2773600298146157,0,TN
+2022-02-01,08:40,,morning,,M,,0,0.32214318337905223,0,TN
+2022-02-01,08:40,,morning,,M,,0,0.32214318337905223,0,TN
+2022-02-01,08:40,,morning,,M,,0,0.32214318337905223,0,TN
+2022-02-01,08:40,,morning,6.0,M,intellectual,1,0.4112042239644275,0,FN
+2022-02-01,08:40,psychotherapy,morning,,M,,0,0.23537457078297905,0,TN
+2022-02-01,08:40,,morning,,M,,0,0.32214318337905223,0,TN
+2022-02-01,08:40,,morning,,M,,0,0.32214318337905223,0,TN
+2022-02-01,08:40,,morning,,M,,0,0.32214318337905223,0,TN
+2022-02-01,08:40,,morning,6.0,M,intellectual,1,0.4112042239644275,0,FN
+2022-02-01,08:40,,morning,,F,,1,0.32214318337905223,0,FN
+2022-02-01,09:20,,morning,6.0,M,intellectual,0,0.31134970204319234,0,TN
+2022-02-01,09:20,,morning,,M,,0,0.3829776885150035,0,TN
+2022-02-01,10:20,,morning,13.0,M,intellectual,1,0.522573079065575,1,TP
+2022-02-01,10:20,psychotherapy,morning,6.0,M,intellectual,0,0.4367590225867573,0,TN
+2022-02-01,10:20,,morning,13.0,M,intellectual,1,0.522573079065575,1,TP
+2022-02-01,10:20,,morning,,M,,1,0.4533542966847399,1,TP
+2022-02-01,11:00,,morning,6.0,M,intellectual,0,0.47374967958099357,1,FP
+2022-02-01,11:00,psychotherapy,morning,,M,,1,0.255526020188051,0,FN
+2022-02-01,11:00,,morning,6.0,M,intellectual,0,0.2977991266162328,0,TN

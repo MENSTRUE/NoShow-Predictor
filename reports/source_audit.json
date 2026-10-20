@@ -1,0 +1,12 @@
+{
+  "rows": 49593,
+  "columns": 26,
+  "date_min": "2016-06-20",
+  "date_max": "2022-02-25",
+  "unique_dates": 1001,
+  "no_show_count": 4832,
+  "show_count": 44761,
+  "no_show_rate": 0.09743310547859577,
+  "full_row_duplicates": 2921,
+  "missing_cells": 134394
+}

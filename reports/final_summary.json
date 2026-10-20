@@ -1,0 +1,107 @@
+{
+  "project": "NoShow Predictor",
+  "portfolio_progress": "14%",
+  "dataset": "Medical Appointments No-Show",
+  "source_audit": {
+    "rows": 49593,
+    "columns": 26,
+    "date_min": "2016-06-20",
+    "date_max": "2022-02-25",
+    "unique_dates": 1001,
+    "no_show_count": 4832,
+    "show_count": 44761,
+    "no_show_rate": 0.09743310547859577,
+    "full_row_duplicates": 2921,
+    "missing_cells": 134394
+  },
+  "problem_definition": {
+    "task": "pre-appointment no-show risk prioritization",
+    "positive_class": "no_show=yes",
+    "intended_user": "scheduling / service operations staff",
+    "intended_action": "prioritize reminders"
+  },
+  "temporal_split": {
+    "train_end": "2020-12-31",
+    "validation": [
+      "2021-01-01",
+      "2021-09-30"
+    ],
+    "test": [
+      "2021-10-01",
+      "2022-02-25"
+    ]
+  },
+  "model_selection": {
+    "champion": "LGBM-Balanced",
+    "family": "lightgbm",
+    "selection_metric": "validation_PR_AUC",
+    "validation_metrics_at_0.5": {
+      "model": "LGBM-Balanced",
+      "PR_AUC": 0.15609180853412816,
+      "ROC_AUC": 0.5064712303483538,
+      "Brier": 0.19866199152780203,
+      "Precision": 0.16699155295646523,
+      "Recall": 0.23621323529411764,
+      "F1": 0.19566044918157594,
+      "F2": 0.2181293498557121,
+      "Threshold": 0.5,
+      "PredictedPositiveRate": 0.21248101615352755,
+      "N": 7243
+    }
+  },
+  "selected_threshold": 0.44,
+  "official_test": {
+    "champion": "LGBM-Balanced",
+    "selected_threshold_from_validation": 0.44,
+    "test_metrics": {
+      "PR_AUC": 0.18193189164961232,
+      "ROC_AUC": 0.5609038570503481,
+      "Brier": 0.2522836700038834,
+      "Precision": 0.17938931297709923,
+      "Recall": 0.7563218390804598,
+      "F1": 0.2899955927721463,
+      "F2": 0.46026860660324564,
+      "Threshold": 0.44,
+      "PredictedPositiveRate": 0.6775027705947544,
+      "N": 2707
+    },
+    "top10_capacity": {
+      "fraction": 0.1,
+      "k": 271,
+      "captured_no_shows": 49,
+      "precision_at_capacity": 0.18081180811808117,
+      "recall_at_capacity": 0.11264367816091954,
+      "lift_vs_random": 1.1251898036221741,
+      "base_rate": 0.1606944957517547
+    },
+    "test_period": [
+      "2021-10-01",
+      "2022-02-25"
+    ]
+  },
+  "limitations": [
+    "No stable patient identifier or appointment identifier is provided.",
+    "Exact duplicate rows cannot safely be deduplicated without identity information.",
+    "No booking-created timestamp is available, so appointment lead time cannot be modeled.",
+    "The no-show base rate changes substantially over time.",
+    "The dataset comes from a medical-service context and may not transfer to salons/studios.",
+    "Risk score is not a clinical outcome and must not influence medical priority.",
+    "Probability calibration is evaluated with Brier score but not guaranteed out-of-domain."
+  ],
+  "claim_boundaries": {
+    "supported": [
+      "pre-appointment no-show risk estimation",
+      "temporal held-out evaluation",
+      "reminder-prioritization risk list",
+      "validation-selected threshold",
+      "Top-10%-capacity recall/precision/lift"
+    ],
+    "unsupported": [
+      "clinical risk prediction",
+      "diagnostic prediction",
+      "patient blame or punitive action",
+      "universal no-show probability across businesses",
+      "automatic cancellation decisions"
+    ]
+  }
+}

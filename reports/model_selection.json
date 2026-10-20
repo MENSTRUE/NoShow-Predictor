@@ -1,0 +1,18 @@
+{
+  "champion": "LGBM-Balanced",
+  "family": "lightgbm",
+  "selection_metric": "validation_PR_AUC",
+  "validation_metrics_at_0.5": {
+    "model": "LGBM-Balanced",
+    "PR_AUC": 0.15609180853412816,
+    "ROC_AUC": 0.5064712303483538,
+    "Brier": 0.19866199152780203,
+    "Precision": 0.16699155295646523,
+    "Recall": 0.23621323529411764,
+    "F1": 0.19566044918157594,
+    "F2": 0.2181293498557121,
+    "Threshold": 0.5,
+    "PredictedPositiveRate": 0.21248101615352755,
+    "N": 7243
+  }
+}

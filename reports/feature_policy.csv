@@ -1,0 +1,12 @@
+feature,decision,reason
+no_show_reason,EXCLUDE,post-outcome reason; direct leakage risk
+icd,EXCLUDE,sensitive clinical diagnosis proxy
+gender,EXCLUDE_FEATURE_USE_FOR_AUDIT,sensitive demographic; retained only for subgroup audit
+city,EXCLUDE,location/privacy proxy and weak portability
+disability,EXCLUDE_FEATURE_USE_FOR_AUDIT,sensitive attribute; retained only for subgroup audit
+date_of_birth,EXCLUDE_RAW,raw personal date; use age instead
+same-day weather,EXCLUDE,actual same-day weather may be unavailable at reminder time
+appointment_date/time,USE_DERIVED,known operational scheduling information
+specialty,USE,known service type before appointment
+age,USE,available demographic age field; audit by age group
+entry_service_date,USE_DERIVED,derive service tenure when present

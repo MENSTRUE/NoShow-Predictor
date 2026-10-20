@@ -1,0 +1,31 @@
+appointment_date_dt,appointment_time,specialty,appointment_shift,age,gender,disability,target,risk_score,predicted_no_show,error_type,priority_rank,top_10_percent
+2021-12-05,16:20,occupational therapy,afternoon,9.0,M,intellectual,1,0.13821542383860574,0,FN,2702,False
+2021-12-05,16:20,psychotherapy,afternoon,11.0,M,motor,1,0.18144284875486777,0,FN,2690,False
+2021-12-05,15:20,speech therapy,afternoon,9.0,M,intellectual,1,0.2077555789434932,0,FN,2676,False
+2021-10-29,15:10,physiotherapy,afternoon,39.0,M,motor,1,0.21814985518583488,0,FN,2668,False
+2021-11-03,08:00,,morning,,M,,1,0.22501441158520807,0,FN,2661,False
+2022-02-01,07:20,psychotherapy,morning,,F,,1,0.23256876985710678,0,FN,2651,False
+2021-12-05,14:40,psychotherapy,afternoon,9.0,M,intellectual,1,0.236175733020212,0,FN,2647,False
+2021-10-29,13:10,speech therapy,afternoon,5.0,M,intellectual,1,0.24116553686426828,0,FN,2644,False
+2021-11-03,07:20,,morning,,M,,1,0.24363685377425692,0,FN,2641,False
+2022-02-02,08:40,,morning,,F,,1,0.2503100529286667,0,FN,2634,False
+2022-02-01,11:00,psychotherapy,morning,,M,,1,0.255526020188051,0,FN,2626,False
+2021-12-08,14:00,psychotherapy,afternoon,10.0,M,intellectual,1,0.2564938679085561,0,FN,2623,False
+2021-10-29,13:10,physiotherapy,afternoon,5.0,M,intellectual,1,0.2707316150648733,0,FN,2612,False
+2022-02-03,08:00,psychotherapy,morning,,M,,1,0.2757208691733452,0,FN,2601,False
+2021-11-05,14:00,occupational therapy,afternoon,72.0,F,motor,1,0.28121123847551527,0,FN,2574,False
+2022-01-27,08:00,,morning,10.0,M,intellectual,1,0.2899793585057548,0,FN,2550,False
+2022-01-27,08:00,,morning,10.0,M,intellectual,1,0.2899793585057548,0,FN,2551,False
+2022-02-02,09:20,,morning,,F,,1,0.29429912646534284,0,FN,2541,False
+2021-12-16,14:00,,afternoon,68.0,M,motor,1,0.29625334855659974,0,FN,2538,False
+2021-11-26,15:20,speech therapy,afternoon,14.0,M,intellectual,1,0.3014843174300995,0,FN,2528,False
+2021-10-26,15:10,,afternoon,14.0,M,motor,1,0.30989897864750426,0,FN,2490,False
+2022-02-01,08:00,psychotherapy,morning,8.0,M,intellectual,1,0.3111067751906589,0,FN,2485,False
+2021-12-17,15:20,speech therapy,afternoon,15.0,M,intellectual,1,0.3111364614357596,0,FN,2484,False
+2021-11-01,09:20,physiotherapy,morning,,M,,1,0.3124331656950594,0,FN,2481,False
+2022-02-03,08:40,,morning,,M,,1,0.3179172641738273,0,FN,2460,False
+2022-02-01,08:40,,morning,,F,,1,0.32214318337905223,0,FN,2445,False
+2021-12-05,15:20,speech therapy,afternoon,6.0,F,intellectual,1,0.32457243483635545,0,FN,2438,False
+2021-12-03,16:20,psychotherapy,afternoon,11.0,M,intellectual,1,0.3257540783202399,0,FN,2434,False
+2021-12-16,14:00,physiotherapy,afternoon,68.0,M,motor,1,0.3259534536729728,0,FN,2433,False
+2021-11-05,14:40,occupational therapy,afternoon,12.0,M,intellectual,1,0.32686186323227384,0,FN,2431,False

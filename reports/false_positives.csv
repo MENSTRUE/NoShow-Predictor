@@ -1,0 +1,31 @@
+appointment_date_dt,appointment_time,specialty,appointment_shift,age,gender,disability,target,risk_score,predicted_no_show,error_type,priority_rank,top_10_percent
+2022-02-09,11:00,,morning,10.0,F,intellectual,0,0.8534759152256716,1,FP,1,True
+2022-02-09,08:40,,morning,9.0,M,intellectual,0,0.812878661033679,1,FP,2,True
+2022-02-16,11:00,,morning,10.0,F,intellectual,0,0.8114441594321311,1,FP,3,True
+2022-02-09,09:20,,morning,9.0,M,intellectual,0,0.8081708228999048,1,FP,4,True
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP,5,True
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP,6,True
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP,8,True
+2022-02-25,17:00,physiotherapy,afternoon,,M,,0,0.7812138816080078,1,FP,7,True
+2022-02-09,10:20,,morning,10.0,F,intellectual,0,0.7771910284680364,1,FP,9,True
+2022-02-25,16:20,speech therapy,afternoon,,M,,0,0.7708626210154035,1,FP,11,True
+2022-02-25,17:00,speech therapy,afternoon,,F,,0,0.7654697397455265,1,FP,12,True
+2021-12-03,15:20,speech therapy,afternoon,7.0,M,intellectual,0,0.7587144163379763,1,FP,15,True
+2021-12-03,15:20,speech therapy,afternoon,7.0,M,intellectual,0,0.7587144163379763,1,FP,14,True
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP,19,True
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP,18,True
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP,17,True
+2022-02-25,17:00,occupational therapy,afternoon,,M,,0,0.7388015489571154,1,FP,16,True
+2022-02-11,17:00,speech therapy,afternoon,,M,,0,0.733229181126014,1,FP,20,True
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP,23,True
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP,26,True
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP,24,True
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP,22,True
+2022-02-11,17:00,physiotherapy,afternoon,,M,,0,0.7328216520879643,1,FP,25,True
+2022-02-25,13:20,speech therapy,afternoon,,M,,0,0.7318259374012316,1,FP,27,True
+2022-02-25,14:00,speech therapy,afternoon,,M,,0,0.7315817909417721,1,FP,29,True
+2022-02-25,14:00,speech therapy,afternoon,,F,,0,0.7315817909417721,1,FP,28,True
+2022-02-16,10:20,,morning,10.0,F,intellectual,0,0.7278861685178837,1,FP,31,True
+2022-02-11,16:20,speech therapy,afternoon,,M,,0,0.726631679798878,1,FP,32,True
+2022-02-10,08:00,,morning,10.0,M,intellectual,0,0.725648149206685,1,FP,34,True
+2022-02-10,08:00,,morning,10.0,M,intellectual,0,0.725648149206685,1,FP,33,True

@@ -1,0 +1,29 @@
+{
+  "champion": "LGBM-Balanced",
+  "selected_threshold_from_validation": 0.44,
+  "test_metrics": {
+    "PR_AUC": 0.18193189164961232,
+    "ROC_AUC": 0.5609038570503481,
+    "Brier": 0.2522836700038834,
+    "Precision": 0.17938931297709923,
+    "Recall": 0.7563218390804598,
+    "F1": 0.2899955927721463,
+    "F2": 0.46026860660324564,
+    "Threshold": 0.44,
+    "PredictedPositiveRate": 0.6775027705947544,
+    "N": 2707
+  },
+  "top10_capacity": {
+    "fraction": 0.1,
+    "k": 271,
+    "captured_no_shows": 49,
+    "precision_at_capacity": 0.18081180811808117,
+    "recall_at_capacity": 0.11264367816091954,
+    "lift_vs_random": 1.1251898036221741,
+    "base_rate": 0.1606944957517547
+  },
+  "test_period": [
+    "2021-10-01",
+    "2022-02-25"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "purpose": "prioritize reminders, not automate punitive decisions",
+  "review_owner": "service operations / scheduling staff",
+  "selected_threshold": 0.44,
+  "capacity_view": "Top 10% highest-risk appointments",
+  "human_in_the_loop": true,
+  "recommended_action": [
+    "Use risk list to prioritize reminder outreach.",
+    "Do not cancel or deprioritize appointments solely from model score.",
+    "Review false-negative and subgroup metrics after deployment changes.",
+    "Revalidate threshold if reminder capacity or prevalence changes."
+  ]
+}
