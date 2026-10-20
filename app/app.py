@@ -7,10 +7,19 @@ import pandas as pd
 import streamlit as st
 
 
-ROOT = Path(__file__).resolve().parents[1]
+# =========================================================
+# PROJECT ROOT
+# =========================================================
+
+ROOT = Path(
+    __file__
+).resolve().parents[1]
 
 if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+    sys.path.insert(
+        0,
+        str(ROOT),
+    )
 
 
 from src.inference import (
@@ -18,19 +27,29 @@ from src.inference import (
     VALIDATION_THRESHOLD,
     NoShowPredictor,
 )
-from src.preprocessing import validate_input
+from src.preprocessing import (
+    validate_input,
+)
 from src.utils import (
     dataframe_to_csv_bytes,
     save_prediction_result,
 )
 
 
+# =========================================================
+# PATHS
+# =========================================================
+
 MODEL_PATH = (
     ROOT
     / "models"
-    / "noshow_champion.joblib"
+    / "noshow_champion.txt"
 )
 
+
+# =========================================================
+# PAGE
+# =========================================================
 
 st.set_page_config(
     page_title="NoShow Predictor",
@@ -39,14 +58,35 @@ st.set_page_config(
 )
 
 
+# =========================================================
+# LOAD MODEL
+# =========================================================
+
 @st.cache_resource
-def load_predictor():
+def load_predictor() -> NoShowPredictor:
     return NoShowPredictor(
         model_path=MODEL_PATH
     )
 
 
-predictor = load_predictor()
+try:
+    predictor = load_predictor()
+
+except Exception as exc:
+    st.error(
+        "Could not load the NoShow Predictor model."
+    )
+
+    st.code(
+        str(exc)
+    )
+
+    st.info(
+        "Expected model file:\n\n"
+        "models/noshow_champion.txt"
+    )
+
+    st.stop()
 
 
 # =========================================================
@@ -54,7 +94,9 @@ predictor = load_predictor()
 # =========================================================
 
 with st.sidebar:
-    st.header("NoShow Predictor")
+    st.header(
+        "NoShow Predictor"
+    )
 
     st.markdown(
         """
@@ -68,15 +110,16 @@ with st.sidebar:
         Reminder prioritization
 
         **Operational View**  
-        Top 10% highest-risk appointments
+        Top-capacity highest-risk appointments
         """
     )
 
     st.divider()
 
     st.caption(
-        "Risk scores are used to rank reminder priority. "
-        "They are not guaranteed no-show probabilities."
+        "Risk scores are primarily used for ranking "
+        "reminder priority. They are not guarantees "
+        "that an appointment will become a no-show."
     )
 
     st.warning(
@@ -89,20 +132,52 @@ with st.sidebar:
 # HEADER
 # =========================================================
 
-st.title("📅 NoShow Predictor")
+st.title(
+    "📅 NoShow Predictor"
+)
 
 st.write(
     """
     Upload upcoming appointment data and generate a
     **no-show risk prioritization list** to help scheduling
-    staff decide which appointments should receive reminder
-    outreach first.
+    staff determine which appointments should receive
+    reminder outreach first.
     """
 )
 
 
 # =========================================================
-# REQUIRED CSV FORMAT
+# MODEL CONTEXT
+# =========================================================
+
+with st.expander(
+    "ℹ️ About this MVP",
+    expanded=False,
+):
+    st.markdown(
+        """
+        **Champion:** LGBM-Balanced
+
+        The model was selected using **validation PR-AUC**.
+
+        The primary application view is a
+        **capacity-based ranking**, for example:
+
+        `Top 10% highest-scoring appointments → reminder priority`
+
+        This application is **not** intended to:
+
+        - cancel appointments automatically;
+        - make clinical decisions;
+        - diagnose a condition;
+        - penalize a patient;
+        - guarantee who will or will not attend.
+        """
+    )
+
+
+# =========================================================
+# CSV FORMAT
 # =========================================================
 
 with st.expander(
@@ -111,35 +186,35 @@ with st.expander(
 ):
     st.markdown(
         """
-        The current inference pipeline requires these columns:
+        Required inference columns:
         """
     )
 
     example = pd.DataFrame(
         {
             "appointment_date": [
-                "01/11/2026",
-                "02/11/2026",
-                "03/11/2026",
+                "09/09/2021",
+                "10/09/2021",
+                "11/09/2021",
             ],
             "appointment_time": [
-                "09:30",
-                "13:00",
-                "16:30",
+                "13:20",
+                "09:00",
+                "15:30",
             ],
             "specialty": [
-                "General",
-                "General",
-                "General",
+                "physiotherapy",
+                "psychotherapy",
+                "speech therapy",
             ],
             "appointment_shift": [
-                "Morning",
-                "Afternoon",
-                "Evening",
+                "afternoon",
+                "morning",
+                "afternoon",
             ],
             "age": [
-                28,
-                42,
+                30,
+                45,
                 67,
             ],
             "under_12_years_old": [
@@ -158,9 +233,9 @@ with st.expander(
                 1,
             ],
             "entry_service_date": [
-                "01/01/2024",
-                "15/03/2023",
-                "20/07/2022",
+                "05/02/2020",
+                "12/04/2019",
+                "01/06/2021",
             ],
         }
     )
@@ -172,13 +247,13 @@ with st.expander(
     )
 
     st.info(
-        "The app does not require target labels such as "
-        "'no_show' because this is inference on future appointments."
+        "Target columns such as `no_show` are intentionally "
+        "not required during inference."
     )
 
 
 # =========================================================
-# STEP 1 — UPLOAD
+# 1. UPLOAD
 # =========================================================
 
 st.subheader(
@@ -188,7 +263,9 @@ st.subheader(
 
 uploaded_file = st.file_uploader(
     "Upload appointment CSV",
-    type=["csv"],
+    type=[
+        "csv"
+    ],
 )
 
 
@@ -207,14 +284,18 @@ try:
 
 except Exception as exc:
     st.error(
-        f"Could not read CSV: {exc}"
+        "Could not read the uploaded CSV."
+    )
+
+    st.code(
+        str(exc)
     )
 
     st.stop()
 
 
 # =========================================================
-# STEP 2 — VALIDATION
+# 2. VALIDATION
 # =========================================================
 
 st.subheader(
@@ -222,14 +303,14 @@ st.subheader(
 )
 
 
-valid, message = validate_input(
+valid, validation_message = validate_input(
     input_df
 )
 
 
 if not valid:
     st.error(
-        message
+        validation_message
     )
 
     st.stop()
@@ -249,45 +330,47 @@ appointment_dates = pd.to_datetime(
 )
 
 
-c1, c2, c3 = st.columns(3)
+c1, c2, c3 = st.columns(
+    3
+)
 
 
 with c1:
     st.metric(
         "Appointments",
-        len(
-            input_df
-        ),
+        f"{len(input_df):,}",
     )
 
 
 with c2:
-    if not appointment_dates.isna().all():
-        start_date = (
-            appointment_dates.min()
-            .strftime("%Y-%m-%d")
+    earliest = (
+        appointment_dates.min()
+        .strftime(
+            "%Y-%m-%d"
         )
-    else:
-        start_date = "-"
+        if not appointment_dates.isna().all()
+        else "-"
+    )
 
     st.metric(
         "Earliest Appointment",
-        start_date,
+        earliest,
     )
 
 
 with c3:
-    if not appointment_dates.isna().all():
-        end_date = (
-            appointment_dates.max()
-            .strftime("%Y-%m-%d")
+    latest = (
+        appointment_dates.max()
+        .strftime(
+            "%Y-%m-%d"
         )
-    else:
-        end_date = "-"
+        if not appointment_dates.isna().all()
+        else "-"
+    )
 
     st.metric(
         "Latest Appointment",
-        end_date,
+        latest,
     )
 
 
@@ -295,14 +378,16 @@ with st.expander(
     "Preview uploaded appointments",
 ):
     st.dataframe(
-        input_df.head(100),
+        input_df.head(
+            100
+        ),
         width="stretch",
         hide_index=True,
     )
 
 
 # =========================================================
-# STEP 3 — CAPACITY
+# 3. CAPACITY
 # =========================================================
 
 st.subheader(
@@ -310,14 +395,20 @@ st.subheader(
 )
 
 
+default_capacity_percent = int(
+    DEFAULT_CAPACITY_FRACTION
+    * 100
+)
+
+
 capacity_percent = st.slider(
-    "Percentage of appointments that can receive prioritized reminders",
+    (
+        "Percentage of appointments that can receive "
+        "prioritized reminder outreach"
+    ),
     min_value=5,
     max_value=50,
-    value=int(
-        DEFAULT_CAPACITY_FRACTION
-        * 100
-    ),
+    value=default_capacity_percent,
     step=5,
 )
 
@@ -328,14 +419,27 @@ capacity_fraction = (
 )
 
 
+estimated_priority_count = max(
+    1,
+    int(
+        -(
+            -len(input_df)
+            * capacity_percent
+            // 100
+        )
+    ),
+)
+
+
 st.info(
-    f"Top {capacity_percent}% highest-risk appointments "
-    "will be marked as reminder priority."
+    f"Top {capacity_percent}% highest-scoring appointments "
+    f"will be prioritized — approximately "
+    f"**{estimated_priority_count} of {len(input_df)} appointments**."
 )
 
 
 # =========================================================
-# STEP 4 — GENERATE
+# 4. GENERATE
 # =========================================================
 
 st.subheader(
@@ -353,11 +457,13 @@ generate = st.button(
 if generate:
     try:
         with st.spinner(
-            "Scoring appointments..."
+            "Scoring and ranking appointments..."
         ):
             result_df = predictor.predict(
                 input_df,
-                capacity_fraction=capacity_fraction,
+                capacity_fraction=(
+                    capacity_fraction
+                ),
                 include_threshold_flag=True,
             )
 
@@ -371,7 +477,11 @@ if generate:
 
     except Exception as exc:
         st.error(
-            f"Inference failed: {exc}"
+            "Inference failed."
+        )
+
+        st.code(
+            str(exc)
         )
 
         st.stop()
@@ -388,20 +498,21 @@ result_df = st.session_state[
     "noshow_result_df"
 ]
 
-
-capacity_fraction = st.session_state[
+used_capacity_fraction = st.session_state[
     "noshow_capacity_fraction"
 ]
 
 
 summary = predictor.summarize(
     result_df,
-    capacity_fraction=capacity_fraction,
+    capacity_fraction=(
+        used_capacity_fraction
+    ),
 )
 
 
 # =========================================================
-# SUMMARY
+# RESULT SUMMARY
 # =========================================================
 
 st.success(
@@ -422,39 +533,52 @@ m1, m2, m3, m4 = st.columns(
 with m1:
     st.metric(
         "Appointments",
-        summary.rows,
+        f"{summary.rows:,}",
     )
 
 
 with m2:
     st.metric(
         "Priority List",
-        summary.priority_count,
+        f"{summary.priority_count:,}",
     )
 
 
 with m3:
     st.metric(
         "Capacity",
-        f"{summary.capacity_fraction * 100:.0f}%",
+        (
+            f"{summary.capacity_fraction * 100:.0f}%"
+        ),
     )
 
 
 with m4:
     st.metric(
-        "Mean Risk Score",
+        "Mean Model Score",
         f"{summary.mean_risk_score:.3f}",
     )
 
 
+st.caption(
+    "The model score is primarily a ranking signal. "
+    "Do not interpret it as certainty that a person "
+    "will miss an appointment."
+)
+
+
 # =========================================================
-# PRIMARY PRIORITY LIST
+# PRIORITY TABLE
 # =========================================================
 
 st.divider()
 
 st.subheader(
-    f"Top {capacity_fraction * 100:.0f}% Reminder Priority"
+    (
+        f"Top "
+        f"{used_capacity_fraction * 100:.0f}% "
+        f"Reminder Priority"
+    )
 )
 
 
@@ -484,7 +608,10 @@ optional_columns = [
 
 
 for column in optional_columns:
-    if column in priority_df.columns:
+    if (
+        column
+        in priority_df.columns
+    ):
         priority_columns.append(
             column
         )
@@ -497,23 +624,42 @@ priority_view = priority_df[
 
 priority_view = priority_view.rename(
     columns={
-        "priority_rank": "Rank",
-        "no_show_risk_score": "Risk Score",
-        "appointment_date": "Appointment Date",
-        "appointment_time": "Time",
-        "specialty": "Specialty",
-        "appointment_shift": "Shift",
-        "age": "Age",
+        "priority_rank": (
+            "Rank"
+        ),
+        "no_show_risk_score": (
+            "Model Score"
+        ),
+        "appointment_date": (
+            "Appointment Date"
+        ),
+        "appointment_time": (
+            "Time"
+        ),
+        "specialty": (
+            "Specialty"
+        ),
+        "appointment_shift": (
+            "Shift"
+        ),
+        "age": (
+            "Age"
+        ),
     }
 )
 
 
-if "Risk Score" in priority_view.columns:
+if (
+    "Model Score"
+    in priority_view.columns
+):
     priority_view[
-        "Risk Score"
+        "Model Score"
     ] = priority_view[
-        "Risk Score"
-    ].round(4)
+        "Model Score"
+    ].round(
+        4
+    )
 
 
 st.dataframe(
@@ -524,29 +670,39 @@ st.dataframe(
 
 
 # =========================================================
-# RISK SCORE DISTRIBUTION
+# SCORE CURVE
 # =========================================================
 
 st.subheader(
-    "Risk Score Distribution"
+    "Ranked Model Scores"
 )
 
 
-chart_df = (
+score_chart = (
     result_df[
         [
             "priority_rank",
             "no_show_risk_score",
         ]
     ]
+    .rename(
+        columns={
+            "priority_rank": (
+                "Rank"
+            ),
+            "no_show_risk_score": (
+                "Model Score"
+            ),
+        }
+    )
     .set_index(
-        "priority_rank"
+        "Rank"
     )
 )
 
 
 st.line_chart(
-    chart_df,
+    score_chart,
     width="stretch",
 )
 
@@ -568,7 +724,10 @@ all_columns = [
 
 
 for column in optional_columns:
-    if column in result_df.columns:
+    if (
+        column
+        in result_df.columns
+    ):
         all_columns.append(
             column
         )
@@ -581,23 +740,41 @@ all_view = result_df[
 
 all_view = all_view.rename(
     columns={
-        "priority_rank": "Rank",
-        "no_show_risk_score": "Risk Score",
-        "priority_top_capacity": "Reminder Priority",
-        "appointment_date": "Appointment Date",
-        "appointment_time": "Time",
-        "specialty": "Specialty",
-        "appointment_shift": "Shift",
-        "age": "Age",
+        "priority_rank": (
+            "Rank"
+        ),
+        "no_show_risk_score": (
+            "Model Score"
+        ),
+        "priority_top_capacity": (
+            "Reminder Priority"
+        ),
+        "appointment_date": (
+            "Appointment Date"
+        ),
+        "appointment_time": (
+            "Time"
+        ),
+        "specialty": (
+            "Specialty"
+        ),
+        "appointment_shift": (
+            "Shift"
+        ),
+        "age": (
+            "Age"
+        ),
     }
 )
 
 
 all_view[
-    "Risk Score"
+    "Model Score"
 ] = all_view[
-    "Risk Score"
-].round(4)
+    "Model Score"
+].round(
+    4
+)
 
 
 st.dataframe(
@@ -624,7 +801,7 @@ selected_rank = st.selectbox(
 )
 
 
-selected_row = result_df[
+selected = result_df[
     result_df[
         "priority_rank"
     ]
@@ -641,7 +818,7 @@ with a1:
     st.metric(
         "Rank",
         int(
-            selected_row[
+            selected[
                 "priority_rank"
             ]
         ),
@@ -650,8 +827,10 @@ with a1:
 
 with a2:
     st.metric(
-        "Risk Score",
-        f"{float(selected_row['no_show_risk_score']):.4f}",
+        "Model Score",
+        (
+            f"{float(selected['no_show_risk_score']):.4f}"
+        ),
     )
 
 
@@ -661,7 +840,7 @@ with a3:
         (
             "Yes"
             if bool(
-                selected_row[
+                selected[
                     "priority_top_capacity"
                 ]
             )
@@ -671,11 +850,14 @@ with a3:
 
 
 with a4:
-    if "appointment_date" in selected_row.index:
+    if (
+        "appointment_date"
+        in selected.index
+    ):
         st.metric(
             "Appointment",
             str(
-                selected_row[
+                selected[
                     "appointment_date"
                 ]
             ),
@@ -688,14 +870,18 @@ with a4:
         )
 
 
-if "specialty" in selected_row.index:
+if (
+    "specialty"
+    in selected.index
+):
     st.caption(
-        f"Specialty: {selected_row['specialty']}"
+        "Specialty: "
+        f"{selected['specialty']}"
     )
 
 
 # =========================================================
-# AUDIT-ONLY THRESHOLD
+# HISTORICAL THRESHOLD AUDIT
 # =========================================================
 
 st.divider()
@@ -707,14 +893,20 @@ st.subheader(
 
 st.warning(
     f"""
-    The experiment selected a threshold of **{VALIDATION_THRESHOLD:.2f}**
-    on validation data.
+    The experiment selected threshold
+    **{VALIDATION_THRESHOLD:.2f}**
+    using validation data.
 
-    This threshold is shown for audit and experiment traceability.
+    The final champion was later refit on
+    Train + Validation.
 
-    The current operational app prioritizes reminders using
-    **Top-{capacity_fraction * 100:.0f}% ranking**, not automatic
-    classification from this threshold.
+    Because refitting can change the score distribution,
+    this threshold is preserved here mainly for
+    **audit and reproducibility**.
+
+    The operational UI therefore uses the
+    **Top-{used_capacity_fraction * 100:.0f}% ranking**
+    as the reminder-priority view.
     """
 )
 
@@ -740,29 +932,31 @@ with t1:
 
 with t2:
     st.metric(
-        "Appointments Above Threshold",
-        threshold_flag_count,
+        "Rows ≥ Threshold",
+        f"{threshold_flag_count:,}",
     )
 
 
 with st.expander(
-    "Why is threshold 0.44 not the default operational rule?"
+    "Why not automatically classify every appointment using 0.44?"
 ):
     st.markdown(
         """
-        The threshold was selected using validation predictions.
+        The threshold was selected from the validation-stage model.
 
-        The final model was later refit on a larger training set,
-        which can change the score distribution.
+        The champion was then refit on the combined Train + Validation
+        data before final held-out testing.
 
-        In the held-out test data, applying 0.44 flagged a large
-        fraction of appointments.
+        That refit changed the score distribution substantially.
 
-        For this MVP, reminder prioritization is therefore shown
-        primarily as a **capacity-based ranking problem**.
+        In the held-out test set, threshold 0.44 marked approximately
+        67.75% of appointments as positive.
 
-        The threshold remains visible for reproducibility and audit,
-        not as an automatic cancellation or punitive decision rule.
+        For a reminder-capacity use case, a ranked Top-K / Top-fraction
+        workflow is therefore more interpretable for this MVP.
+
+        The threshold remains visible because removing it would hide an
+        important part of the experiment history.
         """
     )
 
@@ -772,25 +966,25 @@ with st.expander(
 # =========================================================
 
 st.subheader(
-    "Model Performance Context"
+    "Held-Out Test Context"
 )
 
 
-p1, p2, p3 = st.columns(
-    3
+p1, p2, p3, p4 = st.columns(
+    4
 )
 
 
 with p1:
     st.metric(
-        "Test PR-AUC",
+        "PR-AUC",
         "0.182",
     )
 
 
 with p2:
     st.metric(
-        "Test ROC-AUC",
+        "ROC-AUC",
         "0.561",
     )
 
@@ -802,11 +996,18 @@ with p3:
     )
 
 
+with p4:
+    st.metric(
+        "Test Base Rate",
+        "16.07%",
+    )
+
+
 st.caption(
     """
-    These results indicate a modest ranking signal.
-    The model should be used as reminder-prioritization support,
-    not as a definitive prediction of who will miss an appointment.
+    The held-out results show only a modest ranking signal.
+    This MVP should therefore be interpreted as decision support
+    for reminder prioritization, not a definitive predictor.
     """
 )
 
@@ -833,11 +1034,13 @@ with col_save:
         width="stretch",
     ):
         try:
-            output_path = save_prediction_result(
-                result_df,
-                ROOT
-                / "tests"
-                / "results",
+            output_path = (
+                save_prediction_result(
+                    result_df,
+                    ROOT
+                    / "tests"
+                    / "results",
+                )
             )
 
             st.success(
@@ -847,7 +1050,11 @@ with col_save:
 
         except Exception as exc:
             st.error(
-                f"Could not save result: {exc}"
+                "Could not save result."
+            )
+
+            st.code(
+                str(exc)
             )
 
 
@@ -866,7 +1073,7 @@ with col_download:
 
 
 # =========================================================
-# INTERPRETATION
+# RESPONSIBLE INTERPRETATION
 # =========================================================
 
 with st.expander(
@@ -874,56 +1081,47 @@ with st.expander(
 ):
     st.markdown(
         """
-        ### Risk score
+        ### Model score
 
-        The model score is used to **rank appointments**.
+        A higher model score places the appointment higher in the
+        reminder-priority ranking.
 
-        A higher score means the model places that appointment
-        higher in the reminder-priority ordering.
+        The score is **not a guarantee** that the appointment will
+        become a no-show.
 
-        It does **not** mean the appointment is guaranteed to become
-        a no-show.
+        ### Capacity-based reminder priority
 
-        ### Reminder priority
+        If there are 100 upcoming appointments and reminder capacity
+        is 10%, the 10 highest-scoring appointments are shown first.
 
-        The current operational view uses the top fraction of
-        appointments according to available reminder capacity.
+        This is intended to help scheduling staff allocate limited
+        reminder effort.
 
-        Example:
+        ### Human review remains required
 
-        - 100 appointments;
-        - reminder capacity = 10%;
-        - the 10 highest-scoring appointments become priority outreach.
+        The system should not automatically:
 
-        ### Human-in-the-loop
-
-        The result should be reviewed by scheduling or service
-        operations staff.
-
-        It must not be used to:
-
-        - cancel appointments automatically;
-        - reduce service quality;
-        - influence clinical priority;
-        - punish patients;
+        - cancel appointments;
+        - reduce access to a service;
+        - influence clinical urgency;
+        - punish a patient;
         - make diagnostic decisions.
 
         ### Current limitations
 
-        The model has only modest ranking performance.
+        The held-out ranking signal is modest.
 
-        The available dataset also lacks several potentially useful
-        pre-appointment signals such as:
+        The dataset also lacks several potentially important
+        pre-appointment signals, including:
 
-        - booking creation timestamp / lead time;
-        - validated reminder history;
-        - richer attendance history;
-        - stable appointment identifier;
+        - booking-created timestamp / lead time;
         - stable patient identifier;
-        - portable cross-business context.
+        - stable appointment identifier;
+        - richer prior attendance history;
+        - validated reminder-contact history.
 
-        The dataset originates from a medical-service setting, so
-        transfer to salons, studios, or other service businesses is
-        not established.
+        The source dataset comes from a medical-service context.
+        Transfer to salons, studios, or other service businesses has
+        not been validated.
         """
     )
