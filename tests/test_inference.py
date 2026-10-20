@@ -16,7 +16,13 @@ from src.preprocessing import (
 )
 
 
-def make_sample_input(n: int = 20) -> pd.DataFrame:
+# =========================================================
+# SYNTHETIC TEST INPUT
+# =========================================================
+
+def make_sample_input(
+    n: int = 20,
+) -> pd.DataFrame:
     dates = pd.date_range(
         "2022-03-01",
         periods=n,
@@ -25,74 +31,160 @@ def make_sample_input(n: int = 20) -> pd.DataFrame:
 
     return pd.DataFrame(
         {
-            "appointment_date": dates.strftime("%d/%m/%Y"),
-            "appointment_time": ["09:30"] * n,
-            "specialty": ["General"] * n,
-            "appointment_shift": ["Morning"] * n,
-            "age": [30] * n,
-            "under_12_years_old": [0] * n,
-            "over_60_years_old": [0] * n,
-            "patient_needs_companion": [0] * n,
-            "entry_service_date": ["01/01/2020"] * n,
+            "appointment_date": (
+                dates.strftime(
+                    "%d/%m/%Y"
+                )
+            ),
+            "appointment_time": (
+                ["09:30"] * n
+            ),
+            "specialty": (
+                ["physiotherapy"] * n
+            ),
+            "appointment_shift": (
+                ["morning"] * n
+            ),
+            "age": (
+                [30] * n
+            ),
+            "under_12_years_old": (
+                [0] * n
+            ),
+            "over_60_years_old": (
+                [0] * n
+            ),
+            "patient_needs_companion": (
+                [0] * n
+            ),
+            "entry_service_date": (
+                ["01/01/2020"] * n
+            ),
         }
     )
 
 
+# =========================================================
+# INPUT VALIDATION
+# =========================================================
+
 def test_validate_input_success():
     df = make_sample_input()
 
-    valid, message = validate_input(df)
+    valid, message = validate_input(
+        df
+    )
 
     assert valid is True
-    assert message == "Input data is valid."
+
+    assert (
+        message
+        == "Input data is valid."
+    )
 
 
 def test_validate_input_missing_column():
-    df = make_sample_input().drop(
-        columns=["appointment_date"]
+    df = (
+        make_sample_input()
+        .drop(
+            columns=[
+                "appointment_date"
+            ]
+        )
     )
 
-    valid, message = validate_input(df)
+    valid, message = validate_input(
+        df
+    )
 
     assert valid is False
-    assert "appointment_date" in message
 
+    assert (
+        "appointment_date"
+        in message
+    )
+
+
+# =========================================================
+# FEATURE CONTRACT
+# =========================================================
 
 def test_build_features_has_exact_model_columns():
     df = make_sample_input()
 
-    features = build_features(df)
+    features = build_features(
+        df
+    )
 
-    assert list(features.columns) == MODEL_FEATURES
-    assert len(features) == len(df)
+    assert (
+        list(
+            features.columns
+        )
+        == MODEL_FEATURES
+    )
+
+    assert (
+        len(features)
+        == len(df)
+    )
 
 
 def test_calendar_feature_engineering():
-    df = make_sample_input(1)
+    df = make_sample_input(
+        1
+    )
 
-    features = build_features(df)
+    features = build_features(
+        df
+    )
 
-    assert features.loc[0, "appointment_hour"] == 9
-    assert features.loc[0, "appointment_minute"] == 30
+    assert (
+        features.loc[
+            0,
+            "appointment_hour",
+        ]
+        == 9
+    )
 
-    assert not np.isnan(
-        features.loc[0, "dow_sin"]
+    assert (
+        features.loc[
+            0,
+            "appointment_minute",
+        ]
+        == 30
     )
 
     assert not np.isnan(
-        features.loc[0, "dow_cos"]
+        features.loc[
+            0,
+            "dow_sin",
+        ]
+    )
+
+    assert not np.isnan(
+        features.loc[
+            0,
+            "dow_cos",
+        ]
     )
 
 
 def test_service_tenure_is_created():
-    df = make_sample_input(1)
+    df = make_sample_input(
+        1
+    )
 
-    features = build_features(df)
+    features = build_features(
+        df
+    )
 
-    assert features.loc[
-        0,
-        "service_tenure_days",
-    ] > 0
+    assert (
+        features.loc[
+            0,
+            "service_tenure_days",
+        ]
+        > 0
+    )
 
     assert (
         features.loc[
@@ -104,14 +196,18 @@ def test_service_tenure_is_created():
 
 
 def test_negative_tenure_becomes_missing():
-    df = make_sample_input(1)
+    df = make_sample_input(
+        1
+    )
 
     df.loc[
         0,
         "entry_service_date",
     ] = "01/01/2030"
 
-    features = build_features(df)
+    features = build_features(
+        df
+    )
 
     assert np.isnan(
         features.loc[
@@ -129,13 +225,19 @@ def test_negative_tenure_becomes_missing():
     )
 
 
+# =========================================================
+# CAPACITY RANKING
+# =========================================================
+
 def test_capacity_priority_top_10_percent():
     df = pd.DataFrame(
         {
-            "no_show_risk_score": np.linspace(
-                0.01,
-                1.0,
-                20,
+            "no_show_risk_score": (
+                np.linspace(
+                    0.01,
+                    1.0,
+                    20,
+                )
             )
         }
     )
@@ -148,15 +250,16 @@ def test_capacity_priority_top_10_percent():
         )
     )
 
-    assert len(result) == 20
+    assert len(
+        result
+    ) == 20
 
-    # ceil(20 * 10%) = 2
-    assert (
+    # ceil(20 * 0.10) = 2
+    assert int(
         result[
             "priority_top_capacity"
         ].sum()
-        == 2
-    )
+    ) == 2
 
     assert (
         result.iloc[0][
@@ -167,33 +270,49 @@ def test_capacity_priority_top_10_percent():
         ]
     )
 
-    assert result.iloc[0][
-        "priority_rank"
-    ] == 1
+    assert int(
+        result.iloc[0][
+            "priority_rank"
+        ]
+    ) == 1
 
 
 def test_capacity_fraction_validation():
     df = pd.DataFrame(
         {
             "no_show_risk_score": [
-                0.1,
-                0.2,
+                0.10,
+                0.20,
             ]
         }
     )
 
-    with pytest.raises(ValueError):
-        NoShowPredictor.add_capacity_priority(
-            df,
-            capacity_fraction=0,
+    with pytest.raises(
+        ValueError
+    ):
+        (
+            NoShowPredictor
+            .add_capacity_priority(
+                df,
+                capacity_fraction=0,
+            )
         )
 
-    with pytest.raises(ValueError):
-        NoShowPredictor.add_capacity_priority(
-            df,
-            capacity_fraction=1.5,
+    with pytest.raises(
+        ValueError
+    ):
+        (
+            NoShowPredictor
+            .add_capacity_priority(
+                df,
+                capacity_fraction=1.5,
+            )
         )
 
+
+# =========================================================
+# HISTORICAL THRESHOLD
+# =========================================================
 
 def test_validation_threshold_flag():
     df = pd.DataFrame(
@@ -210,7 +329,9 @@ def test_validation_threshold_flag():
         NoShowPredictor
         .add_threshold_flag(
             df,
-            threshold=VALIDATION_THRESHOLD,
+            threshold=(
+                VALIDATION_THRESHOLD
+            ),
         )
     )
 
@@ -233,16 +354,94 @@ def test_default_capacity_constant():
     )
 
 
-def test_model_artifact_can_load():
+# =========================================================
+# NATIVE LIGHTGBM ARTIFACT
+# =========================================================
+
+def test_native_model_artifact_can_load():
     predictor = NoShowPredictor(
         model_path=(
             "models/"
-            "noshow_champion.joblib"
+            "noshow_champion.txt"
         )
     )
 
-    assert predictor.model is not None
-    assert hasattr(
-        predictor.model,
-        "predict_proba",
+    assert (
+        predictor.model
+        is not None
     )
+
+    assert (
+        predictor.model.num_trees()
+        > 0
+    )
+
+
+# =========================================================
+# END-TO-END SMOKE TEST
+# =========================================================
+
+def test_native_model_can_predict():
+    df = make_sample_input(
+        5
+    )
+
+    predictor = NoShowPredictor(
+        model_path=(
+            "models/"
+            "noshow_champion.txt"
+        )
+    )
+
+    result = predictor.predict(
+        df,
+        capacity_fraction=0.20,
+    )
+
+    assert len(
+        result
+    ) == 5
+
+    assert (
+        "no_show_risk_score"
+        in result.columns
+    )
+
+    assert (
+        "priority_rank"
+        in result.columns
+    )
+
+    assert (
+        "priority_top_capacity"
+        in result.columns
+    )
+
+    assert (
+        "threshold_flag"
+        in result.columns
+    )
+
+    assert np.isfinite(
+        result[
+            "no_show_risk_score"
+        ]
+    ).all()
+
+    assert (
+        result[
+            "no_show_risk_score"
+        ]
+        .between(
+            0,
+            1,
+        )
+        .all()
+    )
+
+    # 20% of 5 = 1
+    assert int(
+        result[
+            "priority_top_capacity"
+        ].sum()
+    ) == 1
