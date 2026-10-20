@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-import joblib
+import lightgbm as lgb
 import numpy as np
 import pandas as pd
 
@@ -14,18 +14,30 @@ from src.preprocessing import (
 )
 
 
+# =========================================================
+# CONFIG
+# =========================================================
+
 DEFAULT_MODEL_PATH = Path(
-    "models/noshow_champion.joblib"
+    "models/noshow_champion.txt"
 )
 
-# Historical experiment threshold.
+# Historical validation-selected threshold.
+#
 # IMPORTANT:
-# This threshold was selected on validation predictions before
-# the final champion was refit on Train + Validation.
+# This threshold was selected using validation predictions
+# before the champion was refit on Train + Validation.
+#
+# Therefore the application uses capacity-based ranking
+# as its main operational view.
 VALIDATION_THRESHOLD = 0.44
 
 DEFAULT_CAPACITY_FRACTION = 0.10
 
+
+# =========================================================
+# SUMMARY
+# =========================================================
 
 @dataclass
 class InferenceSummary:
@@ -38,49 +50,68 @@ class InferenceSummary:
     threshold_flag_count: int
 
 
+# =========================================================
+# PREDICTOR
+# =========================================================
+
 class NoShowPredictor:
     """
-    No-show risk prioritization inference.
+    NoShow Predictor inference interface.
 
-    Intended use:
-        Prioritize reminder outreach.
+    Intended use
+    ------------
+    Rank upcoming appointments so scheduling/service-operation
+    staff can prioritize reminder outreach.
 
-    NOT intended for:
-        - clinical decisions
-        - diagnosis
-        - appointment cancellation
-        - punitive action
-        - guaranteed no-show prediction
+    Not intended for
+    ----------------
+    - diagnosis;
+    - clinical prioritization;
+    - patient blame;
+    - punitive decisions;
+    - automatic appointment cancellation;
+    - guaranteed no-show prediction.
     """
 
     def __init__(
         self,
         model_path: str | Path = DEFAULT_MODEL_PATH,
-    ):
+    ) -> None:
         self.model_path = Path(
             model_path
         )
 
         if not self.model_path.exists():
             raise FileNotFoundError(
-                f"Model not found: "
+                "Native LightGBM model was not found: "
                 f"{self.model_path}"
             )
 
-        self.model = joblib.load(
-            self.model_path
+        # Load the native LightGBM text model.
+        #
+        # This avoids relying on a Python pickle/joblib object
+        # created in a different training environment.
+        self.model = lgb.Booster(
+            model_file=str(
+                self.model_path
+            )
         )
+
+    # =====================================================
+    # RAW SCORES
+    # =====================================================
 
     def predict_scores(
         self,
         df: pd.DataFrame,
     ) -> pd.DataFrame:
         """
-        Produce a continuous model risk score for each appointment.
+        Generate continuous no-show risk scores.
 
-        This score is useful primarily for ranking appointments.
-        It must not be interpreted as guaranteed real-world probability
-        outside the evaluated data distribution.
+        The score is primarily intended for ranking.
+
+        It must not be interpreted as certainty that an
+        appointment will become a no-show.
         """
 
         valid, message = validate_input(
@@ -96,26 +127,56 @@ class NoShowPredictor:
             df
         )
 
+        # Protect feature order.
         if list(features.columns) != MODEL_FEATURES:
             raise RuntimeError(
-                "Feature order mismatch."
+                "Feature order mismatch between inference "
+                "pipeline and trained-model contract."
             )
 
-        probabilities = (
-            self.model
-            .predict_proba(features)[:, 1]
+        # LightGBM's native model stores pandas categorical
+        # metadata from training. Passing the categorical
+        # dataframe allows LightGBM to align those categories.
+        predictions = self.model.predict(
+            features,
+            num_iteration=(
+                self.model.best_iteration
+                if self.model.best_iteration
+                and self.model.best_iteration > 0
+                else None
+            ),
         )
+
+        predictions = np.asarray(
+            predictions,
+            dtype=float,
+        ).reshape(-1)
+
+        if len(predictions) != len(df):
+            raise RuntimeError(
+                "Unexpected prediction count. "
+                f"Input rows={len(df)}, "
+                f"predictions={len(predictions)}."
+            )
+
+        if not np.isfinite(
+            predictions
+        ).all():
+            raise RuntimeError(
+                "Model produced non-finite risk scores."
+            )
 
         result = df.copy()
 
-        result["no_show_risk_score"] = (
-            np.asarray(
-                probabilities,
-                dtype=float,
-            )
-        )
+        result[
+            "no_show_risk_score"
+        ] = predictions
 
         return result
+
+    # =====================================================
+    # CAPACITY-BASED PRIORITY
+    # =====================================================
 
     @staticmethod
     def add_capacity_priority(
@@ -123,36 +184,61 @@ class NoShowPredictor:
         capacity_fraction: float = DEFAULT_CAPACITY_FRACTION,
     ) -> pd.DataFrame:
         """
-        Mark the highest-risk appointments according to reminder capacity.
+        Rank appointments from highest to lowest score.
 
         Example:
-            capacity_fraction=0.10
-            -> prioritize the top 10% highest-risk appointments.
+            capacity_fraction = 0.10
+
+        means:
+            prioritize the top 10% highest-scoring appointments.
         """
 
-        if not 0 < capacity_fraction <= 1:
+        if not (
+            0
+            < capacity_fraction
+            <= 1
+        ):
             raise ValueError(
-                "capacity_fraction must be "
-                "greater than 0 and <= 1."
+                "capacity_fraction must be > 0 and <= 1."
             )
 
-        if "no_show_risk_score" not in scored_df.columns:
+        if (
+            "no_show_risk_score"
+            not in scored_df.columns
+        ):
             raise ValueError(
-                "Column no_show_risk_score is missing."
+                "Column 'no_show_risk_score' is missing."
             )
 
-        result = scored_df.copy()
+        result = (
+            scored_df
+            .copy()
+            .sort_values(
+                "no_show_risk_score",
+                ascending=False,
+            )
+            .reset_index(
+                drop=True
+            )
+        )
 
-        result = result.sort_values(
-            "no_show_risk_score",
-            ascending=False,
-        ).reset_index(drop=True)
-
-        n_rows = len(result)
+        n_rows = len(
+            result
+        )
 
         if n_rows == 0:
-            result["priority_rank"] = []
-            result["priority_top_capacity"] = []
+            result[
+                "priority_rank"
+            ] = pd.Series(
+                dtype=int
+            )
+
+            result[
+                "priority_top_capacity"
+            ] = pd.Series(
+                dtype=bool
+            )
+
             return result
 
         top_k = max(
@@ -165,11 +251,11 @@ class NoShowPredictor:
             ),
         )
 
-        result["priority_rank"] = (
-            np.arange(
-                1,
-                n_rows + 1,
-            )
+        result[
+            "priority_rank"
+        ] = np.arange(
+            1,
+            n_rows + 1,
         )
 
         result[
@@ -177,11 +263,15 @@ class NoShowPredictor:
         ] = False
 
         result.loc[
-            : top_k - 1,
+            result.index < top_k,
             "priority_top_capacity",
         ] = True
 
         return result
+
+    # =====================================================
+    # HISTORICAL THRESHOLD
+    # =====================================================
 
     @staticmethod
     def add_threshold_flag(
@@ -189,24 +279,28 @@ class NoShowPredictor:
         threshold: float = VALIDATION_THRESHOLD,
     ) -> pd.DataFrame:
         """
-        Add the historical validation-selected threshold flag.
+        Add the historical validation-selected threshold.
 
-        WARNING:
-        The final model was refit on Train + Validation after threshold
-        selection, so this threshold is preserved mainly for experiment
-        traceability and comparison.
+        This is preserved primarily for experiment traceability.
 
-        Prefer capacity-based ranking for operational reminder prioritization.
+        It is NOT the main operational reminder policy.
         """
 
-        if not 0 <= threshold <= 1:
+        if not (
+            0
+            <= threshold
+            <= 1
+        ):
             raise ValueError(
                 "threshold must be between 0 and 1."
             )
 
-        if "no_show_risk_score" not in scored_df.columns:
+        if (
+            "no_show_risk_score"
+            not in scored_df.columns
+        ):
             raise ValueError(
-                "Column no_show_risk_score is missing."
+                "Column 'no_show_risk_score' is missing."
             )
 
         result = scored_df.copy()
@@ -228,6 +322,10 @@ class NoShowPredictor:
 
         return result
 
+    # =====================================================
+    # COMPLETE INFERENCE
+    # =====================================================
+
     def predict(
         self,
         df: pd.DataFrame,
@@ -235,13 +333,17 @@ class NoShowPredictor:
         include_threshold_flag: bool = True,
     ) -> pd.DataFrame:
         """
-        Main inference workflow.
+        Complete inference workflow:
 
-        Default operational view:
-            rank all appointments by risk score and flag the top capacity.
-
-        Historical threshold:
-            optionally included for audit/experiment comparison.
+        raw appointment data
+            ↓
+        model risk score
+            ↓
+        descending ranking
+            ↓
+        capacity-based reminder priority
+            ↓
+        optional historical threshold audit
         """
 
         result = self.predict_scores(
@@ -261,6 +363,10 @@ class NoShowPredictor:
 
         return result
 
+    # =====================================================
+    # SUMMARY
+    # =====================================================
+
     @staticmethod
     def summarize(
         result: pd.DataFrame,
@@ -273,9 +379,26 @@ class NoShowPredictor:
                 mean_risk_score=0.0,
                 min_risk_score=0.0,
                 max_risk_score=0.0,
-                capacity_fraction=capacity_fraction,
+                capacity_fraction=float(
+                    capacity_fraction
+                ),
                 threshold_flag_count=0,
             )
+
+        if (
+            "priority_top_capacity"
+            not in result.columns
+        ):
+            raise ValueError(
+                "priority_top_capacity is missing."
+            )
+
+        scores = pd.to_numeric(
+            result[
+                "no_show_risk_score"
+            ],
+            errors="coerce",
+        )
 
         priority_count = int(
             result[
@@ -283,37 +406,36 @@ class NoShowPredictor:
             ].sum()
         )
 
-        threshold_flag_count = (
-            int(
+        threshold_flag_count = 0
+
+        if (
+            "threshold_flag"
+            in result.columns
+        ):
+            threshold_flag_count = int(
                 result[
                     "threshold_flag"
                 ].sum()
             )
-            if "threshold_flag"
-            in result.columns
-            else 0
-        )
 
         return InferenceSummary(
-            rows=len(result),
+            rows=int(
+                len(result)
+            ),
             priority_count=priority_count,
             mean_risk_score=float(
-                result[
-                    "no_show_risk_score"
-                ].mean()
+                scores.mean()
             ),
             min_risk_score=float(
-                result[
-                    "no_show_risk_score"
-                ].min()
+                scores.min()
             ),
             max_risk_score=float(
-                result[
-                    "no_show_risk_score"
-                ].max()
+                scores.max()
             ),
             capacity_fraction=float(
                 capacity_fraction
             ),
-            threshold_flag_count=threshold_flag_count,
+            threshold_flag_count=(
+                threshold_flag_count
+            ),
         )
