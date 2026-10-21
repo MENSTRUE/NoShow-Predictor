@@ -4,6 +4,10 @@ import numpy as np
 import pandas as pd
 
 
+# =========================================================
+# MODEL FEATURE CONTRACT
+# =========================================================
+
 NUMERIC_FEATURES = [
     "age",
     "under_12_years_old",
@@ -25,12 +29,17 @@ NUMERIC_FEATURES = [
     "tenure_missing",
 ]
 
+
 CATEGORICAL_FEATURES = [
     "specialty",
     "appointment_shift",
 ]
 
-MODEL_FEATURES = NUMERIC_FEATURES + CATEGORICAL_FEATURES
+
+MODEL_FEATURES = (
+    NUMERIC_FEATURES
+    + CATEGORICAL_FEATURES
+)
 
 
 REQUIRED_INPUT_COLUMNS = {
@@ -46,21 +55,49 @@ REQUIRED_INPUT_COLUMNS = {
 }
 
 
-def validate_input(df: pd.DataFrame) -> tuple[bool, str]:
-    """
-    Validate the minimum raw fields required for inference.
-    """
+# =========================================================
+# VALIDATION
+# =========================================================
 
-    if df is None or df.empty:
-        return False, "Input data is empty."
+def validate_input(
+    df: pd.DataFrame,
+) -> tuple[bool, str]:
 
-    missing = REQUIRED_INPUT_COLUMNS - set(df.columns)
+    if df is None:
+        return (
+            False,
+            "Input data is missing.",
+        )
 
-    if missing:
+    if not isinstance(
+        df,
+        pd.DataFrame,
+    ):
+        return (
+            False,
+            "Input must be a pandas DataFrame.",
+        )
+
+    if df.empty:
+        return (
+            False,
+            "Input data is empty.",
+        )
+
+    missing_columns = (
+        REQUIRED_INPUT_COLUMNS
+        - set(df.columns)
+    )
+
+    if missing_columns:
         return (
             False,
             "Missing required columns: "
-            + ", ".join(sorted(missing)),
+            + ", ".join(
+                sorted(
+                    missing_columns
+                )
+            ),
         )
 
     appointment_date = pd.to_datetime(
@@ -69,183 +106,319 @@ def validate_input(df: pd.DataFrame) -> tuple[bool, str]:
         errors="coerce",
     )
 
-    if appointment_date.isna().any():
-        invalid_count = int(
-            appointment_date.isna().sum()
-        )
+    invalid_dates = int(
+        appointment_date.isna().sum()
+    )
 
+    if invalid_dates > 0:
         return (
             False,
-            f"{invalid_count} row(s) contain invalid appointment_date values.",
+            f"{invalid_dates} row(s) contain "
+            "invalid appointment_date values.",
         )
 
-    return True, "Input data is valid."
+    return (
+        True,
+        "Input data is valid.",
+    )
 
+
+# =========================================================
+# FEATURE ENGINEERING
+# =========================================================
 
 def build_features(
     df: pd.DataFrame,
 ) -> pd.DataFrame:
     """
-    Reproduce the exact feature engineering used in the training notebook.
+    Reproduce the original training feature engineering.
 
-    Important:
-    - no_show / no_show_reason are NOT required;
-    - ICD is NOT used;
-    - gender, city and disability are NOT model features;
-    - actual same-day weather is NOT used.
+    IMPORTANT:
+    Categorical columns remain as strings here.
+
+    Encoding into LightGBM categorical integer codes is
+    performed by the pure-Python model evaluator using
+    metadata stored inside noshow_champion_model.json.
     """
 
-    valid, message = validate_input(df)
+    valid, message = validate_input(
+        df
+    )
 
     if not valid:
-        raise ValueError(message)
+        raise ValueError(
+            message
+        )
 
     work = df.copy()
 
-    # ---------------------------------------------------------
-    # Appointment date
-    # ---------------------------------------------------------
 
-    work["appointment_date_dt"] = pd.to_datetime(
-        work["appointment_date"],
+    # =====================================================
+    # APPOINTMENT DATE
+    # =====================================================
+
+    work[
+        "appointment_date_dt"
+    ] = pd.to_datetime(
+        work[
+            "appointment_date"
+        ],
         dayfirst=True,
         errors="coerce",
     )
 
-    # ---------------------------------------------------------
-    # Appointment time
-    # ---------------------------------------------------------
+
+    # =====================================================
+    # APPOINTMENT TIME
+    # =====================================================
 
     time_parts = (
-        work["appointment_time"]
+        work[
+            "appointment_time"
+        ]
         .astype(str)
         .str.extract(
-            r"(?P<hour>\d{1,2}):(?P<minute>\d{2})"
+            r"(?P<hour>\d{1,2}):"
+            r"(?P<minute>\d{2})"
         )
     )
 
-    work["appointment_hour"] = pd.to_numeric(
+    work[
+        "appointment_hour"
+    ] = pd.to_numeric(
         time_parts["hour"],
         errors="coerce",
     )
 
-    work["appointment_minute"] = pd.to_numeric(
+    work[
+        "appointment_minute"
+    ] = pd.to_numeric(
         time_parts["minute"],
         errors="coerce",
     )
 
-    # ---------------------------------------------------------
-    # Calendar features
-    # ---------------------------------------------------------
 
-    work["appointment_dow"] = (
-        work["appointment_date_dt"].dt.dayofweek
+    # =====================================================
+    # CALENDAR FEATURES
+    # =====================================================
+
+    work[
+        "appointment_dow"
+    ] = (
+        work[
+            "appointment_date_dt"
+        ]
+        .dt.dayofweek
     )
 
-    work["appointment_day"] = (
-        work["appointment_date_dt"].dt.day
+    work[
+        "appointment_day"
+    ] = (
+        work[
+            "appointment_date_dt"
+        ]
+        .dt.day
     )
 
-    work["appointment_month_num"] = (
-        work["appointment_date_dt"].dt.month
+    work[
+        "appointment_month_num"
+    ] = (
+        work[
+            "appointment_date_dt"
+        ]
+        .dt.month
     )
 
-    work["is_weekend"] = (
-        work["appointment_dow"]
-        .isin([5, 6])
+    work[
+        "is_weekend"
+    ] = (
+        work[
+            "appointment_dow"
+        ]
+        .isin(
+            [
+                5,
+                6,
+            ]
+        )
         .astype(int)
     )
 
-    work["dow_sin"] = np.sin(
+
+    # =====================================================
+    # CYCLICAL FEATURES
+    # =====================================================
+
+    work[
+        "dow_sin"
+    ] = np.sin(
         2
         * np.pi
-        * work["appointment_dow"]
+        * work[
+            "appointment_dow"
+        ]
         / 7
     )
 
-    work["dow_cos"] = np.cos(
+    work[
+        "dow_cos"
+    ] = np.cos(
         2
         * np.pi
-        * work["appointment_dow"]
+        * work[
+            "appointment_dow"
+        ]
         / 7
     )
 
-    work["month_sin"] = np.sin(
+    work[
+        "month_sin"
+    ] = np.sin(
         2
         * np.pi
-        * work["appointment_month_num"]
+        * work[
+            "appointment_month_num"
+        ]
         / 12
     )
 
-    work["month_cos"] = np.cos(
+    work[
+        "month_cos"
+    ] = np.cos(
         2
         * np.pi
-        * work["appointment_month_num"]
+        * work[
+            "appointment_month_num"
+        ]
         / 12
     )
 
-    # ---------------------------------------------------------
-    # Service tenure
-    # ---------------------------------------------------------
 
-    work["entry_service_dt"] = pd.to_datetime(
-        work["entry_service_date"],
+    # =====================================================
+    # SERVICE TENURE
+    # =====================================================
+
+    work[
+        "entry_service_dt"
+    ] = pd.to_datetime(
+        work[
+            "entry_service_date"
+        ],
         dayfirst=True,
         errors="coerce",
     )
 
-    work["service_tenure_days"] = (
-        work["appointment_date_dt"]
-        - work["entry_service_dt"]
+    work[
+        "service_tenure_days"
+    ] = (
+        work[
+            "appointment_date_dt"
+        ]
+        - work[
+            "entry_service_dt"
+        ]
     ).dt.days
 
-    # Impossible negative tenure becomes missing.
     work.loc[
-        work["service_tenure_days"] < 0,
+        work[
+            "service_tenure_days"
+        ]
+        < 0,
         "service_tenure_days",
     ] = np.nan
 
-    # ---------------------------------------------------------
-    # Missingness indicators
-    # ---------------------------------------------------------
 
-    work["specialty_missing"] = (
-        work["specialty"]
+    # =====================================================
+    # MISSINGNESS INDICATORS
+    # =====================================================
+
+    work[
+        "specialty_missing"
+    ] = (
+        work[
+            "specialty"
+        ]
         .isna()
         .astype(int)
     )
 
-    work["age_missing"] = (
-        work["age"]
+    work[
+        "age_missing"
+    ] = (
+        work[
+            "age"
+        ]
         .isna()
         .astype(int)
     )
 
-    work["tenure_missing"] = (
-        work["service_tenure_days"]
+    work[
+        "tenure_missing"
+    ] = (
+        work[
+            "service_tenure_days"
+        ]
         .isna()
         .astype(int)
     )
 
-    # ---------------------------------------------------------
-    # Numeric conversion
-    # ---------------------------------------------------------
+
+    # =====================================================
+    # NUMERIC NORMALIZATION
+    # =====================================================
 
     for column in NUMERIC_FEATURES:
-        work[column] = pd.to_numeric(
-            work[column],
+        work[
+            column
+        ] = pd.to_numeric(
+            work[
+                column
+            ],
             errors="coerce",
         )
 
-    # ---------------------------------------------------------
-    # LightGBM categorical features
-    # ---------------------------------------------------------
 
-    for column in CATEGORICAL_FEATURES:
-        work[column] = (
-            work[column]
-            .fillna("__MISSING__")
-            .astype("category")
+    # =====================================================
+    # CATEGORICAL NORMALIZATION
+    # =====================================================
+
+    work[
+        "specialty"
+    ] = (
+        work[
+            "specialty"
+        ]
+        .fillna(
+            "__MISSING__"
+        )
+        .astype(str)
+    )
+
+    work[
+        "appointment_shift"
+    ] = (
+        work[
+            "appointment_shift"
+        ]
+        .fillna(
+            "__MISSING__"
+        )
+        .astype(str)
+    )
+
+
+    features = work[
+        MODEL_FEATURES
+    ].copy()
+
+
+    if list(
+        features.columns
+    ) != MODEL_FEATURES:
+        raise RuntimeError(
+            "Inference feature order "
+            "does not match model contract."
         )
 
-    return work[MODEL_FEATURES].copy()
+
+    return features
